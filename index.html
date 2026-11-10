@@ -11,7 +11,7 @@
 <div class="small">Pour ajouter un repère : appuie sur « Ajouter », puis touche la carte. Les données restent dans ce navigateur.</div>
 <hr><h3 style="margin:9px 0 4px">🌦️ Potentiel de pousse</h3><label>Champignon <select id="species"><option value="cepe">Cèpe (groupe)</option><option value="girolle">Girolle</option><option value="trompette">Trompette de la mort</option><option value="pied">Pied-de-mouton</option><option value="chanterelle">Chanterelle en tube</option><option value="coulemelle">Coulemelle</option></select></label><button id="weather" class="secondary">🌧️ Actualiser la météo</button><div id="forecast" class="small status">Météo non chargée. Indice indicatif, pas une prédiction de récolte.</div><div class="small" id="habitat"></div><hr><button id="export" class="secondary">Exporter mes repères</button><label class="small">Importer une sauvegarde <input id="import" type="file" accept=".json,application/json"></label>
 <div class="small" id="count"></div><div class="small">⚠️ Les limites cadastrales ne prouvent ni la propriété publique ni le droit de cueillette. Les secteurs proposés sont indicatifs, pas des stations confirmées.</div>
-</div></div><div id="spotCard" class="spotCard" hidden><button id="closeSpot" class="secondary" style="float:right">✕</button><h3>🌳 Analyse du lieu</h3><div class="small" id="spotCoords"></div><label>Peuplement observé <select id="spotHabitat"><option value="unknown">Inconnu / à vérifier</option><option value="oak">Chênes</option><option value="beech">Hêtres</option><option value="chestnut">Châtaigniers</option><option value="pine">Pins / conifères</option><option value="mixed">Boisement mixte</option><option value="open">Clairière / lisière</option></select></label><div class="small">La couche IGN est une image : elle ne permet pas encore de lire automatiquement l’essence sous ton doigt. Sélectionne celle que tu identifies sur place.</div><div id="spotResult" class="status small" style="margin-top:7px">Calcul en cours…</div></div><div class="bottom">Sources cartographiques : IGN / Géoplateforme, OpenStreetMap · Photos aériennes et cadastre © ayants droit respectifs</div>
+</div></div><div id="spotCard" class="spotCard" hidden><button id="closeSpot" class="secondary" style="float:right">✕</button><h3>🌳 Analyse du lieu</h3><div class="small" id="spotCoords"></div><label>Peuplement observé <select id="spotHabitat"><option value="unknown">Inconnu / à vérifier</option><option value="oak">Chênes</option><option value="beech">Hêtres</option><option value="chestnut">Châtaigniers</option><option value="pine">Pins / conifères</option><option value="mixed">Boisement mixte</option><option value="open">Clairière / lisière</option></select></label><div class="small"><span id="vectorStatus">Recherche automatique des attributs IGN…</span></div><div id="spotResult" class="status small" style="margin-top:7px">Calcul en cours…</div></div><div class="bottom">Sources cartographiques : IGN / Géoplateforme, OpenStreetMap · Photos aériennes et cadastre © ayants droit respectifs</div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 (function(){
@@ -65,13 +65,13 @@ document.getElementById('weather').click();
 const spotCard=document.getElementById('spotCard'),spotHabitat=document.getElementById('spotHabitat');
 const habitatMap={
 unknown:[],oak:['cepe','girolle','trompette','pied'],beech:['cepe','girolle','trompette','pied'],chestnut:['cepe','girolle','pied'],pine:['cepe','chanterelle','pied'],mixed:['cepe','girolle','trompette','pied','chanterelle'],open:['coulemelle']};
-let spotPosition=null,spotRequest=0,spotWeather=null;
+let spotPosition=null,spotRequest=0,spotWeather=null,spotForest=null;
 document.getElementById('closeSpot').onclick=()=>{spotCard.hidden=true;spotRequest++};
 spotHabitat.onchange=renderSpot;
 function renderSpot(){
 if(!spotPosition)return;
 const box=document.getElementById('spotResult'),types=habitatMap[spotHabitat.value];
-let html=spotHabitat.value==='unknown'?'🌳 Peuplement non identifié : sélectionne une essence pour obtenir les espèces associées.':'<b>Espèces associées à cet habitat :</b><br>';
+let html=spotForest?'<b>🌳 IGN BD Forêt V2 :</b> '+safe(spotForest.tfv||spotForest.TFV||'Peuplement forestier')+'<br>Essence déclarée : '+safe(spotForest.essence||spotForest.ESSENCE||'Non précisée')+'<br><small>Code : '+safe(spotForest.code_tfv||spotForest.CODE_TFV||'—')+'</small><br><br>':'';html+=spotHabitat.value==='unknown'?'🌳 Peuplement non identifié : sélectionne une essence pour obtenir les espèces associées.':'<b>Espèces associées à cet habitat :</b><br>';
 if(types.length){html+=types.map(k=>'🍄 '+profiles[k].name).join(' · ')}
 if(spotWeather){
 const d=spotWeather.daily,idx=d.time.indexOf(new Date().toLocaleDateString('en-CA',{timeZone:'Europe/Paris'})),today=idx>=0?idx:7;
@@ -82,10 +82,40 @@ if(types.length){html+='<br><b>Indice météo indicatif :</b><br>'+types.map(k=>
 html+='<br><small>⚠️ Estimation météo locale, sans mesure de l’humidité du sol. Associations écologiques générales, non preuve de présence. La BD Forêt affichée ne fournit pas encore une identification automatique des parcelles.</small>';
 box.innerHTML=html;
 }
+
+function habitatFromForest(p){
+const str=[p.tfv,p.essence,p.tfv_g11].filter(Boolean).join(' ').toLowerCase();
+if(/chêne|chene|chênaie|chenaie/.test(str))return 'oak';
+if(/hêtre|hetre|hêtraie|hetraie/.test(str))return 'beech';
+if(/châtaignier|chataignier/.test(str))return 'chestnut';
+if(/pin|sapin|épicéa|epicea|douglas|conifère|conifere|résineux|resineux/.test(str))return 'pine';
+if(/mélange|melange|mixte/.test(str))return 'mixed';
+if(/lande|clairière|clairiere/.test(str))return 'open';
+return 'unknown';
+}
+async function fetchForest(pos,request){
+const note=document.getElementById('vectorStatus');
+try{
+const d=.000015,box=[pos.lng-d,pos.lat-d,pos.lng+d,pos.lat+d].join(',');
+const params=new URLSearchParams({SERVICE:'WFS',VERSION:'2.0.0',REQUEST:'GetFeature',TYPENAMES:'LANDCOVER.FORESTINVENTORY.V2:formation_vegetale',SRSNAME:'CRS:84',BBOX:box+',CRS:84',COUNT:'10',OUTPUTFORMAT:'application/json'});
+const response=await fetch('https://data.geopf.fr/wfs/ows?'+params.toString());
+if(!response.ok)throw Error('HTTP '+response.status);
+const json=await response.json();
+if(request!==spotRequest)return;
+const features=json.features||[];
+if(features.length){
+const f=features[0],p=f.properties||{};
+spotForest=p;spotHabitat.value=habitatFromForest(p);
+note.textContent='✅ Peuplement IGN détecté automatiquement. Tu peux corriger l’essence si nécessaire.';
+}else note.textContent='Aucun polygone BD Forêt V2 à cet emplacement. Le terrain peut être non forestier ou non cartographié.';
+renderSpot();
+}catch(e){if(request===spotRequest){note.textContent='⚠️ Données vectorielles indisponibles ('+e.message+'). Identification manuelle possible.';renderSpot()}}
+}
 async function inspectSpot(latlng){
-spotPosition=latlng;spotWeather=null;spotHabitat.value='unknown';spotCard.hidden=false;
+spotPosition=latlng;spotWeather=null;spotForest=null;spotHabitat.value='unknown';spotCard.hidden=false;document.getElementById('vectorStatus').textContent='Recherche des attributs vectoriels IGN…';
 document.getElementById('spotCoords').textContent='📍 '+latlng.lat.toFixed(5)+', '+latlng.lng.toFixed(5);
 renderSpot();const request=++spotRequest;
+fetchForest(latlng,request);
 try{const url='https://api.open-meteo.com/v1/forecast?latitude='+latlng.lat.toFixed(5)+'&longitude='+latlng.lng.toFixed(5)+'&daily=temperature_2m_mean,precipitation_sum&past_days=7&forecast_days=2&timezone=auto';
 const response=await fetch(url);if(!response.ok)throw Error('Météo indisponible');const data=await response.json();if(request!==spotRequest)return;spotWeather=data;renderSpot()
 }catch(e){if(request===spotRequest)renderSpot()}
