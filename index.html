@@ -39,7 +39,7 @@ reliefLayer.setOpacity(.45);
 document.getElementById(id).onchange=e=>e.target.checked?layer.addTo(map):map.removeLayer(layer);
 layer.on('tileerror',()=>{document.getElementById('forestnote').textContent='Une couche IGN ne se charge pas actuellement. Désactive-la ou réessaie plus tard.'});
 });
-satellite.addTo(map);let satErrors=0;satellite.on('tileerror',()=>{if(++satErrors===3){status.textContent='Satellite indisponible : fond routier de secours activé. Réessaie plus tard.';if(map.hasLayer(satellite)){map.removeLayer(satellite);osm.addTo(map);document.getElementById('base').value='osm'}}});satellite.on('load',()=>{if(satErrors<3)status.textContent='Carte chargée. Zoome pour afficher les détails.'});
+satellite.addTo(map);let satErrors=0;satellite.on('tileerror',()=>{satErrors++;if(satErrors===3&&document.getElementById('base').value==='sat')status.textContent='Certaines images satellite IGN ne se chargent pas. Le satellite reste sélectionné ; tu peux choisir manuellement le fond routier.'});satellite.on('load',()=>{satErrors=0;status.textContent='Carte satellite chargée.'});
 document.getElementById('base').onchange=e=>{map.removeLayer(satellite);map.removeLayer(osm);(e.target.value==='sat'?satellite:osm).addTo(map);(e.target.value==='sat'?satellite:osm).bringToBack()};
 const cadBox=document.getElementById('cad');function updateCad(){if(cadBox.checked&&map.getZoom()>=14){if(!map.hasLayer(cad))cad.addTo(map)}else if(map.hasLayer(cad))map.removeLayer(cad)}cadBox.onchange=updateCad;map.on('zoomend',updateCad);
 const sectors=[['Groulaie',47.49,-1.77],['Le Gâvre',47.52,-1.84],['Saffré',47.50,-1.57],['Pontchâteau / Madeleine',47.45,-2.09],['Plessé / Trélan',47.56,-1.89],['Missillac / Bretesche',47.49,-2.16],['Saint-Gildas-des-Bois',47.52,-2.04],['Joué-sur-Erdre / Vioreau',47.50,-1.43],['Saint-Vincent-des-Landes / Domnaiche',47.65,-1.49]];
@@ -155,12 +155,12 @@ let rain=recent>=12&&recent<=65?5:recent>=5&&recent<=100?3:1;
 let lag=trigger>=8?5:trigger>=3?3:1;
 const month=new Date().getMonth()+1,inSeason=seasonMonths[key].includes(month);const raw=temp*.4+rain*.35+lag*.25;return {value:inSeason?raw:Math.min(raw,2),temp:t,recent,trigger,inSeason};
 }
-async function forestAt(lat,lng){const d=.000025,b=[lng-d,lat-d,lng+d,lat+d].join(',');
-const q=new URLSearchParams({SERVICE:'WFS',VERSION:'2.0.0',REQUEST:'GetFeature',TYPENAMES:'LANDCOVER.FORESTINVENTORY.V2:formation_vegetale',SRSNAME:'CRS:84',BBOX:b+',CRS:84',COUNT:'5',OUTPUTFORMAT:'application/json'});
-const res=await fetch('https://data.geopf.fr/wfs/ows?'+q);if(!res.ok)throw Error('IGN '+res.status);const data=await res.json();const f=(data.features||[])[0];return f?f.properties||{}:null}
+function pointInRing(lng,lat,ring){let inside=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const a=ring[i],b=ring[j];if(((a[1]>lat)!==(b[1]>lat))&&(lng<(b[0]-a[0])*(lat-a[1])/(b[1]-a[1])+a[0]))inside=!inside}return inside}
+function pointInForestGeometry(lng,lat,g){if(!g)return false;const polygons=g.type==='Polygon'?[g.coordinates]:g.type==='MultiPolygon'?g.coordinates:[];return polygons.some(p=>p.length&&pointInRing(lng,lat,p[0])&&!p.slice(1).some(h=>pointInRing(lng,lat,h)))}
+async function forestAt(lat,lng){const d=.000025,b=[lng-d,lat-d,lng+d,lat+d].join(',');const q=new URLSearchParams({SERVICE:'WFS',VERSION:'2.0.0',REQUEST:'GetFeature',TYPENAMES:'LANDCOVER.FORESTINVENTORY.V2:formation_vegetale',SRSNAME:'CRS:84',BBOX:b+',CRS:84',COUNT:'20',OUTPUTFORMAT:'application/json'});const res=await fetch('https://data.geopf.fr/wfs/ows?'+q);if(!res.ok)throw Error('IGN '+res.status);const data=await res.json();const f=(data.features||[]).find(f=>pointInForestGeometry(lng,lat,f.geometry));return f?f.properties||{}:null}
 async function meteoAt(lat,lng){const q=new URLSearchParams({latitude:lat.toFixed(5),longitude:lng.toFixed(5),daily:'temperature_2m_mean,precipitation_sum',past_days:'7',forecast_days:'1',timezone:'Europe/Paris'});const r=await fetch('https://api.open-meteo.com/v1/forecast?'+q);if(!r.ok)throw Error('Météo '+r.status);return (await r.json()).daily}
 document.getElementById('scanZones').onclick=async()=>{
-const id=++scanId,key=species.value,origin=map.getCenter(),radius=Number(document.getElementById('searchRadius').value);scanLayer.clearLayers();scanResults.textContent='';scanStatus.textContent='Analyse en cours : peuplements IGN et météo locale…';
+const id=++scanId,key=species.value,origin=map.getCenter(),radius=Number(document.getElementById('searchRadius').value);scanLayer.clearLayers();scanResults.textContent='';scanStatus.textContent='Analyse en cours : vérification des polygones forestiers IGN et météo locale…';
 const samples=[[0,0],[.45,0],[-.45,0],[0,.45],[0,-.45],[.65,.65],[.65,-.65],[-.65,.65],[-.65,-.65]];
 const results=[];let failed=0,empty=0;
 for(let n=0;n<samples.length;n++){if(id!==scanId)return;const [x,y]=samples[n],lat=origin.lat+y*radius/111.2,lng=origin.lng+x*radius/(111.2*Math.cos(origin.lat*Math.PI/180));
@@ -177,7 +177,7 @@ L.circleMarker([lat,lng],{radius:11,color:'#fff',weight:2,fillColor:color,fillOp
 }catch(e){failed++}scanStatus.textContent='Analyse '+(n+1)+'/9 points…'}
 if(id!==scanId)return;results.sort((a,b)=>b.value-a.value);
 scanStatus.textContent=results.length+' secteur(s) compatibles sur 9 points échantillonnés · '+empty+' non retenu(s) · '+failed+' erreur(s). Sol et relief ajoutés lorsqu’accessibles ; observations personnelles incluses. Drainage et humidité réelle non mesurés. Score exploratoire.';
-scanResults.innerHTML=results.length?'<b>Meilleurs points échantillonnés :</b><br>'+results.map((r,i)=>'<button class="secondary" data-scan="'+i+'">'+(i+1)+'. '+r.value+'/5 · '+r.habitat+'</button>').join(''):'Aucun point forestier compatible trouvé parmi les 9 échantillons. Déplace le centre de la carte ou augmente le rayon.';
+scanResults.innerHTML=results.length?'<b>Meilleurs points échantillonnés :</b><br>'+results.map((r,i)=>'<button class="secondary" data-scan="'+i+'">'+(i+1)+'. '+r.value+'/5 · '+r.habitat+'</button>').join(''):'Aucun point confirmé dans un polygone forestier compatible parmi les 9 échantillons. Déplace le centre de la carte ou augmente le rayon.';
 scanResults.querySelectorAll('[data-scan]').forEach(b=>b.onclick=()=>{const r=results[Number(b.dataset.scan)];map.setView([r.lat,r.lng],14);inspectSpot(L.latLng(r.lat,r.lng))});
 };
 species.addEventListener('change',()=>{scanId++;scanLayer.clearLayers();scanResults.textContent='';scanStatus.textContent='Espèce modifiée : relance l’analyse pour recalculer les scores.'});
