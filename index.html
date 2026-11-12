@@ -192,24 +192,36 @@ const catalog=[["Cèpe de Bordeaux","Boletus edulis","Boletaceae","Août–novem
 
 const photoCache=new Map();
 function plainText(html){const d=document.createElement('div');d.innerHTML=html||'';return (d.textContent||'').trim()}
+const photoCache=new Map();
+function plainText(html){const d=document.createElement('div');d.innerHTML=html||'';return(d.textContent||'').trim()}
 async function loadCommonsPhotos(scientificName,container){
-  if(photoCache.has(scientificName)){renderCommonsPhotos(photoCache.get(scientificName),container);return}
-  container.textContent='Recherche de photographies sous licence ouverte…';
-  try{
-    const query=new URLSearchParams({action:'query',generator:'search',gsrsearch:'filetype:bitmap "'+scientificName+'"',gsrnamespace:'6',gsrlimit:'30',prop:'imageinfo',iiprop:'url|extmetadata',iiurlwidth:'720',format:'json',origin:'*'});
-    const response=await fetch('https://commons.wikimedia.org/w/api.php?'+query.toString());
-    if(!response.ok)throw Error('Commons '+response.status);
-    const data=await response.json();
-    const entries=Object.values((data.query||{}).pages||{});
-    const accepted=entries.map(p=>{const inf=p.imageinfo&&p.imageinfo[0],m=inf&&inf.extmetadata||{},license=(m.LicenseShortName&&m.LicenseShortName.value||'').trim(),artist=plainText(m.Artist&&m.Artist.value),description=plainText(m.ImageDescription&&m.ImageDescription.value);return {title:p.title,url:inf&&inf.thumburl,source:inf&&inf.descriptionurl,license,artist,description}}).filter(p=>p.url&&/^(CC0|CC BY(?:-SA)?(?: |$)|Public domain|PD)/i.test(p.license)&&/\.(jpg|jpeg|png|webp)$/i.test(p.title)&&((p.title+' '+p.description).toLowerCase().includes(scientificName.toLowerCase())));
-    const photos=accepted.slice(0,8);photoCache.set(scientificName,photos);renderCommonsPhotos(photos,container);
-  }catch(e){container.textContent='Photos momentanément indisponibles. Consulte la source mycologique de la fiche.'}
+ if(photoCache.has(scientificName)){renderCommonsPhotos(photoCache.get(scientificName),container);return}
+ container.textContent='Chargement des photographies…';
+ try{
+  const api='https://commons.wikimedia.org/w/api.php?';
+  const category=new URLSearchParams({action:'query',generator:'categorymembers',gcmtitle:'Category:'+scientificName,gcmtype:'file',gcmlimit:'100',prop:'imageinfo',iiprop:'url|extmetadata',iiurlwidth:'720',format:'json',origin:'*'});
+  const response=await fetch(api+category);if(!response.ok)throw Error('HTTP '+response.status);
+  const data=await response.json();
+  const items=Object.values(data.query?.pages||{}).map(p=>{
+   const info=p.imageinfo?.[0],meta=info?.extmetadata||{};
+   return {title:p.title,url:info?.thumburl||info?.url,source:info?.descriptionurl,license:plainText(meta.LicenseShortName?.value),artist:plainText(meta.Artist?.value),description:plainText(meta.ImageDescription?.value)};
+  }).filter(p=>p.url&&p.source&&/\.(jpg|jpeg|png|webp)$/i.test(p.title)&&/^(CC0|CC BY|Public domain|PD|PDM)/i.test(p.license));
+  const rank=p=>{const t=(p.title+' '+p.description).toLowerCase();return(/bisect|cut|cross.section|section|coupe|schnitt/.test(t)?4:0)+(/gill|lamell|underside|dessous|pore|stipe|stem|pied/.test(t)?3:0)+(/habitat|forest|wood|in situ/.test(t)?2:0)+(/illustration|stamp|painting|food|dish|cook/.test(t)?-10:0)};
+  items.sort((x,y)=>rank(y)-rank(x));
+  const selected=items.slice(0,4);photoCache.set(scientificName,selected);renderCommonsPhotos(selected,container);
+ }catch(e){container.textContent='Photos indisponibles actuellement. La description de la fiche reste accessible.'}
 }
 function renderCommonsPhotos(photos,container){
-  if(!photos.length){container.textContent='Aucune photo réutilisable vérifiée trouvée automatiquement pour cette espèce.';return}
-  container.innerHTML='<p class="small">Photographies issues de Wikimedia Commons. Les légendes et identifications des contributeurs ne constituent pas une validation mycologique. Clique pour consulter la licence et l’auteur.</p><div class="photoGrid" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px"></div>';
-  const grid=container.querySelector('.photoGrid');
-  photos.forEach(p=>{const a=document.createElement('a');a.href=p.source;a.target='_blank';a.rel='noopener noreferrer';a.style.cssText='display:block;color:#173b2b;text-decoration:none';const img=document.createElement('img');img.src=p.url;img.loading='lazy';img.alt='Photo référencée : '+p.title;img.style.cssText='width:100%;height:155px;object-fit:cover;border-radius:10px';const caption=document.createElement('div');caption.className='small';caption.textContent=p.title.replace(/^File:/,'')+' · '+p.license+' · '+(p.artist||'auteur sur Commons');a.append(img,caption);grid.append(a)});
+ if(!photos.length){container.textContent='Pas de photographies à licence ouverte disponibles dans cette sélection.';return}
+ container.innerHTML='<div class="photoGrid" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px"></div><p class="small">Photos d’illustration issues de Wikimedia Commons, identifications non vérifiées indépendamment. Crédit et licence sous chaque image.</p>';
+ const grid=container.querySelector('.photoGrid');
+ photos.forEach(p=>{
+  const figure=document.createElement('figure');figure.style.cssText='margin:0;min-width:0';
+  const img=document.createElement('img');img.src=p.url;img.loading='lazy';img.alt=p.title.replace(/^File:/,'');img.style.cssText='width:100%;height:165px;object-fit:cover;border-radius:10px;background:#e5eee6';img.onerror=()=>{figure.remove()};
+  const caption=document.createElement('figcaption');caption.className='small';caption.style.cssText='overflow-wrap:anywhere;font-size:11px';
+  const credit=document.createElement('a');credit.href=p.source;credit.target='_blank';credit.rel='noopener noreferrer';credit.textContent=(p.artist||'Auteur indiqué sur Commons').slice(0,65)+' · '+p.license;
+  caption.append(credit);figure.append(img,caption);grid.append(figure);
+ });
 }
 
 function openPage(page){activePage=page;document.querySelectorAll('#appNav button').forEach(b=>b.classList.toggle('active',b.dataset.page===page));if(page==='carte'){appView.hidden=true;setTimeout(()=>map.invalidateSize(),80);return}appView.hidden=false;let html='';if(page==='coins'){html='<h2>📍 Mes coins</h2><p>Découvertes privées enregistrées sur cet appareil.</p>'+(points.length?points.map((p,i)=>'<div class="card"><b>🍄 '+safe(p.species||'À identifier')+'</b><br><small>'+safe(p.date||'')+'</small><p>'+safe(p.note||'')+'</p><button data-goto="'+i+'">🗺️ Voir sur la carte</button></div>').join(''):'<div class="card">Aucune découverte enregistrée. Fais un appui long sur la carte pour ajouter ton premier coin.</div>')}else if(page==='champignons'){html='<h2>🍄 Champignons</h2><p>Fiches détaillées : caractères, habitats, confusions et sources. Ne permettent pas de décider de la comestibilité.</p><input id="catalogSearch" type="search" placeholder="Rechercher une espèce…"><div id="catalogList"></div>'}else if(page==='identifier'){html='<h2>📷 Identifier</h2><div class="card"><b>Identification assistée : en préparation</b><p>La reconnaissance photo n’est pas encore disponible. Les fiches de l’encyclopédie et les critères morphologiques seront intégrés progressivement. Aucune identification automatique ne doit autoriser une consommation.</p><button id="toCatalog">🍄 Consulter les champignons</button></div>'}else if(page==='plus'){html='<h2>☰ Plus</h2><div class="card"><h3>💬 Retours et suggestions</h3><p>Signale un bug, suggère une fonction ou propose un lieu de contrôle mycologique. Aucun message n’est envoyé automatiquement.</p><label>Type<select id="feedbackType"><option>Suggestion</option><option>Bug</option><option>Correction scientifique</option><option>Proposer un lieu de contrôle mycologique</option></select></label><label>Message<textarea id="feedbackText" placeholder="Décris ta proposition ; pour une pharmacie, indique le nom, la ville et si le service est confirmé."></textarea></label><button id="feedbackDownload">💾 Télécharger mon retour</button><p class="small">Le fichier pourra être transmis à l’équipe MycoMap. Une réception automatique sera ajoutée ultérieurement.</p></div><div class="card"><h3>🔒 Mes données</h3><p>Tes coins restent sur cet appareil. Utilise Exporter dans les réglages de la carte pour les sauvegarder.</p><button id="backMap">🗺️ Ouvrir la carte</button></div>'}appView.innerHTML=html;
