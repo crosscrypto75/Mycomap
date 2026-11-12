@@ -191,8 +191,6 @@ const catalog=[["Cèpe de Bordeaux","Boletus edulis","Boletaceae","Août–novem
 
 
 const photoCache=new Map();
-function plainText(html){const d=document.createElement('div');d.innerHTML=html||'';return (d.textContent||'').trim()}
-const photoCache=new Map();
 function plainText(html){const d=document.createElement('div');d.innerHTML=html||'';return(d.textContent||'').trim()}
 async function loadCommonsPhotos(scientificName,container){
  if(photoCache.has(scientificName)){renderCommonsPhotos(photoCache.get(scientificName),container);return}
