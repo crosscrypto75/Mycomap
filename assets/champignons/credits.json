@@ -263,13 +263,23 @@
       "attribution": ""
     },
     {
-      "file": "assets/champignons/meunier/meunier_02.jpg",
+      "file": "assets/champignons/meunier/meunier_05.jpg",
       "scientificName": "Clitopilus prunulus",
-      "commonsTitle": "File:2009-10-30 Clitopilus prunulus 27673.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:2009-10-30_Clitopilus_prunulus_27673.jpg",
+      "commonsTitle": "File:Clitopilus prunulus 1421347.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Clitopilus_prunulus_1421347.jpg",
       "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "author": "This image was created by user Ron Pastorino (Ronpast) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Richard Daniel (RichardDaniel)",
+      "attribution": ""
+    },
+    {
+      "file": "assets/champignons/meunier/meunier_06.jpg",
+      "scientificName": "Clitopilus prunulus",
+      "commonsTitle": "File:Clitopilus prunulus 228129445.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Clitopilus_prunulus_228129445.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Enrico Tomschke",
       "attribution": ""
     },
     {
