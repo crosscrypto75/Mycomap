@@ -253,6 +253,26 @@
   ],
   "Clitopilus prunulus": [
     {
+      "file": "assets/champignons/meunier/meunier_05.jpg",
+      "scientificName": "Clitopilus prunulus",
+      "commonsTitle": "File:Clitopilus prunulus 1421347.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Clitopilus_prunulus_1421347.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Richard Daniel",
+      "attribution": ""
+    },
+    {
+      "file": "assets/champignons/meunier/meunier_06.jpg",
+      "scientificName": "Clitopilus prunulus",
+      "commonsTitle": "File:Clitopilus prunulus 433076197.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Clitopilus_prunulus_433076197.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Matej Frančeškin",
+      "attribution": ""
+    },
+    {
       "file": "assets/champignons/meunier/meunier_01.jpg",
       "scientificName": "Clitopilus prunulus",
       "commonsTitle": "File:2009-10-30 Clitopilus prunulus 27673 mod.jpg",
