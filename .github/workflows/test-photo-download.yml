@@ -1,0 +1,31 @@
+name: Test téléchargement photo MycoMap
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/test-photo-download.yml'
+permissions:
+  contents: write
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Télécharger une photo avec licence vérifiée
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p tests/photos
+          curl --fail --location --retry 3 --connect-timeout 15 --max-time 90 \
+            --user-agent 'MycoMap/1.0 (photo license verification test)' \
+            'https://commons.wikimedia.org/wiki/Special:Redirect/file/Boletus_edulis.jpg?width=640' \
+            --output tests/photos/cepe-de-bordeaux_boletus-edulis_01.jpg
+          file tests/photos/cepe-de-bordeaux_boletus-edulis_01.jpg
+          file --mime-type tests/photos/cepe-de-bordeaux_boletus-edulis_01.jpg | grep -q 'image/jpeg'
+          test "$(wc -c < tests/photos/cepe-de-bordeaux_boletus-edulis_01.jpg)" -gt 10000
+      - name: Publier uniquement la photo test
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add tests/photos/cepe-de-bordeaux_boletus-edulis_01.jpg
+          git diff --cached --quiet || (git commit -m 'Test: télécharger une photo libre de cèpe de Bordeaux' && git push)
