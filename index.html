@@ -90,6 +90,13 @@ if(!spotPosition)return;
 const box=document.getElementById('spotResult'),types=habitatMap[spotHabitat.value];
 let html=spotForest?'<b>🌳 IGN BD Forêt V2 :</b> '+safe(spotForest.tfv||spotForest.TFV||'Peuplement forestier')+'<br>Essence déclarée : '+safe(spotForest.essence||spotForest.ESSENCE||'Non précisée')+'<br><small>Code : '+safe(spotForest.code_tfv||spotForest.CODE_TFV||'—')+'</small><br><br>':'';html+=spotHabitat.value==='unknown'?'🌳 Peuplement non identifié : sélectionne une essence pour obtenir les espèces associées.':'<b>Espèces associées à cet habitat :</b><br>';
 if(types.length){html+=types.map(k=>'🍄 '+profiles[k].name).join(' · ')}
+const habitat=spotHabitat.value,lat=spotPosition.lat;
+const southern=lat<45.5;
+const caesarHabitat=['oak','chestnut','mixed'].includes(habitat);
+const candidates=types.map(k=>({name:profiles[k].name,level:'🟢',reason:'Habitat compatible (indicatif)'}));
+if(caesarHabitat)candidates.push({name:'Amanite des Césars (oronge)',level:southern?'🟡':'🔴',reason:southern?'Présence régionale plus favorable dans le Sud (à documenter localement)':'Rare dans ce secteur ; présence locale à vérifier'});
+if(habitat==='unknown'&&!types.length)html+='<br>⚪ Données insuffisantes pour classer les espèces sur ce lieu.';
+else if(candidates.length)html+='<br><br><b>🍄 Potentiel écologique par espèce (prototype)</b><br>'+candidates.map(x=>x.level+' '+x.name+' <small>— '+x.reason+'</small>').join('<br>')+'<br><small>Classement expérimental basé sur le type de boisement et une distinction géographique simplifiée. Aucune observation locale vérifiée n’est encore intégrée. Les couleurs ne sont pas des probabilités.</small>';
 if(spotWeather){
 const d=spotWeather.daily,idx=d.time.indexOf(new Date().toLocaleDateString('en-CA',{timeZone:'Europe/Paris'})),today=idx>=0?idx:7;
 const rain=d.precipitation_sum.slice(Math.max(0,today-6),today+1).reduce((a,b)=>a+(b||0),0),temp=d.temperature_2m_mean[today]??12;
