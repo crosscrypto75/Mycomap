@@ -10,7 +10,7 @@
 <label><input type="checkbox" id="placeLabels" checked> 🏘️ Noms des villes, villages et lieux-dits</label><label><input type="checkbox" id="cad"> Afficher le cadastre (zoom rapproché)</label>
 <label><input type="checkbox" id="soilph"> 🧪 pH des sols estimé (SoilGrids)</label><details style="margin:5px 0"><summary style="cursor:pointer">🪨 Comprendre les sols</summary><div class="small">Couche SoilGrids : pH estimé à 0–5 cm, résolution d’environ 250 m. Les valeurs sont des prédictions, pas des mesures à la parcelle. La géologie BRGM et les données GIS Sol serviront à compléter l’analyse. Une couleur de pH ne signifie pas automatiquement une zone favorable aux champignons.</div><a target="_blank" rel="noopener noreferrer" href="https://www.gissol.fr/donnees">Données GIS Sol ↗</a></details><div style="border:1px solid #b8cdbd;padding:9px;border-radius:10px;margin:8px 0;background:#f5faf5"><b>🪨 Truffes · analyse écologique</b>
 <label><input type="checkbox" id="geoTruffle"> Carte géologique BRGM (référence)</label>
-<div class="small">⚠️ Cette couche montre les formations géologiques en couleurs d'origine, pas uniquement le calcaire. Le voile blanc sélectif nécessite encore l'extraction des polygones carbonatés.</div>
+<label><input type="checkbox" id="limestoneOverlay"> ⚪ Zones carbonatées (44)</label><label>Opacité <input type="range" id="limestoneOpacity" min="15" max="85" value="45" style="width:140px;vertical-align:middle"> <span id="limestoneOpacityValue">45 %</span></label><div class="small" id="limestoneStatus">Calcaire BRGM : chargement à la première activation. Blanc plein = calcaire dominant ; pointillé = formation mixte. Données géologiques 1/50 000, pas une analyse chimique du sol.</div>
 <label><input type="checkbox" id="truffleMode"> 🍄 Afficher le potentiel truffier au toucher</label>
 <label>Truffe recherchée <select id="truffleType"><option value="melano">⚫ Noire du Périgord</option><option value="summer">🟤 Truffe d'été</option><option value="burgundy">🌰 Truffe de Bourgogne</option></select></label>
 <div id="truffleStatus" class="small">Active le mode puis touche une zone de la carte. Les données manquantes ne sont jamais considérées comme favorables.</div></div><label><input type="checkbox" id="forestmap"> 🌳 Carte des peuplements IGN</label><label><input type="checkbox" id="publicforest"> 🌲 Forêts publiques ONF</label><label><input type="checkbox" id="relief"> ⛰️ Relief HD LiDAR (zones couvertes)</label><label><input type="checkbox" id="reliefAll"> 🏔️ Relief général (France)</label><label><input type="checkbox" id="contours"> 📐 Courbes de niveau IGN</label><details style="margin:5px 0"><summary style="cursor:pointer">💧 Comprendre talus, pentes et eau</summary><div class="small">L’ombrage fait ressortir fossés, talus, creux et versants. Le LiDAR HD n’est pas encore disponible partout ; le relief général couvre plus largement la France. Un creux peut retenir l’humidité mais aussi être gorgé d’eau : l’effet sur les champignons dépend du sol, des essences et de la météo. Les couches affichées ne calculent pas encore le drainage ni la pente exacte au toucher.</div></details><label><input type="checkbox" id="potential"> 🍄 Anciennes zones illustratives (archives)</label><label><input type="checkbox" id="mycoHelpers"> 🔬 Points de contrôle mycologique vérifiés</label><div id="mycoHelpersInfo" class="small">Aucun établissement vérifié n’est encore publié. Propose un lieu dans Plus → Retours et suggestions.</div><div style="border:1px solid #b9d7c1;padding:9px;border-radius:10px;margin:8px 0;background:#f1faf2"><b>🔎 Moteur de prospection V2</b><label>Rayon <select id="searchRadius"><option value="5">5 km</option><option value="10" selected>10 km</option><option value="25">25 km</option><option value="50">50 km</option></select></label><button id="scanZones">🍄 Analyser autour du centre de la carte</button><div id="scanStatus" class="small">Déplace la carte sur n'importe quelle région de France, choisis un champignon, puis lance l'analyse. Le moteur échantillonne des secteurs : il ne couvre pas chaque parcelle. Relief et sols sont facultatifs selon la disponibilité des services.</div><div id="scanResults" class="small"></div></div><details id="ignLegend" style="margin:7px 0;border:1px solid #d8e4d8;border-radius:9px;padding:7px;background:#f5faf5"><summary style="cursor:pointer;font-weight:600">🎨 Légende des couleurs IGN</summary><div class="small" style="margin-top:7px">Les couleurs correspondent aux classes de peuplements de la BD Forêt V2, <b>pas</b> à la favorabilité des champignons. Pour connaître la classe exacte d’une couleur, consulte la légende officielle de la couche :</div><a href="https://geoservices.ign.fr/bdforet" target="_blank" rel="noopener noreferrer" style="display:inline-block;margin:8px 0;color:#175c3a">📖 Documentation et légende BD Forêt (IGN) ↗</a><div class="small">Une identification automatique au toucher nécessitera les attributs vectoriels IGN ; elle n’est pas encore disponible.</div></details><div id="forestnote" class="small">BD Forêt V2 : peuplements cartographiés (2007–2018), pas chaque arbre. La couleur correspond aux classes IGN, pas à une prédiction de champignons.</div><label><input type="checkbox" id="forests" checked> Afficher les secteurs à explorer</label>
@@ -39,36 +39,53 @@ const soilLayer=L.tileLayer.wms('https://dev-maps.isric.org/mapserv/phh2o',{laye
 
 /* Truffle prospecting: exploratory ecological screening, not occurrence prediction. */
 const truffleGeology=L.tileLayer.wms('https://mapsref.brgm.fr/wxs/referentiel/geologie',{layers:'GEOL50_HARM',format:'image/png',transparent:true,version:'1.1.1',opacity:.52,attribution:'© BRGM — géologie 1/50 000'});
-let truffleGeoErrors=0;
-truffleGeology.on('tileerror',()=>{if(++truffleGeoErrors===3){document.getElementById('truffleStatus').textContent='⚠️ Carte BRGM indisponible actuellement.'}});
-document.getElementById('geoTruffle').onchange=e=>{truffleGeoErrors=0;e.target.checked?truffleGeology.addTo(map):map.removeLayer(truffleGeology)};
+truffleGeology.on('tileerror',()=>{document.getElementById('truffleStatus').textContent='Carte BRGM temporairement indisponible.'});
+document.getElementById('geoTruffle').onchange=e=>e.target.checked?truffleGeology.addTo(map):map.removeLayer(truffleGeology);
 const truffleMarker=L.layerGroup().addTo(map);
+const limestoneLayer=L.geoJSON(null,{interactive:false,style:f=>({color:'#ffffff',weight:f.properties.classe==='calcaire'?1.4:1,dashArray:f.properties.classe==='mixte'?'4 5':null,fillColor:'#ffffff',fillOpacity:f.properties.classe==='calcaire'?.45:.20})});
+let limestoneData=null,limestoneLoading=null;
+function limestoneStyle(){const opacity=Number(document.getElementById('limestoneOpacity').value)/100;document.getElementById('limestoneOpacityValue').textContent=Math.round(opacity*100)+' %';limestoneLayer.setStyle(f=>({color:'#ffffff',weight:f.properties.classe==='calcaire'?1.4:1,dashArray:f.properties.classe==='mixte'?'4 5':null,fillColor:'#ffffff',fillOpacity:opacity*(f.properties.classe==='calcaire'?1:.42)}))}
+document.getElementById('limestoneOpacity').oninput=limestoneStyle;
+async function loadLimestone(){
+if(limestoneData)return limestoneData;
+if(!limestoneLoading)limestoneLoading=fetch('./calcaire_44.geojson').then(r=>{if(!r.ok)throw Error('Fichier calcaire_44.geojson absent ('+r.status+')');return r.json()}).then(d=>{if(d.type!=='FeatureCollection'||!Array.isArray(d.features))throw Error('GeoJSON invalide');limestoneData=d;limestoneLayer.addData(d);limestoneStyle();document.getElementById('limestoneStatus').textContent=d.features.length+' formations carbonatées (44) chargées. Blanc : calcaire dominant ; pointillé : mixte. Carte BRGM 1/50 000, non vérifiée à la parcelle.';return d}).catch(e=>{limestoneLoading=null;document.getElementById('limestoneStatus').textContent='⚠️ '+e.message;return null});
+return limestoneLoading;
+}
+document.getElementById('limestoneOverlay').onchange=async e=>{if(!e.target.checked){map.removeLayer(limestoneLayer);return}const d=await loadLimestone();if(d&&document.getElementById('limestoneOverlay').checked)limestoneLayer.addTo(map)};
+function pointInTruffleGeology(lng,lat){
+if(!limestoneData)return null;
+for(const f of limestoneData.features){if(pointInForestGeometry(lng,lat,f.geometry))return f.properties}
+return false;
+}
 const truffleProfiles={
-melano:{name:'Truffe noire du Périgord',ph:[7.3,8.3],trees:['oak','mixed','open'],shade:'milieux ouverts, ensoleillés et drainés'},
+melano:{name:'Truffe noire du Périgord',ph:[7.5,8.3],trees:['oak','mixed','open'],shade:'milieux plutôt ouverts, chauds et drainants'},
 summer:{name:"Truffe d'été",ph:[7,8.3],trees:['oak','beech','mixed','open'],shade:'lisières et boisements clairs'},
-burgundy:{name:'Truffe de Bourgogne',ph:[7,8.2],trees:['oak','beech','mixed'],shade:'boisements plus frais, semi-ombragés'}
+burgundy:{name:'Truffe de Bourgogne',ph:[7,8.2],trees:['oak','beech','mixed'],shade:'boisements frais et semi-ombragés'}
 };
 let truffleRequest=0;
-document.getElementById('truffleMode').onchange=()=>{truffleRequest++;truffleMarker.clearLayers();document.getElementById('truffleStatus').textContent=document.getElementById('truffleMode').checked?'Touche une zone de la carte pour analyser pH, essences et relief.':'Mode désactivé.'};
-document.getElementById('truffleType').onchange=()=>{truffleRequest++;truffleMarker.clearLayers();document.getElementById('truffleStatus').textContent='Profil changé : touche une zone pour relancer l’analyse.'};
+document.getElementById('truffleMode').onchange=()=>{truffleRequest++;truffleMarker.clearLayers();document.getElementById('truffleStatus').textContent=document.getElementById('truffleMode').checked?'Touche la carte : analyse pH, roche, arbres et pente.':'Mode désactivé.'};
+document.getElementById('truffleType').onchange=()=>{truffleRequest++;truffleMarker.clearLayers();document.getElementById('truffleStatus').textContent='Profil modifié. Touche une zone pour l’analyser.'};
 async function inspectTruffle(pos){
-const id=++truffleRequest,type=document.getElementById('truffleType').value,p=truffleProfiles[type],box=document.getElementById('truffleStatus');
-truffleMarker.clearLayers();box.textContent='Analyse écologique en cours…';
-const [soilResult,forestResult,terrainResult]=await Promise.allSettled([soilAt(pos.lat,pos.lng),forestAt(pos.lat,pos.lng),terrainAt(pos.lat,pos.lng)]);
+const id=++truffleRequest,p=truffleProfiles[document.getElementById('truffleType').value],box=document.getElementById('truffleStatus');
+truffleMarker.clearLayers();box.textContent='Analyse en cours…';
+await loadLimestone();if(id!==truffleRequest)return;
+const [sr,fr,rr]=await Promise.allSettled([soilAt(pos.lat,pos.lng),forestAt(pos.lat,pos.lng),terrainAt(pos.lat,pos.lng)]);
 if(id!==truffleRequest)return;
-const soil=soilResult.status==='fulfilled'?soilResult.value:null;
-const forest=forestResult.status==='fulfilled'?forestResult.value:null;
-const terrain=terrainResult.status==='fulfilled'?terrainResult.value:null;
-const habitat=forest?habitatFromForest(forest):'unknown',ph=soil?.ph;
-const phKnown=Number.isFinite(ph),phGood=phKnown&&ph>=p.ph[0]&&ph<=p.ph[1],treesKnown=habitat!=='unknown',treesGood=treesKnown&&p.trees.includes(habitat);
-const slopeKnown=Number.isFinite(terrain?.slope),slopeGood=slopeKnown&&terrain.slope<20;
-const known=Number(phKnown)+Number(treesKnown)+Number(slopeKnown);
-const favorable=known===3&&phGood&&treesGood&&slopeGood;
-const label=favorable?'🟢 Critères compatibles':known>=2?'🟡 À vérifier':'⚪ Données insuffisantes';
-const reasons=['pH estimé : '+(phKnown?ph.toFixed(1)+(phGood?' ✓':' (hors plage indicative)'):'indisponible'),'Boisement IGN : '+(treesKnown?habitat+(treesGood?' ✓':' (non caractéristique)'):'non déterminé'),'Pente approximative : '+(slopeKnown?terrain.slope.toFixed(0)+'°':'indisponible'),'Géologie carbonatée : non vérifiée à cet endroit','Drainage réel : non mesuré'];
-const html='<b>'+p.name+'</b><br>'+label+'<br>'+reasons.join('<br>')+'<br><small>Milieu recherché : '+p.shade+'. Les plages de pH sont indicatives. Le score n’est PAS une probabilité de trouver une truffe ; l’absence de vérification du calcaire interdit une confirmation du potentiel.</small>';
-L.circleMarker(pos,{radius:11,color:favorable?'#20844c':'#a87921',weight:3,fillOpacity:.2}).bindPopup(html).addTo(truffleMarker).openPopup();
-box.textContent=label+' — '+p.name+'. Détails sur le point sélectionné.';
+const soil=sr.status==='fulfilled'?sr.value:null,forest=fr.status==='fulfilled'?fr.value:null,terrain=rr.status==='fulfilled'?rr.value:null;
+const geo=pointInTruffleGeology(pos.lng,pos.lat),ph=soil?.ph,habitat=forest?habitatFromForest(forest):'unknown';
+const phKnown=Number.isFinite(ph),phGood=phKnown&&ph>=p.ph[0]&&ph<=p.ph[1];
+const treeKnown=habitat!=='unknown',treeGood=treeKnown&&p.trees.includes(habitat);
+const slopeKnown=Number.isFinite(terrain?.slope),slopeGood=slopeKnown&&terrain.slope<=20;
+const geoKnown=geo!==null,geoGood=geo&&geo.classe==='calcaire',geoMixed=geo&&geo.classe==='mixte';
+const geoText=!geoKnown?'données absentes':geoGood?'calcaire dominant':geoMixed?'formation mixte (teneur en carbonates incertaine)':'aucune formation carbonatée identifiée dans notre extraction (non exhaustif)';
+const allStrong=geoGood&&phGood&&treeGood&&slopeGood;
+const some=geoGood||geoMixed||phGood||treeGood;
+const label=allStrong?'🟢 Critères cartographiques concordants':some?'🟡 À vérifier sur place':'⚪ Indices insuffisants';
+const reasons=['Roche BRGM : '+geoText+(geo?.DESCR?' — '+geo.DESCR:''),'pH SoilGrids estimé : '+(phKnown?ph.toFixed(1)+(phGood?' ✓':' (hors plage indicative)'):'indisponible'),'Peuplement IGN : '+(treeKnown?habitat+(treeGood?' ✓':' (peu caractéristique)'):'indéterminé'),'Pente approximative : '+(slopeKnown?terrain.slope.toFixed(1)+'°':'indisponible'),'Drainage réel, ensoleillement et présence de truffes : non mesurés'];
+const safeTruffle=t=>String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const html='<b>'+safeTruffle(p.name)+'</b><br>'+label+'<br>'+reasons.map(safeTruffle).join('<br>')+'<br><small>Milieu recherché : '+safeTruffle(p.shade)+'. Une formation mixte ne vaut pas confirmation de calcaire actif. Les sols superficiels peuvent différer du substrat BRGM. Indicateurs exploratoires, sans probabilité de présence.</small>';
+L.circleMarker(pos,{radius:10,color:allStrong?'#218b52':'#b38a32',weight:3,fillOpacity:.15}).bindPopup(html).addTo(truffleMarker).openPopup();
+box.textContent=label+' — '+p.name+'. Touche le marqueur pour les détails.';
 }
 map.on('click',e=>{if(document.getElementById('truffleMode').checked&&!adding)inspectTruffle(e.latlng)});
 
