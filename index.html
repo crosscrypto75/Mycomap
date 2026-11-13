@@ -122,7 +122,7 @@ document.getElementById('cancelObservation').onclick=()=>observationModal.hidden
 observationForm.onsubmit=e=>{e.preventDefault();if(!observationPosition)return;const name=observationSpecies.value==='Autre'?document.getElementById('otherSpecies').value.trim():observationSpecies.value;if(!name){alert('Indique le nom du champignon.');return}points.push({lat:observationPosition.lat,lng:observationPosition.lng,species:name,trees:[...document.querySelectorAll('#observationTrees input:checked')].map(x=>x.value),treeConfidence:document.getElementById('observationTreeConfidence').value,habitat:document.getElementById('observationHabitat').value,moisture:document.getElementById('observationMoisture').value,note:document.getElementById('observationNote').value.trim(),date:new Date().toISOString()});save();observationModal.hidden=true;status.textContent='🍄 Découverte enregistrée sur cet appareil.'};
 document.getElementById('add').onclick=()=>{adding=true;status.textContent='Touche maintenant la carte pour ajouter une découverte.'};
 map.on('contextmenu',e=>{openObservation(e.latlng)});
-map.on('click',e=>{if(!adding){inspectSpot(e.latlng);return}adding=false;openObservation(e.latlng)});
+map.on('click',e=>{if(!adding){if(document.getElementById('truffleMode')?.checked)return;inspectSpot(e.latlng);return}adding=false;openObservation(e.latlng)});
 const profiles={
 cepe:{name:'Cèpe',trees:'Chênes, hêtres, châtaigniers et certains pins selon les espèces.',min:8,max:23,ideal:16},
 girolle:{name:'Girolle',trees:'Chênes, hêtres, châtaigniers, parfois conifères ; sols plutôt acides.',min:10,max:24,ideal:17},
