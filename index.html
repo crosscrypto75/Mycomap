@@ -14,7 +14,7 @@
 <label><input type="checkbox" id="truffleMode"> 🍄 Afficher le potentiel truffier au toucher</label>
 <label>Truffe recherchée <select id="truffleType"><option value="melano">⚫ Noire du Périgord</option><option value="summer">🟤 Truffe d'été</option><option value="burgundy">🌰 Truffe de Bourgogne</option></select></label>
 <div id="truffleStatus" class="small">Active le mode puis touche une zone de la carte. Les données manquantes ne sont jamais considérées comme favorables.</div></div><label><input type="checkbox" id="forestmap"> 🌳 Carte des peuplements IGN</label><label><input type="checkbox" id="publicforest"> 🌲 Forêts publiques ONF</label><label><input type="checkbox" id="relief"> ⛰️ Relief HD LiDAR (zones couvertes)</label><label><input type="checkbox" id="reliefAll"> 🏔️ Relief général (France)</label><label><input type="checkbox" id="contours"> 📐 Courbes de niveau IGN</label><details style="margin:5px 0"><summary style="cursor:pointer">💧 Comprendre talus, pentes et eau</summary><div class="small">L’ombrage fait ressortir fossés, talus, creux et versants. Le LiDAR HD n’est pas encore disponible partout ; le relief général couvre plus largement la France. Un creux peut retenir l’humidité mais aussi être gorgé d’eau : l’effet sur les champignons dépend du sol, des essences et de la météo. Les couches affichées ne calculent pas encore le drainage ni la pente exacte au toucher.</div></details><label><input type="checkbox" id="mycoHelpers"> 🔬 Points de contrôle mycologique vérifiés</label><div id="mycoHelpersInfo" class="small">Aucun établissement vérifié n’est encore publié. Propose un lieu dans Plus → Retours et suggestions.</div><div style="border:1px solid #b9d7c1;padding:9px;border-radius:10px;margin:8px 0;background:#f1faf2"><b>🔎 Moteur de prospection V2</b><label>Rayon <select id="searchRadius"><option value="5">5 km</option><option value="10" selected>10 km</option><option value="25">25 km</option><option value="50">50 km</option></select></label><button id="scanZones">🍄 Analyser autour du centre de la carte</button><div id="scanStatus" class="small">Déplace la carte sur n'importe quelle région de France, choisis un champignon, puis lance l'analyse. Le moteur échantillonne des secteurs : il ne couvre pas chaque parcelle. Relief et sols sont facultatifs selon la disponibilité des services.</div><div id="scanResults" class="small"></div></div><details id="ignLegend" style="margin:7px 0;border:1px solid #d8e4d8;border-radius:9px;padding:7px;background:#f5faf5"><summary style="cursor:pointer;font-weight:600">🎨 Légende des couleurs IGN</summary><div class="small" style="margin-top:7px">Les couleurs correspondent aux classes de peuplements de la BD Forêt V2, <b>pas</b> à la favorabilité des champignons. Pour connaître la classe exacte d’une couleur, consulte la légende officielle de la couche :</div><a href="https://geoservices.ign.fr/bdforet" target="_blank" rel="noopener noreferrer" style="display:inline-block;margin:8px 0;color:#175c3a">📖 Documentation et légende BD Forêt (IGN) ↗</a><div class="small">Une identification automatique au toucher nécessitera les attributs vectoriels IGN ; elle n’est pas encore disponible.</div></details><div id="forestnote" class="small">BD Forêt V2 : peuplements cartographiés (2007–2018), pas chaque arbre. La couleur correspond aux classes IGN, pas à une prédiction de champignons.</div>
-<button id="locate">📍 Ma position</button><button id="add">🍄 Ajouter un repère</button><button id="blain" class="secondary">⌂ Blain</button>
+<div style="border:1px solid #a8cfb4;border-radius:11px;padding:9px;margin:7px 0;background:#f1faf2"><b>🚗 Retour à ma voiture</b><div id="carStatus" class="small" role="status" aria-live="polite">Aucun véhicule enregistré.</div><button id="saveCar">🚗 Enregistrer ma voiture</button><button id="findCar" hidden>🧭 Retrouver ma voiture</button><button id="arrivedCar" hidden>✅ Je suis bien arrivé</button><button id="cancelCar" class="secondary" hidden>Effacer le point</button><div id="carArrival" hidden style="background:#fff;border:1px solid #77b38a;padding:8px;border-radius:9px;margin-top:7px"><b>🚗 Vous avez retrouvé votre voiture ?</b><br><button id="confirmCar">✅ Oui, je suis arrivé</button><button id="continueCar" class="secondary">Non, continuer</button></div><small>Détection à 5 m avec GPS précis, uniquement quand MycoMap reste ouverte. Sans réseau, la position GPS peut fonctionner, mais le fond de carte doit être disponible localement.</small></div><button id="locate">📍 Ma position</button><button id="add">🍄 Ajouter un repère</button><button id="blain" class="secondary">⌂ Blain</button>
 <div class="small">Pour ajouter un repère : appuie sur « Ajouter », puis touche la carte. Les données restent dans ce navigateur.</div>
 <hr><h3 style="margin:9px 0 4px">🌦️ Potentiel de pousse</h3><label>Champignon <select id="species"><option value="cepe">Cèpe (groupe)</option><option value="girolle">Girolle</option><option value="trompette">Trompette de la mort</option><option value="pied">Pied-de-mouton</option><option value="chanterelle">Chanterelle en tube</option><option value="coulemelle">Coulemelle</option></select></label><button id="weather" class="secondary">🌧️ Actualiser la météo</button><div id="forecast" class="small status">Météo non chargée. Indice indicatif, pas une prédiction de récolte.</div><div class="small" id="habitat"></div><hr><button id="export" class="secondary">Exporter mes repères</button><label class="small">Importer une sauvegarde <input id="import" type="file" accept=".json,application/json"></label>
 <div class="small" id="count"></div><div class="small">⚠️ Les limites cadastrales ne prouvent ni la propriété publique ni le droit de cueillette. Les secteurs proposés sont indicatifs, pas des stations confirmées.</div>
@@ -353,6 +353,61 @@ if(page==='identifier')document.getElementById('toCatalog').onclick=()=>openPage
 if(page==='plus'){document.getElementById('backMap').onclick=()=>openPage('carte');document.getElementById('feedbackDownload').onclick=()=>{const message=document.getElementById('feedbackText').value.trim();if(message.length<8){alert('Décris ton retour en quelques mots.');return}const payload={type:document.getElementById('feedbackType').value,message,date:new Date().toISOString(),app:'MycoMap'};const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='mycomap-retour-'+Date.now()+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),2000)}}}
 document.querySelectorAll('#appNav button').forEach(b=>b.onclick=()=>openPage(b.dataset.page));
 const helperLayer=L.layerGroup();document.getElementById('mycoHelpers').onchange=e=>{if(e.target.checked){helperLayer.addTo(map);status.textContent='🔬 Aucun point de contrôle vérifié publié pour le moment.'}else map.removeLayer(helperLayer)};
+
+// Stationnement : stockage local, aucun transfert de coordonnées.
+const CAR_KEY='mycomap-car-v1';
+let car=null,carMarker=null,carLine=null,carWatch=null,carNearCount=0,carDismissed=false,carLastDistance=null;
+try{const saved=JSON.parse(localStorage.getItem(CAR_KEY)||'null');if(saved&&Number.isFinite(saved.lat)&&Number.isFinite(saved.lng))car=saved}catch(e){}
+const carStatus=document.getElementById('carStatus'),carArrival=document.getElementById('carArrival');
+const carSave=document.getElementById('saveCar'),carFind=document.getElementById('findCar'),carArrived=document.getElementById('arrivedCar'),carCancel=document.getElementById('cancelCar');
+function carDistance(a,b,c,d){const rad=Math.PI/180,x=(c-a)*rad,y=(d-b)*rad,z=Math.sin(x/2)**2+Math.cos(a*rad)*Math.cos(c*rad)*Math.sin(y/2)**2;return 12742000*Math.asin(Math.min(1,Math.sqrt(z)))}
+function carRender(){
+ if(carMarker){map.removeLayer(carMarker);carMarker=null}
+ if(carLine){map.removeLayer(carLine);carLine=null}
+ carFind.hidden=carArrived.hidden=carCancel.hidden=!car;carSave.textContent=car?'🚗 Modifier le stationnement':'🚗 Enregistrer ma voiture';
+ if(!car){carStatus.textContent='Aucun véhicule enregistré.';carArrival.hidden=true;return}
+ carMarker=L.marker([car.lat,car.lng],{title:'Voiture enregistrée'}).bindPopup('🚗 Votre voiture — point enregistré sur cet appareil.').addTo(map);
+ carStatus.textContent='🚗 Voiture mémorisée'+(carLastDistance!==null?' · '+Math.round(carLastDistance)+' m à vol d’oiseau':'')+(car.armed?' · retour surveillé':' · éloignez-vous pour activer le retour')+'.';
+}
+function carStopWatch(){if(carWatch!==null&&navigator.geolocation){navigator.geolocation.clearWatch(carWatch);carWatch=null}}
+function carClear(){carStopWatch();car=null;carLastDistance=null;carNearCount=0;carDismissed=false;try{localStorage.removeItem(CAR_KEY)}catch(e){}carRender()}
+function carPosition(p){
+ if(!car)return;
+ const d=carDistance(car.lat,car.lng,p.coords.latitude,p.coords.longitude),accuracy=p.coords.accuracy;
+ carLastDistance=d;
+ // Éloignement réel requis avant de considérer un retour; pas d'alerte au départ.
+ if(!car.armed&&d>=40&&accuracy<=30){car.armed=true;try{localStorage.setItem(CAR_KEY,JSON.stringify(car))}catch(e){}}
+ // 5 mètres stricts et deux mesures précises pour limiter les faux positifs.
+ if(car.armed&&accuracy<=10&&d<=5){carNearCount++}else{carNearCount=0;if(d>20)carDismissed=false}
+ if(car.armed&&carNearCount>=2&&!carDismissed)carArrival.hidden=false;
+ if(carLine)map.removeLayer(carLine);
+ carLine=L.polyline([[p.coords.latitude,p.coords.longitude],[car.lat,car.lng]],{color:'#e07b24',weight:3,dashArray:'5 7'}).addTo(map);
+ carRender();
+ if(car.armed&&carNearCount>=2&&!carDismissed){carArrival.hidden=false;carStatus.textContent='🚗 À proximité du stationnement (~'+Math.round(d)+' m). Confirmez votre arrivée.'}
+}
+function carStartWatch(){
+ if(!car||carWatch!==null||!navigator.geolocation)return;
+ carWatch=navigator.geolocation.watchPosition(carPosition,e=>{if(car)carStatus.textContent='🚗 Voiture enregistrée. GPS indisponible : '+e.message+' (confirmation manuelle possible).'}, {enableHighAccuracy:true,maximumAge:0,timeout:20000});
+}
+carSave.onclick=()=>{
+ if(!navigator.geolocation){carStatus.textContent='GPS indisponible.';return}
+ carStatus.textContent='📍 Enregistrement de la position du véhicule…';
+ navigator.geolocation.getCurrentPosition(p=>{
+  if(p.coords.accuracy>35){carStatus.textContent='Précision GPS insuffisante ('+Math.round(p.coords.accuracy)+' m). Réessayez dans une zone dégagée.';return}
+  carStopWatch();car={lat:p.coords.latitude,lng:p.coords.longitude,accuracy:p.coords.accuracy,createdAt:new Date().toISOString(),armed:false};
+  carLastDistance=null;carNearCount=0;carDismissed=false;carArrival.hidden=true;
+  try{localStorage.setItem(CAR_KEY,JSON.stringify(car))}catch(e){carStatus.textContent='Stockage indisponible : point non garanti après fermeture.'}
+  carRender();carStartWatch();
+ },e=>{carStatus.textContent='Impossible d’enregistrer : '+e.message},{enableHighAccuracy:true,maximumAge:0,timeout:20000});
+};
+carFind.onclick=()=>{if(!car)return;map.setView([car.lat,car.lng],Math.max(16,map.getZoom()));carMarker?.openPopup();carStartWatch()};
+carArrived.onclick=()=>{if(car&&confirm('Vous êtes bien arrivé à votre voiture ? Effacer le point enregistré ?'))carClear()};
+document.getElementById('confirmCar').onclick=()=>carClear();
+document.getElementById('continueCar').onclick=()=>{carArrival.hidden=true;carDismissed=true;carNearCount=0};
+carCancel.onclick=()=>{if(confirm('Effacer le point de stationnement sans confirmer une arrivée ?'))carClear()};
+document.addEventListener('visibilitychange',()=>{if(!document.hidden&&car){carStopWatch();carStartWatch()}});
+carRender();carStartWatch();
+
 let gpsCircle=null,gpsMarker=null;function locateNow(){if(!navigator.geolocation){status.textContent='GPS indisponible sur cet appareil.';return}status.textContent='📍 Recherche de la position GPS…';navigator.geolocation.getCurrentPosition(p=>{const lat=p.coords.latitude,lng=p.coords.longitude;map.setView([lat,lng],Math.max(16,map.getZoom()));if(gpsCircle)map.removeLayer(gpsCircle);if(gpsMarker)map.removeLayer(gpsMarker);gpsCircle=L.circle([lat,lng],{radius:p.coords.accuracy,color:'#1879c6',fillOpacity:.08}).addTo(map);gpsMarker=L.circleMarker([lat,lng],{radius:8,color:'#fff',weight:3,fillColor:'#1879c6',fillOpacity:1}).addTo(map);status.textContent='📍 Position GPS (précision estimée : '+Math.round(p.coords.accuracy)+' m).'},e=>{status.textContent='GPS indisponible : '+e.message},{enableHighAccuracy:true,timeout:20000,maximumAge:10000})}document.getElementById('gpsFab').onclick=locateNow;
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(reg=>reg.update()).catch(()=>{}))}window.addEventListener('offline',()=>{status.textContent='📴 Hors ligne : repères et GPS possibles selon l’appareil ; les cartes non mises en cache seront absentes.'});
 document.getElementById('blain').onclick=()=>map.setView(center,11);document.getElementById('locate').onclick=locateNow;
