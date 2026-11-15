@@ -50,7 +50,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Aleuria aurantia",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-oreilledejudas",
@@ -98,7 +111,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Auricularia auricula-judae",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-sparassiscrepu",
@@ -146,7 +172,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Sparassis crispa",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-helvellecrepue",
@@ -194,7 +233,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Helvella crispa",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-morillecommune",
@@ -242,7 +294,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Morchella esculenta",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-pleuroteenhuitre",
@@ -290,7 +355,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Pleurotus ostreatus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-rosedespres",
@@ -338,7 +416,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Agaricus campestris",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-agaricjaunissant",
@@ -386,7 +477,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Agaricus xanthodermus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-oronge",
@@ -434,7 +538,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Amanita caesarea",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-amanitetuemouches",
@@ -482,7 +599,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Amanita muscaria",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-amanitecitrine",
@@ -530,7 +660,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Amanita citrina",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-amanitejonquille",
@@ -563,8 +706,8 @@
       ],
       "identification_checks": [],
       "toxicity": {
-        "status": "not_verified",
-        "source": null
+        "status": "toxic",
+        "source": "https://www.first-nature.com/fungi/amanita-gemmata.php"
       },
       "references": [
         {
@@ -583,7 +726,22 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "source_checked_partial",
+        "scientific_name_provisional": "Amanita gemmata",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": true,
+          "lookalikes": false,
+          "toxicity": true
+        },
+        "species_specific_sources": [
+          "https://www.first-nature.com/fungi/amanita-gemmata.php"
+        ],
+        "remarks": "Mycorhizien surtout avec les pins ; terrains sableux ; anneau fugace, volve courte ; synonymie A. junquillea selon certaines autorités."
+      }
     },
     {
       "id": "guide2027-amanitepanthere",
@@ -631,7 +789,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Amanita pantherina",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-amaniteepaisse",
@@ -684,7 +855,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Amanita excelsa",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-golmotte",
@@ -737,7 +921,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Amanita rubescens",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-armillairecouleurdemiel",
@@ -785,7 +982,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Armillaria mellea",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-tricholomedelasaintgeorges",
@@ -833,7 +1043,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Calocybe gambosa",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-clitocybenebuleux",
@@ -881,7 +1104,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Clitocybe nebularis",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-clitocybeanise",
@@ -929,7 +1165,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Clitocybe odora",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-clitocybeblancdivoire",
@@ -982,12 +1231,25 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Clitocybe dealbata",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-coprinchevelu",
       "common_name_fr": "Coprin chevelu",
-      "scientific_name_candidate": "Coprinopsis comatus",
+      "scientific_name_candidate": "Coprinus comatus",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1030,7 +1292,22 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "taxonomy_correction_only",
+        "scientific_name_provisional": "Coprinopsis comatus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [
+          "https://www.first-nature.com/fungi/"
+        ],
+        "remarks": "Correction de genre : Coprinus comatus, pas Coprinopsis comatus ; source First Nature index https://www.first-nature.com/fungi/"
+      }
     },
     {
       "id": "guide2027-cortinairecouleurderocou",
@@ -1063,8 +1340,8 @@
       ],
       "identification_checks": [],
       "toxicity": {
-        "status": "not_verified",
-        "source": null
+        "status": "deadly",
+        "source": "https://mail.first-nature.com/fungi/cortinarius-orellanus.php"
       },
       "references": [
         {
@@ -1083,7 +1360,22 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "source_checked_partial",
+        "scientific_name_provisional": "Cortinarius orellanus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": true,
+          "lookalikes": false,
+          "toxicity": true
+        },
+        "species_specific_sources": [
+          "https://mail.first-nature.com/fungi/cortinarius-orellanus.php"
+        ],
+        "remarks": "Orellanine : toxicité rénale mortelle ; mycorhizien surtout avec feuillus, notamment chênes, sur sols acides ou alcalins ; éviter de déduire un pH unique."
+      }
     },
     {
       "id": "guide2027-pholiotedupeuplier",
@@ -1136,7 +1428,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Cyclocybe aegerita",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-entolomeenbouclier",
@@ -1189,7 +1494,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Entoloma clypeatum",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-entolomelivide",
@@ -1242,7 +1560,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Entoloma sinuatum",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-faussegirolle",
@@ -1290,7 +1621,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Hygrophoropsis aurantiaca",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-hypholomeentouffe",
@@ -1338,7 +1682,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Hypholoma fasciculare",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-pholiotechangeante",
@@ -1391,7 +1748,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Kuehneromyces mutabilis",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-galerinemarginee",
@@ -1439,7 +1809,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Galerina marginata",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-laccaireamethyste",
@@ -1487,7 +1870,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Laccaria amethystina",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-lactaireveloute",
@@ -1540,7 +1936,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Lactifluus vellereus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-lepioteacrete",
@@ -1593,7 +2002,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Lepiota cristata",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-piedbleu",
@@ -1646,7 +2068,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Lepista nuda",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-lepiotepudique",
@@ -1699,7 +2134,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Leucoagaricus leucothites",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-marasmedesoreades",
@@ -1747,7 +2195,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Marasmius oreades",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-mycenerose",
@@ -1800,7 +2261,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Mycena rosea",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-fauxclitocybelumineux",
@@ -1853,7 +2327,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Omphalotus olearius",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-paxilleenroule",
@@ -1906,7 +2393,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Paxillus involutus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-tricholomecolombette",
@@ -1959,7 +2459,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Tricholoma columbetta",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-tricholomeequestre",
@@ -1992,8 +2505,8 @@
       ],
       "identification_checks": [],
       "toxicity": {
-        "status": "not_verified",
-        "source": null
+        "status": "toxic",
+        "source": "https://www.first-nature.com/fungi/tricholoma-equestre.php"
       },
       "references": [
         {
@@ -2012,7 +2525,22 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "source_checked_partial",
+        "scientific_name_provisional": "Tricholoma equestre",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": true,
+          "lookalikes": false,
+          "toxicity": true
+        },
+        "species_specific_sources": [
+          "https://www.first-nature.com/fungi/tricholoma-equestre.php"
+        ],
+        "remarks": "Intoxications graves avec atteinte musculaire documentées ; mycorhizien surtout sous pins, également bouleaux et parfois chênes."
+      }
     },
     {
       "id": "guide2027-tricholomepretentieux",
@@ -2065,7 +2593,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Tricholoma portentosum",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-tricholometerreux",
@@ -2118,7 +2659,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Tricholoma terreum",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-tricholometigre",
@@ -2171,7 +2725,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Tricholoma pardinum",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-chanterellecendree",
@@ -2224,7 +2791,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Craterellus cinereus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-chanterellejaune",
@@ -2277,7 +2857,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Craterellus lutescens",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-cepebronze",
@@ -2330,7 +2923,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Boletus aereus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-cepedete",
@@ -2383,7 +2989,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Boletus reticulatus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-boletbai",
@@ -2436,7 +3055,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Imleria badia",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-boletorange",
@@ -2489,7 +3121,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Leccinum aurantiacum",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-boletapiedrouge",
@@ -2542,7 +3187,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Neoboletus erythropus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-boletblafard",
@@ -2595,7 +3253,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Suillellus luridus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-boletsatan",
@@ -2648,7 +3319,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Rubroboletus satanas",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-boletgranule",
@@ -2696,7 +3380,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Suillus granulatus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-boletdesbouviers",
@@ -2744,7 +3441,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Suillus bovinus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-nonnettevoilee",
@@ -2797,7 +3507,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Suillus luteus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-boletachairjaune",
@@ -2850,7 +3573,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Xerocomellus chrysenteron",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-languedebuf",
@@ -2903,7 +3639,20 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Fistulina hepatica",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     },
     {
       "id": "guide2027-polyporesoufre",
@@ -2956,7 +3705,27 @@
       "illustrations": [],
       "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
-      "ai_encyclopedia_eligible": false
+      "ai_encyclopedia_eligible": false,
+      "scientific_audit": {
+        "status": "not_individually_verified",
+        "scientific_name_provisional": "Laetiporus sulphureus",
+        "checks": {
+          "taxonomy": false,
+          "morphology": false,
+          "ecology": false,
+          "lookalikes": false,
+          "toxicity": false
+        },
+        "species_specific_sources": [],
+        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+      }
     }
-  ]
+  ],
+  "audit_summary": {
+    "individual_records_reviewed": 58,
+    "species_source_checked_partial": 3,
+    "taxonomy_corrections": 1,
+    "remaining_without_species_specific_validation": 54,
+    "method": "Per-record audit flags; only source-backed claims marked verified. No blanket scientific validation."
+  }
 }
