@@ -1,0 +1,358 @@
+{
+  "generated_from": "index.html const catalog + inventaire-guide-2027.json",
+  "existing_catalog_count": 18,
+  "guide_count": 71,
+  "matched_count": 13,
+  "new_candidates_count": 58,
+  "existing_without_guide": [
+    {
+      "name": "Russules",
+      "scientific": "Russula spp."
+    },
+    {
+      "name": "Lactaire semi-sanguin",
+      "scientific": "Lactarius semisanguifluus"
+    },
+    {
+      "name": "Lactaire saumon",
+      "scientific": "Lactarius salmonicolor"
+    },
+    {
+      "name": "Lactaire de l'épicéa",
+      "scientific": "Lactarius deterrimus"
+    },
+    {
+      "name": "Lactaire tranquille",
+      "scientific": "Lactarius quietus"
+    }
+  ],
+  "matches": [
+    {
+      "guide": "Pied-de-mouton",
+      "existing": "Pied-de-mouton",
+      "scientific": "Hydnum repandum",
+      "action": "ENRICH_EXISTING",
+      "note": "Comparer chaque champ au guide avant modification"
+    },
+    {
+      "guide": "Amanite phalloïde",
+      "existing": "Amanite phalloïde",
+      "scientific": "Amanita phalloides",
+      "action": "ENRICH_EXISTING",
+      "note": "Comparer chaque champ au guide avant modification"
+    },
+    {
+      "guide": "Meunier",
+      "existing": "Meunier",
+      "scientific": "Clitopilus prunulus",
+      "action": "ENRICH_EXISTING",
+      "note": "Comparer chaque champ au guide avant modification"
+    },
+    {
+      "guide": "Lactaire délicieux",
+      "existing": "Lactaire délicieux",
+      "scientific": "Lactarius deliciosus",
+      "action": "ENRICH_EXISTING",
+      "note": "Comparer chaque champ au guide avant modification"
+    },
+    {
+      "guide": "Lactaire sanguin",
+      "existing": "Lactaire sanguin",
+      "scientific": "Lactarius sanguifluus",
+      "action": "ENRICH_EXISTING",
+      "note": "Comparer chaque champ au guide avant modification"
+    },
+    {
+      "guide": "Lépiote élevée",
+      "existing": "Coulemelle",
+      "scientific": "Macrolepiota procera",
+      "action": "ENRICH_EXISTING",
+      "note": "Comparer chaque champ au guide avant modification"
+    },
+    {
+      "guide": "Russule charbonnière",
+      "existing": "Russule charbonnière",
+      "scientific": "Russula cyanoxantha",
+      "action": "ENRICH_EXISTING",
+      "note": "Comparer chaque champ au guide avant modification"
+    },
+    {
+      "guide": "Russule comestible",
+      "existing": "Russule comestible",
+      "scientific": "Russula vesca",
+      "action": "ENRICH_EXISTING",
+      "note": "Comparer chaque champ au guide avant modification"
+    },
+    {
+      "guide": "Russule verdoyante",
+      "existing": "Russule verdoyante",
+      "scientific": "Russula virescens",
+      "action": "ENRICH_EXISTING",
+      "note": "Comparer chaque champ au guide avant modification"
+    },
+    {
+      "guide": "Trompette-des-morts",
+      "existing": "Trompette de la mort",
+      "scientific": "Craterellus cornucopioides",
+      "action": "ENRICH_EXISTING",
+      "note": "Comparer chaque champ au guide avant modification"
+    },
+    {
+      "guide": "Chanterelle en tube",
+      "existing": "Chanterelle en tube",
+      "scientific": "Craterellus tubaeformis",
+      "action": "ENRICH_EXISTING",
+      "note": "Comparer chaque champ au guide avant modification"
+    },
+    {
+      "guide": "Girolle",
+      "existing": "Girolle",
+      "scientific": "Cantharellus cibarius",
+      "action": "ENRICH_EXISTING",
+      "note": "Comparer chaque champ au guide avant modification"
+    },
+    {
+      "guide": "Cèpe de Bordeaux",
+      "existing": "Cèpe de Bordeaux",
+      "scientific": "Boletus edulis",
+      "action": "ENRICH_EXISTING",
+      "note": "Comparer chaque champ au guide avant modification"
+    }
+  ],
+  "missing": [
+    {
+      "guide": "Pézize orangée",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Oreille-de-Judas",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Sparassis crépu",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Helvelle crépue",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Morille commune",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Pleurote en huître",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Rosé-des-prés",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Agaric jaunissant",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Oronge",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Amanite tue-mouches",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Amanite citrine",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Amanite jonquille",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Amanite panthère",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Amanite épaisse",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Golmotte",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Armillaire couleur de miel",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Tricholome de la Saint-Georges",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Clitocybe nébuleux",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Clitocybe anisé",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Clitocybe blanc d’ivoire",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Coprin chevelu",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Cortinaire couleur de rocou",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Pholiote du peuplier",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Entolome en bouclier",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Entolome livide",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Fausse-girolle",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Hypholome en touffe",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Pholiote changeante",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Galérine marginée",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Laccaire améthyste",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Lactaire velouté",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Lépiote à crête",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Pied-bleu",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Lépiote pudique",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Marasme des oréades",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Mycène rose",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Faux-clitocybe lumineux",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Paxille enroulé",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Tricholome colombette",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Tricholome équestre",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Tricholome prétentieux",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Tricholome terreux",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Tricholome tigré",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Chanterelle cendrée",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Chanterelle jaune",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Cèpe bronzé",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Cèpe d’été",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Bolet bai",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Bolet orangé",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Bolet à pied rouge",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Bolet blafard",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Bolet Satan",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Bolet granulé",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Bolet des bouviers",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Nonnette voilée",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Bolet à chair jaune",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Langue-de-bœuf",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    },
+    {
+      "guide": "Polypore soufré",
+      "action": "CANDIDATE_NEW_PENDING_TAXONOMY"
+    }
+  ],
+  "seed_warning": "seed-champi2.json contains overlapping provisional entries; do not concatenate with catalog",
+  "review_required": true
+}
