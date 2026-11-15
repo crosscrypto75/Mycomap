@@ -247,7 +247,7 @@
       "id": "craterellus-cinereus",
       "scientific_name": "Craterellus cinereus",
       "common_name_fr": "Chanterelle cendrée",
-      "source_pages": "62",
+      "source_pages": "61",
       "taxonomy_status": "à vérifier",
       "ecology": {
         "associated_trees": [],
@@ -265,13 +265,13 @@
       "images": [],
       "safety_status": "non_validé",
       "review_status": "inventorié — identification/taxonomie/écologie à valider",
-      "source_reference": "Encyclopedi champi2.pdf, page PDF 6"
+      "source_reference": "Encyclopedi champi2.pdf, page PDF 5"
     },
     {
       "id": "craterellus-tubaeformis",
       "scientific_name": "Craterellus tubaeformis",
       "common_name_fr": "Chanterelle en tube",
-      "source_pages": "63",
+      "source_pages": "62",
       "taxonomy_status": "à vérifier",
       "ecology": {
         "associated_trees": [],
@@ -295,6 +295,54 @@
       "id": "craterellus-lutescens",
       "scientific_name": "Craterellus lutescens",
       "common_name_fr": "Chanterelle jaunissante",
+      "source_pages": "62",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "inventorié — identification/taxonomie/écologie à valider",
+      "source_reference": "Encyclopedi champi2.pdf, page PDF 6"
+    },
+    {
+      "id": "cantharellus-cibarius",
+      "scientific_name": "Cantharellus cibarius",
+      "common_name_fr": "Girolle",
+      "source_pages": "63",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "inventorié — identification/taxonomie/écologie à valider",
+      "source_reference": "Encyclopedi champi2.pdf, page PDF 6"
+    },
+    {
+      "id": "boletus-aereus",
+      "scientific_name": "Boletus aereus",
+      "common_name_fr": "Cèpe bronzé",
       "source_pages": "64",
       "taxonomy_status": "à vérifier",
       "ecology": {
@@ -316,9 +364,9 @@
       "source_reference": "Encyclopedi champi2.pdf, page PDF 7"
     },
     {
-      "id": "cantharellus-cibarius",
-      "scientific_name": "Cantharellus cibarius",
-      "common_name_fr": "Girolle",
+      "id": "boletus-edulis",
+      "scientific_name": "Boletus edulis",
+      "common_name_fr": "Cèpe de Bordeaux",
       "source_pages": "65",
       "taxonomy_status": "à vérifier",
       "ecology": {
@@ -340,9 +388,9 @@
       "source_reference": "Encyclopedi champi2.pdf, page PDF 7"
     },
     {
-      "id": "boletus-aereus",
-      "scientific_name": "Boletus aereus",
-      "common_name_fr": "Cèpe bronzé",
+      "id": "boletus-reticulatus",
+      "scientific_name": "Boletus reticulatus",
+      "common_name_fr": "Cèpe d'été",
       "source_pages": "66",
       "taxonomy_status": "à vérifier",
       "ecology": {
@@ -364,9 +412,9 @@
       "source_reference": "Encyclopedi champi2.pdf, page PDF 8"
     },
     {
-      "id": "boletus-edulis",
-      "scientific_name": "Boletus edulis",
-      "common_name_fr": "Cèpe de Bordeaux",
+      "id": "imleria-badia",
+      "scientific_name": "Imleria badia",
+      "common_name_fr": "Bolet bai",
       "source_pages": "67",
       "taxonomy_status": "à vérifier",
       "ecology": {
@@ -388,9 +436,9 @@
       "source_reference": "Encyclopedi champi2.pdf, page PDF 8"
     },
     {
-      "id": "boletus-reticulatus",
-      "scientific_name": "Boletus reticulatus",
-      "common_name_fr": "Cèpe d'été",
+      "id": "leccinum-aurantiacum",
+      "scientific_name": "Leccinum aurantiacum",
+      "common_name_fr": "Bolet orangé",
       "source_pages": "68",
       "taxonomy_status": "à vérifier",
       "ecology": {
@@ -412,9 +460,9 @@
       "source_reference": "Encyclopedi champi2.pdf, page PDF 9"
     },
     {
-      "id": "imleria-badia",
-      "scientific_name": "Imleria badia",
-      "common_name_fr": "Bolet bai",
+      "id": "neoboletus-erythropus",
+      "scientific_name": "Neoboletus erythropus",
+      "common_name_fr": "Bolet à pied rouge",
       "source_pages": "69",
       "taxonomy_status": "à vérifier",
       "ecology": {
@@ -436,9 +484,9 @@
       "source_reference": "Encyclopedi champi2.pdf, page PDF 9"
     },
     {
-      "id": "leccinum-aurantiacum",
-      "scientific_name": "Leccinum aurantiacum",
-      "common_name_fr": "Bolet orangé",
+      "id": "suillellus-luridus",
+      "scientific_name": "Suillellus luridus",
+      "common_name_fr": "Bolet blafard",
       "source_pages": "70",
       "taxonomy_status": "à vérifier",
       "ecology": {
@@ -460,9 +508,9 @@
       "source_reference": "Encyclopedi champi2.pdf, page PDF 10"
     },
     {
-      "id": "neoboletus-erythropus",
-      "scientific_name": "Neoboletus erythropus",
-      "common_name_fr": "Bolet à pied rouge",
+      "id": "rubroboletus-satanas",
+      "scientific_name": "Rubroboletus satanas",
+      "common_name_fr": "Bolet Satan",
       "source_pages": "71",
       "taxonomy_status": "à vérifier",
       "ecology": {
@@ -484,9 +532,9 @@
       "source_reference": "Encyclopedi champi2.pdf, page PDF 10"
     },
     {
-      "id": "suillellus-luridus",
-      "scientific_name": "Suillellus luridus",
-      "common_name_fr": "Bolet blafard",
+      "id": "suillus-granulatus",
+      "scientific_name": "Suillus granulatus",
+      "common_name_fr": "Bolet granulé",
       "source_pages": "72",
       "taxonomy_status": "à vérifier",
       "ecology": {
@@ -508,9 +556,9 @@
       "source_reference": "Encyclopedi champi2.pdf, page PDF 11"
     },
     {
-      "id": "rubroboletus-satanas",
-      "scientific_name": "Rubroboletus satanas",
-      "common_name_fr": "Bolet Satan",
+      "id": "suillus-bovinus",
+      "scientific_name": "Suillus bovinus",
+      "common_name_fr": "Bolet des bouviers",
       "source_pages": "73",
       "taxonomy_status": "à vérifier",
       "ecology": {
@@ -532,9 +580,9 @@
       "source_reference": "Encyclopedi champi2.pdf, page PDF 11"
     },
     {
-      "id": "suillus-granulatus",
-      "scientific_name": "Suillus granulatus",
-      "common_name_fr": "Bolet granulé",
+      "id": "suillus-luteus",
+      "scientific_name": "Suillus luteus",
+      "common_name_fr": "Nonette voilée",
       "source_pages": "74",
       "taxonomy_status": "à vérifier",
       "ecology": {
@@ -556,9 +604,9 @@
       "source_reference": "Encyclopedi champi2.pdf, page PDF 12"
     },
     {
-      "id": "suillus-bovinus",
-      "scientific_name": "Suillus bovinus",
-      "common_name_fr": "Bolet des bouviers",
+      "id": "xerocomellus-chrysenteron",
+      "scientific_name": "Xerocomellus chrysenteron",
+      "common_name_fr": "Bolet à chair jaune",
       "source_pages": "75",
       "taxonomy_status": "à vérifier",
       "ecology": {
@@ -580,9 +628,9 @@
       "source_reference": "Encyclopedi champi2.pdf, page PDF 12"
     },
     {
-      "id": "suillus-luteus",
-      "scientific_name": "Suillus luteus",
-      "common_name_fr": "Nonette voilée",
+      "id": "fistulina-hepatica",
+      "scientific_name": "Fistulina hepatica",
+      "common_name_fr": "Langue-de-bœuf",
       "source_pages": "76",
       "taxonomy_status": "à vérifier",
       "ecology": {
@@ -604,9 +652,9 @@
       "source_reference": "Encyclopedi champi2.pdf, page PDF 13"
     },
     {
-      "id": "xerocomellus-chrysenteron",
-      "scientific_name": "Xerocomellus chrysenteron",
-      "common_name_fr": "Bolet à chair jaune",
+      "id": "laetiporus-sulphureus",
+      "scientific_name": "Laetiporus sulphureus",
+      "common_name_fr": "Polypore soufré",
       "source_pages": "77",
       "taxonomy_status": "à vérifier",
       "ecology": {
@@ -626,54 +674,6 @@
       "safety_status": "non_validé",
       "review_status": "inventorié — identification/taxonomie/écologie à valider",
       "source_reference": "Encyclopedi champi2.pdf, page PDF 13"
-    },
-    {
-      "id": "fistulina-hepatica",
-      "scientific_name": "Fistulina hepatica",
-      "common_name_fr": "Langue-de-bœuf",
-      "source_pages": "78",
-      "taxonomy_status": "à vérifier",
-      "ecology": {
-        "associated_trees": [],
-        "soil_ph": null,
-        "season": [],
-        "evidence": []
-      },
-      "morphology": {
-        "cap": null,
-        "hymenophore": null,
-        "stem": null,
-        "latex": null
-      },
-      "lookalikes": [],
-      "images": [],
-      "safety_status": "non_validé",
-      "review_status": "inventorié — identification/taxonomie/écologie à valider",
-      "source_reference": "Encyclopedi champi2.pdf, page PDF 14"
-    },
-    {
-      "id": "laetiporus-sulphureus",
-      "scientific_name": "Laetiporus sulphureus",
-      "common_name_fr": "Polypore soufré",
-      "source_pages": "79",
-      "taxonomy_status": "à vérifier",
-      "ecology": {
-        "associated_trees": [],
-        "soil_ph": null,
-        "season": [],
-        "evidence": []
-      },
-      "morphology": {
-        "cap": null,
-        "hymenophore": null,
-        "stem": null,
-        "latex": null
-      },
-      "lookalikes": [],
-      "images": [],
-      "safety_status": "non_validé",
-      "review_status": "inventorié — identification/taxonomie/écologie à valider",
-      "source_reference": "Encyclopedi champi2.pdf, page PDF 14"
     }
   ]
 }
