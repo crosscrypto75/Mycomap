@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "kind": "new_species_drafts",
   "count": 58,
-  "warning": "Synthèses descriptives provisoires, NON validées espèce par espèce par un mycologue. Aucun pH numérique inventé, aucune comestibilité déduite. Références génériques ne prouvent pas chaque champ. Ne pas exposer aux utilisateurs ni au moteur cartographique sans validation.",
+  "warning": "Les 58 fiches ont des descriptions de travail ; NON vérifiées individuellement contre des sources spécifiques. Aucune fiche n'est autorisée pour l'identification alimentaire ou la cartographie automatique avant contrôle. Les champs non documentés restent null.",
   "records": [
     {
       "id": "guide2027-pezizeorangee",
@@ -535,7 +535,7 @@
     {
       "id": "guide2027-amanitejonquille",
       "common_name_fr": "Amanite jonquille",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Amanita gemmata",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -543,8 +543,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau jaune pâle à ocre, parfois avec restes blancs du voile",
+        "hymenophore": "Lamelles blanches ; anneau fragile ; bulbe basal",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -552,21 +552,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien, surtout sous conifères, également feuillus",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Amanita citrina et A. pantherina"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -621,7 +636,7 @@
     {
       "id": "guide2027-amaniteepaisse",
       "common_name_fr": "Amanite épaisse",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Amanita excelsa",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -629,8 +644,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau gris brun à brun, souvent couvert de plaques grisâtres",
+        "hymenophore": "Lamelles blanches ; anneau strié ; pied bulbeux",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -638,28 +653,43 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien en forêts de feuillus et de conifères",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Amanita pantherina, dangereuse"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-golmotte",
       "common_name_fr": "Golmotte",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Amanita rubescens",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -667,8 +697,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun rosé à plaques de voile ; chair rougissant à la blessure",
+        "hymenophore": "Lamelles blanches ; anneau ; pied bulbeux rougissant",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -676,21 +706,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien en forêts de feuillus et conifères",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Amanita pantherina et autres amanites ; ne pas se fier au rougissement seul"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -889,7 +934,7 @@
     {
       "id": "guide2027-clitocybeblancdivoire",
       "common_name_fr": "Clitocybe blanc d’ivoire",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Clitocybe dealbata",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -897,8 +942,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Petit chapeau blanchâtre à crème, parfois déprimé",
+        "hymenophore": "Lamelles claires plus ou moins décurrentes",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -906,21 +951,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Pelouses et prairies ; saprotrophe",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Petits clitocybes blancs à muscarine ; groupe complexe"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -975,7 +1035,7 @@
     {
       "id": "guide2027-cortinairecouleurderocou",
       "common_name_fr": "Cortinaire couleur de rocou",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Cortinarius orellanus",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -983,8 +1043,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun rouille à orangé, fibrilleux",
+        "hymenophore": "Lamelles cannelle à rouille ; cortine chez le jeune ; sporée rouille",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -992,28 +1052,43 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien avec feuillus, notamment chênes",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres cortinaires ; toxique mortel"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-pholiotedupeuplier",
       "common_name_fr": "Pholiote du peuplier",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Cyclocybe aegerita",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1021,8 +1096,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun clair à brun, plus pâle avec l’âge",
+        "hymenophore": "Lamelles claires puis brunes ; anneau sur le pied",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1030,28 +1105,43 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Sur bois de peuplier et autres feuillus ; lignicole",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres champignons en touffes sur bois"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-entolomeenbouclier",
       "common_name_fr": "Entolome en bouclier",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Entoloma clypeatum",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1059,8 +1149,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau gris brun, souvent mamelonné",
+        "hymenophore": "Lamelles devenant roses ; sporée rose",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1068,28 +1158,43 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Au sol près des Rosacées ligneuses, notamment prunellier et aubépine",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres entolomes dont espèces toxiques"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-entolomelivide",
       "common_name_fr": "Entolome livide",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Entoloma sinuatum",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1097,8 +1202,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Grand chapeau crème à gris pâle, charnu",
+        "hymenophore": "Lamelles jaunes pâles puis saumon rosé ; sporée rose",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1106,21 +1211,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien sous feuillus, souvent sols basiques",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Calocybe gambosa et autres espèces pâles ; toxique"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1223,7 +1343,7 @@
     {
       "id": "guide2027-pholiotechangeante",
       "common_name_fr": "Pholiote changeante",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Kuehneromyces mutabilis",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1231,8 +1351,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun miel hygrophane, souvent bicolore",
+        "hymenophore": "Lamelles brunissant ; anneau ; pied écailleux sous l’anneau",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1240,21 +1360,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Touffes sur bois mort de feuillus",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Galerina marginata, mortelle"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1357,7 +1492,7 @@
     {
       "id": "guide2027-lactaireveloute",
       "common_name_fr": "Lactaire velouté",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Lactifluus vellereus",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1365,8 +1500,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Grand chapeau blanc crème, feutré, déprimé",
+        "hymenophore": "Lamelles espacées ; latex blanc ; chair ferme",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1374,28 +1509,43 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien en forêts feuillues et mixtes",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Lactifluus bertillonii et autres lactaires blancs"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-lepioteacrete",
       "common_name_fr": "Lépiote à crête",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Lepiota cristata",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1403,8 +1553,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Petit chapeau blanc à écailles brun rougeâtre concentriques",
+        "hymenophore": "Lamelles blanches libres ; anneau fragile ; odeur souvent désagréable",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1412,28 +1562,43 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Litière, parcs, jardins et sols riches",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Petites lépiotes dangereuses ; groupe à éviter"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-piedbleu",
       "common_name_fr": "Pied-bleu",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Lepista nuda",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1441,8 +1606,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau lilas à brun violacé",
+        "hymenophore": "Lamelles violettes ; pied lilas sans cortine",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1450,28 +1615,43 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Litière riche des forêts, jardins et haies ; saprotrophe",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Cortinaires violets ; vérifier absence de cortine et sporée"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-lepiotepudique",
       "common_name_fr": "Lépiote pudique",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Leucoagaricus leucothites",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1479,8 +1659,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau blanc à crème, lisse ou finement soyeux",
+        "hymenophore": "Lamelles blanches libres ; anneau ; pied sans volve",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1488,21 +1668,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Prairies, pelouses, sols enrichis",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Amanites blanches mortelles ; examen de la base impératif"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1557,7 +1752,7 @@
     {
       "id": "guide2027-mycenerose",
       "common_name_fr": "Mycène rose",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Mycena rosea",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1565,8 +1760,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau rose vif à rose pâle, campanulé puis étalé",
+        "hymenophore": "Lamelles claires ; pied fragile rosé",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1574,28 +1769,43 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Litière des forêts feuillues ; saprotrophe",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres mycènes rosés ; toxique suspecté"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-fauxclitocybelumineux",
       "common_name_fr": "Faux-clitocybe lumineux",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Omphalotus olearius",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1603,8 +1813,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau orangé à brun orangé, souvent en touffes",
+        "hymenophore": "Lamelles vraies décurrentes, jaune orangé",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1612,21 +1822,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Sur bois ou racines de feuillus, notamment oliviers et chênes ; lignicole",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Girolles, qui ont des plis et poussent au sol ; toxique"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1641,8 +1866,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun ocre à marge longtemps enroulée",
+        "hymenophore": "Lamelles décurrentes brunissant au froissement",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1650,21 +1875,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien avec feuillus et conifères",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres paxilles ; toxique potentiellement mortel"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1679,8 +1919,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau blanc soyeux, parfois taché de rose ou bleu vert",
+        "hymenophore": "Lamelles blanches échancrées ; pied blanc fibreux",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1688,21 +1928,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien en forêts feuillues, parfois mixtes",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres tricholomes blancs et entolomes"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1717,8 +1972,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau jaune olivâtre à brun jaune, fibrilleux",
+        "hymenophore": "Lamelles jaunes ; pied jaunâtre",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1726,21 +1981,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien avec pins, surtout sols sableux acides",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Tricholomes jaunes proches ; toxicité grave signalée"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1755,8 +2025,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau gris ardoise à fibrilles radiales foncées",
+        "hymenophore": "Lamelles blanches à jaunâtres ; pied pâle",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1764,21 +2034,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien surtout sous pins, sur sols acides",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Tricholomes gris proches dont toxiques"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1793,8 +2078,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau gris souris fibrilleux à squamuleux",
+        "hymenophore": "Lamelles gris blanchâtre ; pied pâle sans anneau",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1802,21 +2087,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien sous pins et autres conifères",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Tricholoma pardinum, toxique"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1831,8 +2131,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Grand chapeau gris à écailles foncées",
+        "hymenophore": "Lamelles blanches puis grisâtres ; pied robuste",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1840,21 +2140,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien sous feuillus et conifères, souvent sols calcaires",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Tricholomes gris ; toxique"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1869,8 +2184,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Petit entonnoir gris brun à noirâtre, mince",
+        "hymenophore": "Face inférieure à plis gris cendré ; pied creux",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1878,28 +2193,43 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien en forêts feuillues, souvent hêtres",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Craterellus cornucopioides et espèces proches"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-chanterellejaune",
       "common_name_fr": "Chanterelle jaune",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Craterellus lutescens",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedi champi2.pdf",
@@ -1907,8 +2237,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun à orange brun, mince, déprimé",
+        "hymenophore": "Face inférieure presque lisse à faiblement plissée, jaune orangé ; pied jaune",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1916,21 +2246,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien sous conifères, stations humides",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Craterellus tubaeformis"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1945,8 +2290,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun foncé à presque noir, mat",
+        "hymenophore": "Pores blancs puis jaunes ; pied robuste à réseau",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1954,21 +2299,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien surtout avec chênes et châtaigniers, souvent stations chaudes",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres cèpes et bolets à réseau"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1983,8 +2343,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun clair à noisette, sec et parfois craquelé",
+        "hymenophore": "Pores blancs puis jaunes ; réseau sur une grande partie du pied",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1992,21 +2352,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien sous feuillus, surtout chênes et hêtres",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Boletus edulis et autres cèpes"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -2021,8 +2396,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun châtain",
+        "hymenophore": "Pores jaunâtres bleuissant souvent à la pression ; pied sans réseau marqué",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -2030,21 +2405,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien en forêts de conifères et mixtes, sols souvent acides",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Bolets brun châtain proches"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -2059,8 +2449,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau orangé à brun orangé",
+        "hymenophore": "Pores pâles ; pied à scabres foncés ; chair pouvant griser ou noircir",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -2068,21 +2458,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien avec feuillus ; détermination précise liée à l’hôte",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Complexe Leccinum aurantiacum, taxonomie à vérifier"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -2097,8 +2502,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun velouté",
+        "hymenophore": "Pores rouge orangé ; pied ponctué de rouge sans réseau ; chair bleuissant fortement",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -2106,21 +2511,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien en forêts de feuillus et conifères",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Suillellus luridus, bolets rouges et espèces toxiques"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -2135,8 +2555,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun olive à beige brun",
+        "hymenophore": "Pores orangés à rouges ; réseau sur pied ; bleuissement à la coupe",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -2144,21 +2564,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien avec feuillus, souvent sols calcaires",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Neoboletus erythropus et autres bolets à pores rouges"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -2173,8 +2608,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Grand chapeau blanchâtre à gris clair",
+        "hymenophore": "Pores rouges à maturité ; pied trapu jaune et rouge réticulé",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -2182,21 +2617,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien sous feuillus thermophiles, sols calcaires",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres bolets à pores rouges ; toxique"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -2299,7 +2749,7 @@
     {
       "id": "guide2027-nonnettevoilee",
       "common_name_fr": "Nonnette voilée",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Suillus luteus",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedi champi2.pdf",
@@ -2307,8 +2757,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun très visqueux par temps humide",
+        "hymenophore": "Pores jaunes ; anneau membraneux sur le pied",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -2316,21 +2766,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien avec pins, notamment pins à deux aiguilles",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Suillus granulatus, sans anneau"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -2345,8 +2810,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun à brun rougeâtre, souvent craquelé révélant du rose rougeâtre",
+        "hymenophore": "Pores jaunes, parfois bleuissants ; pied mince rougeâtre",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -2354,21 +2819,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien avec feuillus et conifères",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres Xerocomellus ; complexe difficile"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -2383,8 +2863,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Console charnue rouge à brun rouge, évoquant une langue",
+        "hymenophore": "Pores fins sous la console ; chair rouge marbrée",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -2392,21 +2872,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Sur troncs et bases de chênes et châtaigniers, parasite et décomposeur",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres polypores charnus"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -2421,8 +2916,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Consoles imbriquées jaune soufre à orange vif",
+        "hymenophore": "Pores jaunes fins ; chair tendre jeune puis fibreuse",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -2430,21 +2925,36 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Sur bois de feuillus, vivant ou mort ; parasite et saprotrophe",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres polypores jaunes ; identification de l’hôte utile"
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
+          "verification": "pending"
+        },
+        {
+          "reference": "FongiRef / TAXREF pour taxonomie",
+          "verification": "pending"
+        },
+        {
+          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
+          "verification": "pending"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     }
