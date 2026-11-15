@@ -333,12 +333,36 @@ if(page==='identifier'){
    const labels=(await response.text()).replace(/^\uFEFF/,'').split(/\r?\n/).map(v=>v.trim()).filter(Boolean);if(labels.length<100)throw Error('Le référentiel des noms est incomplet : aucun numéro de classe ne sera affiché.');
    result.textContent='Chargement du modèle (~3 Mo), puis analyse locale…';
    const model=await window.tflite.loadTFLiteModel('./models/fungi/fungi_int8.tflite?v=20261115-noms');
-   const file=photos.files[0];if(!file)throw Error('Sélectionne une photographie.');
-   const img=await createImageBitmap(file),canvas=document.createElement('canvas');canvas.width=canvas.height=160;
-   const ctx=canvas.getContext('2d',{willReadFrequently:true});const side=Math.min(img.width,img.height);
-   ctx.drawImage(img,(img.width-side)/2,(img.height-side)/2,side,side,0,0,160,160);img.close?.();
-   const input=window.tf.tidy(()=>window.tf.browser.fromPixels(canvas).expandDims(0));
-   let output;try{output=model.predict(input);const tensor=Array.isArray(output)?output[0]:output;const scores=Array.from(await tensor.data());const top=scores.map((v,i)=>({i,v})).sort((a,b)=>b.v-a.v).slice(0,5);result.replaceChildren();const head=document.createElement('p');head.textContent='⚠️ Hypothèses visuelles expérimentales — aucune validation de comestibilité.';result.append(head);for(const item of top){const p=document.createElement('p');const label=labels[item.i];if(!label){p.textContent='Espèce non renseignée dans le référentiel — résultat masqué (indice '+item.i+').';p.style.color='#9b3e1d';}else{const latin=label.replace(/\s*\([^)]*\)\s*$/,'').trim();const common=(label.match(/\(([^()]*)\)\s*$/)||[])[1];p.textContent=(common&&common.toLowerCase()!==latin.toLowerCase()?common+' — ':'')+latin+' · indice du modèle '+(Number(item.v)/256*100).toFixed(1)+' % (non calibré)';}result.append(p)}const foot=document.createElement('p');foot.textContent='Seule la première photo sélectionnée a été analysée. Les indices ne sont pas des probabilités fiables. La comparaison morphologique avec l’encyclopédie reste à développer.';result.append(foot)}finally{input.dispose();if(output){(Array.isArray(output)?output:[output]).forEach(t=>t.dispose?.())}}
+   const files=Array.from(photos.files||[]);if(!files.length)throw Error('Sélectionne au moins une photographie.');
+   const allScores=[],failures=[];
+   for(let k=0;k<files.length;k++){
+    result.textContent='Analyse locale : photo '+(k+1)+' / '+files.length+'…';
+    let input=null,output=null,img=null;
+    try{
+     img=await createImageBitmap(files[k]);
+     const canvas=document.createElement('canvas');canvas.width=canvas.height=160;
+     const ctx=canvas.getContext('2d',{willReadFrequently:true});const side=Math.min(img.width,img.height);
+     ctx.drawImage(img,(img.width-side)/2,(img.height-side)/2,side,side,0,0,160,160);
+     input=window.tf.tidy(()=>window.tf.browser.fromPixels(canvas).expandDims(0));
+     output=model.predict(input);const tensor=Array.isArray(output)?output[0]:output;
+     allScores.push({number:k+1,scores:Array.from(await tensor.data())});
+    }catch(err){failures.push('Photo '+(k+1)+' : '+err.message)}
+    finally{img?.close?.();input?.dispose?.();if(output)(Array.isArray(output)?output:[output]).forEach(t=>t.dispose?.())}
+   }
+   if(!allScores.length)throw Error('Aucune photo analysable. '+failures.join(' ; '));
+   const n=allScores[0].scores.length;
+   if(allScores.some(a=>a.scores.length!==n))throw Error('Sorties du modèle de tailles différentes : regroupement impossible.');
+   const combined=Array.from({length:n},(_,i)=>({i,v:allScores.reduce((sum,a)=>sum+a.scores[i],0)/allScores.length})).sort((a,b)=>b.v-a.v).slice(0,5);
+   const renderLabel=i=>{const label=labels[i];if(!label)return 'Espèce non renseignée (classe '+i+')';const latin=label.replace(/\\s*\\([^)]*\\)\\s*$/,'').trim();const common=(label.match(/\\(([^()]*)\\)\\s*$/)||[])[1];return (common&&common.toLowerCase()!==latin.toLowerCase()?common+' — ':'')+latin};
+   result.replaceChildren();
+   const head=document.createElement('p');head.textContent='⚠️ Hypothèses visuelles expérimentales — aucune validation de comestibilité.';result.append(head);
+   const summary=document.createElement('p');summary.textContent=allScores.length+' photo(s) analysée(s) sur '+files.length+'. Classement moyen indicatif :';result.append(summary);
+   for(const item of combined){const p=document.createElement('p');p.textContent=renderLabel(item.i)+' · score moyen brut '+item.v.toFixed(2)+' (non calibré)';result.append(p)}
+   const detail=document.createElement('details');const title=document.createElement('summary');title.textContent='Voir les résultats de chaque photo';detail.append(title);
+   for(const item of allScores){const best=item.scores.map((v,i)=>({i,v})).sort((a,b)=>b.v-a.v).slice(0,3);const p=document.createElement('p');p.textContent='Photo '+item.number+' : '+best.map(x=>renderLabel(x.i)).join(' · ');detail.append(p)}result.append(detail);
+   if(failures.length){const p=document.createElement('p');p.textContent='Photos non analysées : '+failures.join(' ; ');result.append(p)}
+   const foot=document.createElement('p');foot.textContent='Le classement moyen est exploratoire : des vues différentes peuvent produire des résultats contradictoires. Les scores ne sont pas des probabilités. Vérifie que toutes les photos montrent le même champignon.';result.append(foot);
+
   }catch(e){result.textContent='Analyse indisponible : '+e.message+' Les photos sont restées sur cet appareil.'}
   finally{refresh()}
  };
