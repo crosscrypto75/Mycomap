@@ -29,7 +29,7 @@ def catalog_names():
     start = source.index("const catalog=") + len("const catalog=")
     end = source.index("];", start) + 1
     initial = json.loads(source[start:end])
-    match = re.search(r"catalog\\.push\\(\\.\\.\\.(\\[\\[.*?\\]\\])\\);", source, re.S)
+    match = re.search(r"catalog\.push\(\.\.\.([\s\S]*?)\);", source)
     extra = json.loads(match.group(1)) if match else []
     names = list(dict.fromkeys(row[1] for row in initial + extra))
     if len(names) < 70:
