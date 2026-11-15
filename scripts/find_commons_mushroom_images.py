@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Rechercher des illustrations candidates sur Wikimedia Commons, sans publier automatiquement."""
 import json, re, sys, time
-import ast
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
@@ -25,7 +24,7 @@ def main():
     html = SOURCE.read_text(encoding="utf-8")
     start = html.index("const catalog=") + len("const catalog=")
     end = html.index("];", start) + 1
-    initial = ast.literal_eval(html[start:end])
+    initial = json.loads(html[start:end])
     match = re.search(r"catalog\\.push\\(\\.\\.\\.(\\[\\[.*?\\]\\])\\);", html, re.S)
     extra = json.loads(match.group(1)) if match else []
     names = list(dict.fromkeys(row[1] for row in initial + extra))
