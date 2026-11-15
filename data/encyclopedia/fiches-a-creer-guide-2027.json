@@ -1,0 +1,2212 @@
+{
+  "schema_version": "1.0",
+  "kind": "new_species_drafts",
+  "count": 58,
+  "warning": "Drafts, not scientifically validated. No guessed species traits or edibility. Do not display as verified.",
+  "records": [
+    {
+      "id": "guide2027-pezizeorangee",
+      "common_name_fr": "Pézize orangée",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 8,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-oreilledejudas",
+      "common_name_fr": "Oreille-de-Judas",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 9,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-sparassiscrepu",
+      "common_name_fr": "Sparassis crépu",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 10,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-helvellecrepue",
+      "common_name_fr": "Helvelle crépue",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 11,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-morillecommune",
+      "common_name_fr": "Morille commune",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 12,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-pleuroteenhuitre",
+      "common_name_fr": "Pleurote en huître",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 13,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-rosedespres",
+      "common_name_fr": "Rosé-des-prés",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 15,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-agaricjaunissant",
+      "common_name_fr": "Agaric jaunissant",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 16,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-oronge",
+      "common_name_fr": "Oronge",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 17,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-amanitetuemouches",
+      "common_name_fr": "Amanite tue-mouches",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 18,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-amanitecitrine",
+      "common_name_fr": "Amanite citrine",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 19,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-amanitejonquille",
+      "common_name_fr": "Amanite jonquille",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 20,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-amanitepanthere",
+      "common_name_fr": "Amanite panthère",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 21,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-amaniteepaisse",
+      "common_name_fr": "Amanite épaisse",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 23,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-golmotte",
+      "common_name_fr": "Golmotte",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 24,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-armillairecouleurdemiel",
+      "common_name_fr": "Armillaire couleur de miel",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 26,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-tricholomedelasaintgeorges",
+      "common_name_fr": "Tricholome de la Saint-Georges",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 27,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-clitocybenebuleux",
+      "common_name_fr": "Clitocybe nébuleux",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 28,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-clitocybeanise",
+      "common_name_fr": "Clitocybe anisé",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 29,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-clitocybeblancdivoire",
+      "common_name_fr": "Clitocybe blanc d’ivoire",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 31,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-coprinchevelu",
+      "common_name_fr": "Coprin chevelu",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 32,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-cortinairecouleurderocou",
+      "common_name_fr": "Cortinaire couleur de rocou",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 33,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-pholiotedupeuplier",
+      "common_name_fr": "Pholiote du peuplier",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 34,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-entolomeenbouclier",
+      "common_name_fr": "Entolome en bouclier",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 35,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-entolomelivide",
+      "common_name_fr": "Entolome livide",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 36,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-faussegirolle",
+      "common_name_fr": "Fausse-girolle",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 37,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-hypholomeentouffe",
+      "common_name_fr": "Hypholome en touffe",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 38,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-pholiotechangeante",
+      "common_name_fr": "Pholiote changeante",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 39,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-galerinemarginee",
+      "common_name_fr": "Galérine marginée",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 40,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-laccaireamethyste",
+      "common_name_fr": "Laccaire améthyste",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 41,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-lactaireveloute",
+      "common_name_fr": "Lactaire velouté",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 44,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-lepioteacrete",
+      "common_name_fr": "Lépiote à crête",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 45,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-piedbleu",
+      "common_name_fr": "Pied-bleu",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 46,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-lepiotepudique",
+      "common_name_fr": "Lépiote pudique",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 47,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-marasmedesoreades",
+      "common_name_fr": "Marasme des oréades",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 49,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-mycenerose",
+      "common_name_fr": "Mycène rose",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 50,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-fauxclitocybelumineux",
+      "common_name_fr": "Faux-clitocybe lumineux",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedie champi.pdf",
+        "printed_page": 51,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-paxilleenroule",
+      "common_name_fr": "Paxille enroulé",
+      "scientific_name_candidate": "Paxillus involutus",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 52,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-tricholomecolombette",
+      "common_name_fr": "Tricholome colombette",
+      "scientific_name_candidate": "Tricholoma columbetta",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 56,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-tricholomeequestre",
+      "common_name_fr": "Tricholome équestre",
+      "scientific_name_candidate": "Tricholoma equestre",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 57,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-tricholomepretentieux",
+      "common_name_fr": "Tricholome prétentieux",
+      "scientific_name_candidate": "Tricholoma portentosum",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 58,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-tricholometerreux",
+      "common_name_fr": "Tricholome terreux",
+      "scientific_name_candidate": "Tricholoma terreum",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 59,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-tricholometigre",
+      "common_name_fr": "Tricholome tigré",
+      "scientific_name_candidate": "Tricholoma pardinum",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 60,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-chanterellecendree",
+      "common_name_fr": "Chanterelle cendrée",
+      "scientific_name_candidate": "Craterellus cinereus",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 61,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-chanterellejaune",
+      "common_name_fr": "Chanterelle jaune",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 62,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-cepebronze",
+      "common_name_fr": "Cèpe bronzé",
+      "scientific_name_candidate": "Boletus aereus",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 64,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-cepedete",
+      "common_name_fr": "Cèpe d’été",
+      "scientific_name_candidate": "Boletus reticulatus",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 66,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-boletbai",
+      "common_name_fr": "Bolet bai",
+      "scientific_name_candidate": "Imleria badia",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 67,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-boletorange",
+      "common_name_fr": "Bolet orangé",
+      "scientific_name_candidate": "Leccinum aurantiacum",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 68,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-boletapiedrouge",
+      "common_name_fr": "Bolet à pied rouge",
+      "scientific_name_candidate": "Neoboletus erythropus",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 69,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-boletblafard",
+      "common_name_fr": "Bolet blafard",
+      "scientific_name_candidate": "Suillellus luridus",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 70,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-boletsatan",
+      "common_name_fr": "Bolet Satan",
+      "scientific_name_candidate": "Rubroboletus satanas",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 71,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-boletgranule",
+      "common_name_fr": "Bolet granulé",
+      "scientific_name_candidate": "Suillus granulatus",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 72,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-boletdesbouviers",
+      "common_name_fr": "Bolet des bouviers",
+      "scientific_name_candidate": "Suillus bovinus",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 73,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-nonnettevoilee",
+      "common_name_fr": "Nonnette voilée",
+      "scientific_name_candidate": null,
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 74,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-boletachairjaune",
+      "common_name_fr": "Bolet à chair jaune",
+      "scientific_name_candidate": "Xerocomellus chrysenteron",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 75,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-languedebuf",
+      "common_name_fr": "Langue-de-bœuf",
+      "scientific_name_candidate": "Fistulina hepatica",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 76,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    },
+    {
+      "id": "guide2027-polyporesoufre",
+      "common_name_fr": "Polypore soufré",
+      "scientific_name_candidate": "Laetiporus sulphureus",
+      "taxonomy_review": "pending",
+      "source": {
+        "document": "Encyclopedi champi2.pdf",
+        "printed_page": 77,
+        "verification": "inventory transcription; recheck original scan"
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "flesh": null,
+        "latex": null,
+        "spore_print": null
+      },
+      "ecology": {
+        "associated_trees": [],
+        "substrate": null,
+        "soil": null,
+        "ph": null,
+        "season": [],
+        "moisture": null
+      },
+      "lookalikes": [],
+      "identification_checks": [],
+      "toxicity": {
+        "status": "not_verified",
+        "source": null
+      },
+      "references": [],
+      "illustrations": [],
+      "review_state": "draft_not_published",
+      "map_eligible": false,
+      "ai_encyclopedia_eligible": false
+    }
+  ]
+}
