@@ -18,5 +18,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: commons-mushroom-image-candidates
-          path: data/encyclopedia/commons-candidates.json
+          path: |
+            data/encyclopedia/commons-candidates.json
+            data/encyclopedia/commons-coverage.json
           retention-days: 30
