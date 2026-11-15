@@ -1,0 +1,490 @@
+{
+  "schema_version": "1.0",
+  "grouping": "navigation groups, not necessarily biological families",
+  "total": 76,
+  "groups": {
+    "Cèpes et bolets": [
+      {
+        "name": "Bolet à chair jaune",
+        "scientific": "Xerocomellus chrysenteron",
+        "origin": "draft",
+        "id": "guide2027-boletachairjaune"
+      },
+      {
+        "name": "Bolet à pied rouge",
+        "scientific": "Neoboletus erythropus",
+        "origin": "draft",
+        "id": "guide2027-boletapiedrouge"
+      },
+      {
+        "name": "Bolet bai",
+        "scientific": "Imleria badia",
+        "origin": "draft",
+        "id": "guide2027-boletbai"
+      },
+      {
+        "name": "Bolet blafard",
+        "scientific": "Suillellus luridus",
+        "origin": "draft",
+        "id": "guide2027-boletblafard"
+      },
+      {
+        "name": "Bolet des bouviers",
+        "scientific": "Suillus bovinus",
+        "origin": "draft",
+        "id": "guide2027-boletdesbouviers"
+      },
+      {
+        "name": "Bolet granulé",
+        "scientific": "Suillus granulatus",
+        "origin": "draft",
+        "id": "guide2027-boletgranule"
+      },
+      {
+        "name": "Bolet orangé",
+        "scientific": "Leccinum aurantiacum",
+        "origin": "draft",
+        "id": "guide2027-boletorange"
+      },
+      {
+        "name": "Bolet Satan",
+        "scientific": "Rubroboletus satanas",
+        "origin": "draft",
+        "id": "guide2027-boletsatan"
+      },
+      {
+        "name": "Cèpe bronzé",
+        "scientific": "Boletus aereus",
+        "origin": "draft",
+        "id": "guide2027-cepebronze"
+      },
+      {
+        "name": "Cèpe d’été",
+        "scientific": "Boletus reticulatus",
+        "origin": "draft",
+        "id": "guide2027-cepedete"
+      },
+      {
+        "name": "Cèpe de Bordeaux",
+        "scientific": "Boletus edulis",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Nonnette voilée",
+        "scientific": "Suillus luteus",
+        "origin": "draft",
+        "id": "guide2027-nonnettevoilee"
+      }
+    ],
+    "Girolles et chanterelles": [
+      {
+        "name": "Chanterelle cendrée",
+        "scientific": "Craterellus cinereus",
+        "origin": "draft",
+        "id": "guide2027-chanterellecendree"
+      },
+      {
+        "name": "Chanterelle en tube",
+        "scientific": "Craterellus tubaeformis",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Chanterelle jaune",
+        "scientific": "Craterellus lutescens",
+        "origin": "draft",
+        "id": "guide2027-chanterellejaune"
+      },
+      {
+        "name": "Fausse-girolle",
+        "scientific": "Hygrophoropsis aurantiaca",
+        "origin": "draft",
+        "id": "guide2027-faussegirolle"
+      },
+      {
+        "name": "Girolle",
+        "scientific": "Cantharellus cibarius",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Trompette de la mort",
+        "scientific": "Craterellus cornucopioides",
+        "origin": "existing",
+        "id": null
+      }
+    ],
+    "Autres champignons": [
+      {
+        "name": "Coprin chevelu",
+        "scientific": "Coprinopsis comatus",
+        "origin": "draft",
+        "id": "guide2027-coprinchevelu"
+      },
+      {
+        "name": "Cortinaire couleur de rocou",
+        "scientific": "Cortinarius orellanus",
+        "origin": "draft",
+        "id": "guide2027-cortinairecouleurderocou"
+      },
+      {
+        "name": "Entolome en bouclier",
+        "scientific": "Entoloma clypeatum",
+        "origin": "draft",
+        "id": "guide2027-entolomeenbouclier"
+      },
+      {
+        "name": "Entolome livide",
+        "scientific": "Entoloma sinuatum",
+        "origin": "draft",
+        "id": "guide2027-entolomelivide"
+      },
+      {
+        "name": "Helvelle crépue",
+        "scientific": "Helvella crispa",
+        "origin": "draft",
+        "id": "guide2027-helvellecrepue"
+      },
+      {
+        "name": "Laccaire améthyste",
+        "scientific": "Laccaria amethystina",
+        "origin": "draft",
+        "id": "guide2027-laccaireamethyste"
+      },
+      {
+        "name": "Marasme des oréades",
+        "scientific": "Marasmius oreades",
+        "origin": "draft",
+        "id": "guide2027-marasmedesoreades"
+      },
+      {
+        "name": "Meunier",
+        "scientific": "Clitopilus prunulus",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Morille commune",
+        "scientific": "Morchella esculenta",
+        "origin": "draft",
+        "id": "guide2027-morillecommune"
+      },
+      {
+        "name": "Mycène rose",
+        "scientific": "Mycena rosea",
+        "origin": "draft",
+        "id": "guide2027-mycenerose"
+      },
+      {
+        "name": "Paxille enroulé",
+        "scientific": "Paxillus involutus",
+        "origin": "draft",
+        "id": "guide2027-paxilleenroule"
+      },
+      {
+        "name": "Pézize orangée",
+        "scientific": "Aleuria aurantia",
+        "origin": "draft",
+        "id": "guide2027-pezizeorangee"
+      },
+      {
+        "name": "Pied-de-mouton",
+        "scientific": "Hydnum repandum",
+        "origin": "existing",
+        "id": null
+      }
+    ],
+    "Lépiotes et coulemelles": [
+      {
+        "name": "Coulemelle",
+        "scientific": "Macrolepiota procera",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Lépiote à crête",
+        "scientific": "Lepiota cristata",
+        "origin": "draft",
+        "id": "guide2027-lepioteacrete"
+      },
+      {
+        "name": "Lépiote pudique",
+        "scientific": "Leucoagaricus leucothites",
+        "origin": "draft",
+        "id": "guide2027-lepiotepudique"
+      }
+    ],
+    "Amanites": [
+      {
+        "name": "Amanite citrine",
+        "scientific": "Amanita citrina",
+        "origin": "draft",
+        "id": "guide2027-amanitecitrine"
+      },
+      {
+        "name": "Amanite épaisse",
+        "scientific": "Amanita excelsa",
+        "origin": "draft",
+        "id": "guide2027-amaniteepaisse"
+      },
+      {
+        "name": "Amanite jonquille",
+        "scientific": "Amanita gemmata",
+        "origin": "draft",
+        "id": "guide2027-amanitejonquille"
+      },
+      {
+        "name": "Amanite panthère",
+        "scientific": "Amanita pantherina",
+        "origin": "draft",
+        "id": "guide2027-amanitepanthere"
+      },
+      {
+        "name": "Amanite phalloïde",
+        "scientific": "Amanita phalloides",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Amanite tue-mouches",
+        "scientific": "Amanita muscaria",
+        "origin": "draft",
+        "id": "guide2027-amanitetuemouches"
+      },
+      {
+        "name": "Golmotte",
+        "scientific": "Amanita rubescens",
+        "origin": "draft",
+        "id": "guide2027-golmotte"
+      },
+      {
+        "name": "Oronge",
+        "scientific": "Amanita caesarea",
+        "origin": "draft",
+        "id": "guide2027-oronge"
+      }
+    ],
+    "Russules": [
+      {
+        "name": "Russule charbonnière",
+        "scientific": "Russula cyanoxantha",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Russule comestible",
+        "scientific": "Russula vesca",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Russule verdoyante",
+        "scientific": "Russula virescens",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Russules",
+        "scientific": "Russula spp.",
+        "origin": "existing",
+        "id": null
+      }
+    ],
+    "Lactaires": [
+      {
+        "name": "Lactaire de l'épicéa",
+        "scientific": "Lactarius deterrimus",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Lactaire délicieux",
+        "scientific": "Lactarius deliciosus",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Lactaire sanguin",
+        "scientific": "Lactarius sanguifluus",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Lactaire saumon",
+        "scientific": "Lactarius salmonicolor",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Lactaire semi-sanguin",
+        "scientific": "Lactarius semisanguifluus",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Lactaire tranquille",
+        "scientific": "Lactarius quietus",
+        "origin": "existing",
+        "id": null
+      },
+      {
+        "name": "Lactaire velouté",
+        "scientific": "Lactifluus vellereus",
+        "origin": "draft",
+        "id": "guide2027-lactaireveloute"
+      }
+    ],
+    "Champignons du bois": [
+      {
+        "name": "Armillaire couleur de miel",
+        "scientific": "Armillaria mellea",
+        "origin": "draft",
+        "id": "guide2027-armillairecouleurdemiel"
+      },
+      {
+        "name": "Galérine marginée",
+        "scientific": "Galerina marginata",
+        "origin": "draft",
+        "id": "guide2027-galerinemarginee"
+      },
+      {
+        "name": "Hypholome en touffe",
+        "scientific": "Hypholoma fasciculare",
+        "origin": "draft",
+        "id": "guide2027-hypholomeentouffe"
+      },
+      {
+        "name": "Langue-de-bœuf",
+        "scientific": "Fistulina hepatica",
+        "origin": "draft",
+        "id": "guide2027-languedebuf"
+      },
+      {
+        "name": "Oreille-de-Judas",
+        "scientific": "Auricularia auricula-judae",
+        "origin": "draft",
+        "id": "guide2027-oreilledejudas"
+      },
+      {
+        "name": "Pholiote changeante",
+        "scientific": "Kuehneromyces mutabilis",
+        "origin": "draft",
+        "id": "guide2027-pholiotechangeante"
+      },
+      {
+        "name": "Pholiote du peuplier",
+        "scientific": "Cyclocybe aegerita",
+        "origin": "draft",
+        "id": "guide2027-pholiotedupeuplier"
+      },
+      {
+        "name": "Pleurote en huître",
+        "scientific": "Pleurotus ostreatus",
+        "origin": "draft",
+        "id": "guide2027-pleuroteenhuitre"
+      },
+      {
+        "name": "Polypore soufré",
+        "scientific": "Laetiporus sulphureus",
+        "origin": "draft",
+        "id": "guide2027-polyporesoufre"
+      },
+      {
+        "name": "Sparassis crépu",
+        "scientific": "Sparassis crispa",
+        "origin": "draft",
+        "id": "guide2027-sparassiscrepu"
+      }
+    ],
+    "Agarics": [
+      {
+        "name": "Agaric jaunissant",
+        "scientific": "Agaricus xanthodermus",
+        "origin": "draft",
+        "id": "guide2027-agaricjaunissant"
+      },
+      {
+        "name": "Rosé-des-prés",
+        "scientific": "Agaricus campestris",
+        "origin": "draft",
+        "id": "guide2027-rosedespres"
+      }
+    ],
+    "Tricholomes": [
+      {
+        "name": "Tricholome colombette",
+        "scientific": "Tricholoma columbetta",
+        "origin": "draft",
+        "id": "guide2027-tricholomecolombette"
+      },
+      {
+        "name": "Tricholome de la Saint-Georges",
+        "scientific": "Calocybe gambosa",
+        "origin": "draft",
+        "id": "guide2027-tricholomedelasaintgeorges"
+      },
+      {
+        "name": "Tricholome équestre",
+        "scientific": "Tricholoma equestre",
+        "origin": "draft",
+        "id": "guide2027-tricholomeequestre"
+      },
+      {
+        "name": "Tricholome prétentieux",
+        "scientific": "Tricholoma portentosum",
+        "origin": "draft",
+        "id": "guide2027-tricholomepretentieux"
+      },
+      {
+        "name": "Tricholome terreux",
+        "scientific": "Tricholoma terreum",
+        "origin": "draft",
+        "id": "guide2027-tricholometerreux"
+      },
+      {
+        "name": "Tricholome tigré",
+        "scientific": "Tricholoma pardinum",
+        "origin": "draft",
+        "id": "guide2027-tricholometigre"
+      }
+    ],
+    "Clitocybes et apparentés": [
+      {
+        "name": "Clitocybe anisé",
+        "scientific": "Clitocybe odora",
+        "origin": "draft",
+        "id": "guide2027-clitocybeanise"
+      },
+      {
+        "name": "Clitocybe blanc d’ivoire",
+        "scientific": "Clitocybe dealbata",
+        "origin": "draft",
+        "id": "guide2027-clitocybeblancdivoire"
+      },
+      {
+        "name": "Clitocybe nébuleux",
+        "scientific": "Clitocybe nebularis",
+        "origin": "draft",
+        "id": "guide2027-clitocybenebuleux"
+      },
+      {
+        "name": "Faux-clitocybe lumineux",
+        "scientific": "Omphalotus olearius",
+        "origin": "draft",
+        "id": "guide2027-fauxclitocybelumineux"
+      },
+      {
+        "name": "Pied-bleu",
+        "scientific": "Lepista nuda",
+        "origin": "draft",
+        "id": "guide2027-piedbleu"
+      }
+    ]
+  },
+  "validation_status": "classification from provisional names; not individually taxonomically confirmed",
+  "references": [
+    "https://fongiref.fongifrance.fr/",
+    "https://taxref.mnhn.fr/taxref-web/"
+  ]
+}
