@@ -2,12 +2,12 @@
   "schema_version": "1.0",
   "kind": "new_species_drafts",
   "count": 58,
-  "warning": "Drafts, not scientifically validated. No guessed species traits or edibility. Do not display as verified.",
+  "warning": "Synthèses descriptives provisoires, NON validées espèce par espèce par un mycologue. Aucun pH numérique inventé, aucune comestibilité déduite. Références génériques ne prouvent pas chaque champ. Ne pas exposer aux utilisateurs ni au moteur cartographique sans validation.",
   "records": [
     {
       "id": "guide2027-pezizeorangee",
       "common_name_fr": "Pézize orangée",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Aleuria aurantia",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -15,8 +15,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Apothécie en coupe irrégulière, orange vif sur la face fertile ; face externe plus pâle.",
+        "hymenophore": "Sans pied distinct ; chair mince et fragile.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -24,28 +24,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Sol nu remanié, talus, chemins et clairières ; saprotrophe.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Fin d’été à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres pézizes orangées ; contrôle microscopique parfois nécessaire."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-oreilledejudas",
       "common_name_fr": "Oreille-de-Judas",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Auricularia auricula-judae",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -53,8 +63,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Fructification brun rougeâtre, lobée et gélatineuse, rappelant une oreille.",
+        "hymenophore": "Face fertile lisse à plissée ; chair élastique et gélatineuse.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -62,28 +72,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Bois mort ou affaibli de feuillus, fréquemment sureau ; décomposeur du bois.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Toute l’année par temps humide."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres Auricularia ; vérifier substrat et consistance."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-sparassiscrepu",
       "common_name_fr": "Sparassis crépu",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Sparassis crispa",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -91,8 +111,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Masse ramifiée crème à ocre pâle, formée de lobes ondulés en rubans.",
+        "hymenophore": "Pas de chapeau ni de lamelles classiques ; base épaisse ramifiée.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -100,28 +120,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Au pied de conifères, particulièrement pins ; parasite de racines et du bois.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Été à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Sparassis brevipes et autres sparassis ; vérifier essence hôte."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-helvellecrepue",
       "common_name_fr": "Helvelle crépue",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Helvella crispa",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -129,8 +159,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau clair, irrégulier, lobé et plissé, en forme de selle.",
+        "hymenophore": "Pied blanc côtelé, creusé de sillons profonds.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -138,28 +168,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Litière et sol de bois feuillus, lisières, parfois sols remaniés.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Été à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres helvelles ; espèce à ne pas considérer comme comestible."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-morillecommune",
       "common_name_fr": "Morille commune",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Morchella esculenta",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -167,8 +207,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau alvéolé, jaune ocre à brun, soudé au pied.",
+        "hymenophore": "Pied pâle, creux ; section longitudinale généralement creuse.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -176,28 +216,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Sols de feuillus, haies, vergers et milieux perturbés ; écologie variable.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Printemps."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Gyromitres et verpes ; vérifier attache du chapeau et coupe longitudinale."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-pleuroteenhuitre",
       "common_name_fr": "Pleurote en huître",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Pleurotus ostreatus",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -205,8 +255,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeaux gris à brun, en forme de coquille, souvent imbriqués.",
+        "hymenophore": "Lamelles blanchâtres décurrentes ; pied latéral ou très court.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -214,28 +264,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Bois de feuillus morts ou affaiblis, notamment hêtre et peuplier ; lignicole.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Automne à hiver."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Pleurotes proches et champignons lignicoles à lamelles."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-rosedespres",
       "common_name_fr": "Rosé-des-prés",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Agaricus campestris",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -243,8 +303,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau blanc à crème ; lamelles roses puis brun chocolat.",
+        "hymenophore": "Pied avec anneau fragile ou fugace ; sporée brun foncé.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -252,28 +312,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Prairies et pâturages non boisés, sol riche en matière organique.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Été à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Agarics jaunissants ; amanites blanches mortelles chez les jeunes spécimens."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-agaricjaunissant",
       "common_name_fr": "Agaric jaunissant",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Agaricus xanthodermus",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -281,8 +351,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau blanchâtre, jaunissant vivement au frottement, notamment à la base du pied.",
+        "hymenophore": "Lamelles roses puis brun chocolat ; odeur phénol/encre fréquente.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -290,28 +360,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Pelouses, parcs, lisières, sols enrichis.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Été à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Agarics comestibles ; jaunissement et odeur à examiner conjointement."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-oronge",
       "common_name_fr": "Oronge",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Amanita caesarea",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -319,8 +399,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau orangé à rouge orangé, marge striée.",
+        "hymenophore": "Lamelles et pied jaunes ; anneau et volve blanche en sac.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -328,28 +408,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Bois thermophiles de chênes et châtaigniers, souvent sols acides.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Été à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Amanite tue-mouches ; amanites toxiques ; vérifier la base entière."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-amanitetuemouches",
       "common_name_fr": "Amanite tue-mouches",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Amanita muscaria",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -357,8 +447,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau rouge à orangé portant souvent des verrues blanches, parfois lavées.",
+        "hymenophore": "Lamelles blanches ; pied blanc à anneau et base bulbeuse avec bourrelets.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -366,28 +456,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien sous bouleaux, pins, épicéas et autres arbres.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Été à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres amanites ; les verrues peuvent disparaître sous la pluie."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-amanitecitrine",
       "common_name_fr": "Amanite citrine",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Amanita citrina",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -395,8 +495,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau jaune citron pâle à blanchâtre, avec plaques de voile.",
+        "hymenophore": "Lamelles blanches ; anneau et bulbe basal nettement marginé.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -404,21 +504,31 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Forêts feuillues et conifères, souvent sols acides.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Été à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Amanites mortelles blanches ; examiner volve et base."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -463,7 +573,7 @@
     {
       "id": "guide2027-amanitepanthere",
       "common_name_fr": "Amanite panthère",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Amanita pantherina",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -471,8 +581,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun à marge striée, portant des flocons blancs.",
+        "hymenophore": "Lamelles blanches ; anneau ; bulbe à bourrelet supérieur net.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -480,21 +590,31 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien sous feuillus et conifères.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Été à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Amanita rubescens, A. excelsa ; vérifier la base et le rougissement."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -577,7 +697,7 @@
     {
       "id": "guide2027-armillairecouleurdemiel",
       "common_name_fr": "Armillaire couleur de miel",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Armillaria mellea",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -585,8 +705,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau miel à brun jaunâtre, souvent en touffes.",
+        "hymenophore": "Lamelles pâles ; anneau sur le pied ; sporée blanche.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -594,28 +714,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Sur racines et bois de feuillus vivants ou morts ; parasite et saprotrophe.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres armillaires et espèces lignicoles toxiques ; complexe taxonomique."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-tricholomedelasaintgeorges",
       "common_name_fr": "Tricholome de la Saint-Georges",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Calocybe gambosa",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -623,8 +753,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau crème à blanc, charnu ; odeur farineuse caractéristique.",
+        "hymenophore": "Lamelles blanches serrées et échancrées ; pied trapu.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -632,28 +762,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Prairies, lisières, haies, cercles de sorcières.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Printemps."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Entolomes printaniers et autres espèces blanches à lamelles."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-clitocybenebuleux",
       "common_name_fr": "Clitocybe nébuleux",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Clitocybe nebularis",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -661,8 +801,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Grand chapeau gris nuageux à gris brun, souvent déprimé à maturité.",
+        "hymenophore": "Lamelles claires, décurrentes ; odeur forte caractéristique.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -670,28 +810,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Litière de forêts feuillues et conifères, souvent en groupes.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Entoloma sinuatum et autres clitocybes ; réactions digestives possibles."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-clitocybeanise",
       "common_name_fr": "Clitocybe anisé",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Clitocybe odora",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -699,8 +849,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau bleu-vert à gris verdâtre ; forte odeur d’anis.",
+        "hymenophore": "Lamelles pâles décurrentes ; pied de même teinte.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -708,21 +858,31 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Litière des forêts feuillues et mixtes.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Été à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres clitocybes verdâtres ; odeur non suffisante seule."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -767,7 +927,7 @@
     {
       "id": "guide2027-coprinchevelu",
       "common_name_fr": "Coprin chevelu",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Coprinopsis comatus",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -775,8 +935,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau cylindrique blanc à écailles chevelues, noircissant et se liquéfiant avec l’âge.",
+        "hymenophore": "Lamelles blanches puis roses et noires ; pied blanc.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -784,21 +944,31 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Sols riches, prairies, pelouses, bords de chemins.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Printemps à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres coprins ; identifier avant déliquescence."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -957,7 +1127,7 @@
     {
       "id": "guide2027-faussegirolle",
       "common_name_fr": "Fausse-girolle",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Hygrophoropsis aurantiaca",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -965,8 +1135,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau orange à brun orangé, souvent déprimé.",
+        "hymenophore": "Lamelles fines, fourchues, décurrentes (et non plis épais).",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -974,28 +1144,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Sur litière et débris ligneux, souvent en bois de conifères.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Été à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Cantharellus cibarius ; vérifier vraies lamelles contre plis."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-hypholomeentouffe",
       "common_name_fr": "Hypholome en touffe",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Hypholoma fasciculare",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1003,8 +1183,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Petits chapeaux jaune soufre, souvent en touffes serrées.",
+        "hymenophore": "Lamelles jaunes puis verdâtres à violacées.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1012,21 +1192,31 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Bois mort et souches de feuillus ou conifères ; saprotrophe.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Printemps à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Pholiote changeante et autres espèces en touffes ; toxique."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1071,7 +1261,7 @@
     {
       "id": "guide2027-galerinemarginee",
       "common_name_fr": "Galérine marginée",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Galerina marginata",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1079,8 +1269,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Petit chapeau brun miel hygrophane.",
+        "hymenophore": "Lamelles brun rouille ; anneau parfois présent ; sporée rouille.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1088,28 +1278,38 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Bois mort, notamment conifères mais aussi feuillus.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Toute saison humide, surtout automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Pholiote changeante et autres petits champignons lignicoles ; mortelle."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
     {
       "id": "guide2027-laccaireamethyste",
       "common_name_fr": "Laccaire améthyste",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Laccaria amethystina",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1117,8 +1317,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Petit chapeau violet intense à l’état frais, décolorant avec l’âge.",
+        "hymenophore": "Lamelles espacées violettes ; pied fibreux violet.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1126,21 +1326,31 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien dans les forêts feuillues et conifères.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Été à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Petits cortinaires violets ; sporée et cortine à contrôler."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1299,7 +1509,7 @@
     {
       "id": "guide2027-marasmedesoreades",
       "common_name_fr": "Marasme des oréades",
-      "scientific_name_candidate": null,
+      "scientific_name_candidate": "Marasmius oreades",
       "taxonomy_review": "pending",
       "source": {
         "document": "Encyclopedie champi.pdf",
@@ -1307,8 +1517,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Petit chapeau beige à fauve, mamelonné, hygrophane.",
+        "hymenophore": "Lamelles espacées, pied mince mais tenace.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -1316,21 +1526,31 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Pelouses, prairies, cercles de sorcières.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Printemps à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Petits clitocybes toxiques des pelouses."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -1991,8 +2211,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun à ocre, souvent visqueux par temps humide.",
+        "hymenophore": "Tubes jaunes, pores pouvant exsuder des gouttelettes laiteuses ; pied sans anneau.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -2000,21 +2220,31 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien avec pins, notamment pins à deux aiguilles.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Été à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Suillus luteus (anneau), autres Suillus."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
@@ -2029,8 +2259,8 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": null,
-        "hymenophore": null,
+        "cap": "Chapeau brun ocre, pores larges irréguliers jaunâtres.",
+        "hymenophore": "Pied élancé sans anneau ; tubes décurrents.",
         "stem": null,
         "flesh": null,
         "latex": null,
@@ -2038,21 +2268,31 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": null,
+        "substrate": "Mycorhizien avec pins, surtout sur sols pauvres et acides.",
         "soil": null,
         "ph": null,
-        "season": [],
+        "season": [
+          "Été à automne."
+        ],
         "moisture": null
       },
-      "lookalikes": [],
+      "lookalikes": [
+        "Autres Suillus et bolets à pores larges."
+      ],
       "identification_checks": [],
       "toxicity": {
         "status": "not_verified",
         "source": null
       },
-      "references": [],
+      "references": [
+        {
+          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
+          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
+          "field_reference": "https://www.first-nature.com/fungi/"
+        }
+      ],
       "illustrations": [],
-      "review_state": "draft_not_published",
+      "review_state": "draft_with_unverified_synthesis",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false
     },
