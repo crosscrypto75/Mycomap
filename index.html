@@ -314,7 +314,7 @@ if(page==='identifier'){
    if(!window.tflite){await loadMycoScript('https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-tflite@0.0.1-alpha.10/dist/tf-tflite.min.js');}
    if(!window.tflite?.loadTFLiteModel)throw Error('Moteur TFLite indisponible sur ce navigateur.');
    // Le runtime TFLite charge des binaires WebAssembly distincts : sans ce chemin Safari peut échouer sur _malloc.
-   window.tflite.setWasmPath('https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-tflite@0.0.1-alpha.10/dist/');
+   window.tflite.setWasmPath('https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-tflite@0.0.1-alpha.10/wasm/');
    const response=await fetch('./models/fungi/labels.txt',{cache:'no-cache'});
    if(!response.ok)throw Error('Étiquettes non publiées : relancer le workflow de préparation.');
    const labels=(await response.text()).split(/\\r?\\n/).map(v=>v.trim()).filter(Boolean);
