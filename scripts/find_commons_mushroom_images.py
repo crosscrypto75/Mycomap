@@ -122,8 +122,8 @@ def main():
               "image_candidates_total": len(results), "species": coverage}
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps({"status": "candidates_only", "images": results},
-                                 ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
-    REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+                                 ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in report.items() if k != "species"}, ensure_ascii=False), flush=True)
     # Des échecs réseau isolés sont enregistrés, pas masqués par un succès sans rapport.
     if counts["error"] == len(names):
