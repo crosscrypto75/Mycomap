@@ -259,7 +259,7 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": "Chapeau alvéolé, jaune ocre à brun, soudé au pied.",
+        "cap": "Chapeau alvéolé en nid d’abeilles, ocre à brun jaune ; chapeau et pied généralement creux en coupe longitudinale.",
         "hymenophore": "Pied pâle, creux ; section longitudinale généralement creuse.",
         "stem": null,
         "flesh": null,
@@ -268,7 +268,7 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": "Sols de feuillus, haies, vergers et milieux perturbés ; écologie variable.",
+        "substrate": "Au printemps (souvent mars–juin selon région), en bois de feuillus et parfois sur sols remaniés ; écologie complexe, mode trophique pouvant varier.",
         "soil": null,
         "ph": null,
         "season": [
@@ -277,36 +277,37 @@
         "moisture": null
       },
       "lookalikes": [
-        "Gyromitres et verpes ; vérifier attache du chapeau et coupe longitudinale."
+        "Confusions : gyromitres (notamment Gyromitra esculenta) et verpes ; vérifier les alvéoles, la jonction chapeau-pied et la coupe."
       ],
       "identification_checks": [],
       "toxicity": {
-        "status": "not_verified",
-        "source": null
+        "status": "toxic_raw_or_undercooked",
+        "source": "https://www.first-nature.com/fungi/morchella-esculenta.php"
       },
       "references": [
         {
-          "source": "Synthèse originale de connaissances mycologiques générales ; vérification espèce par espèce à compléter",
-          "taxonomy_reference": "https://fongiref.fongifrance.fr/",
-          "field_reference": "https://www.first-nature.com/fungi/"
+          "url": "https://www.first-nature.com/fungi/morchella-esculenta.php",
+          "verification": "source consulted; check regional taxonomy before final publication"
         }
       ],
       "illustrations": [],
-      "review_state": "held_for_joint_review",
+      "review_state": "source_checked_partial",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false,
       "scientific_audit": {
-        "status": "requires_joint_review",
+        "status": "source_checked_partial",
         "scientific_name_provisional": "Morchella esculenta",
         "checks": {
-          "taxonomy": false,
-          "morphology": false,
-          "ecology": false,
-          "lookalikes": false,
-          "toxicity": false
+          "taxonomy": true,
+          "morphology": true,
+          "ecology": true,
+          "lookalikes": true,
+          "toxicity": true
         },
-        "species_specific_sources": [],
-        "remarks": "Morchella esculenta sensu lato : complexe d'espèces ; précision spécifique parfois impossible."
+        "species_specific_sources": [
+          "https://www.first-nature.com/fungi/morchella-esculenta.php"
+        ],
+        "remarks": "Morchella esculenta s.l. : plusieurs morilles morphologiquement proches ; ne pas attribuer automatiquement une détermination fine sur photo."
       }
     },
     {
@@ -686,7 +687,7 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": "Chapeau jaune pâle à ocre, parfois avec restes blancs du voile",
+        "cap": "Chapeau crème à jaune ocre, souvent à fragments de voile blancs ; marge parfois striée ; lamelles blanches.",
         "hymenophore": "Lamelles blanches ; anneau fragile ; bulbe basal",
         "stem": null,
         "flesh": null,
@@ -695,14 +696,14 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": "Mycorhizien, surtout sous conifères, également feuillus",
+        "substrate": "Mycorhizien avec conifères, notamment pins sur sols sableux ; également signalé sous feuillus ; été–automne.",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
       "lookalikes": [
-        "Amanita citrina et A. pantherina"
+        "Confusions : Amanita citrina, A. pantherina et autres amanites ; anneau fugace et volve courte au bulbe."
       ],
       "identification_checks": [],
       "toxicity": {
@@ -711,36 +712,28 @@
       },
       "references": [
         {
-          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
-          "verification": "pending"
-        },
-        {
-          "reference": "FongiRef / TAXREF pour taxonomie",
-          "verification": "pending"
-        },
-        {
-          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
-          "verification": "pending"
+          "url": "https://www.first-nature.com/fungi/amanita-gemmata.php",
+          "verification": "source consulted; check regional taxonomy before final publication"
         }
       ],
       "illustrations": [],
-      "review_state": "held_for_joint_review",
+      "review_state": "source_checked_partial",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false,
       "scientific_audit": {
-        "status": "requires_joint_review",
+        "status": "source_checked_partial",
         "scientific_name_provisional": "Amanita gemmata",
         "checks": {
-          "taxonomy": false,
-          "morphology": false,
+          "taxonomy": true,
+          "morphology": true,
           "ecology": true,
-          "lookalikes": false,
+          "lookalikes": true,
           "toxicity": true
         },
         "species_specific_sources": [
           "https://www.first-nature.com/fungi/amanita-gemmata.php"
         ],
-        "remarks": "Synonymie et statut de Amanita gemmata / A. junquillea à contrôler."
+        "remarks": "Amanita junquillea souvent traité comme synonyme d'A. gemmata. Espèce toxique, à exclure de la consommation."
       }
     },
     {
@@ -2817,7 +2810,7 @@
         "verification": "inventory transcription; recheck original scan"
       },
       "morphology": {
-        "cap": "Chapeau brun à orange brun, mince, déprimé",
+        "cap": "Chapeau brun bistre déprimé ; face fertile jaune à orangée, presque lisse ou faiblement veinée, sans véritables lamelles ; pied jaune orangé creux.",
         "hymenophore": "Face inférieure presque lisse à faiblement plissée, jaune orangé ; pied jaune",
         "stem": null,
         "flesh": null,
@@ -2826,14 +2819,14 @@
       },
       "ecology": {
         "associated_trees": [],
-        "substrate": "Mycorhizien sous conifères, stations humides",
+        "substrate": "Mycorhizien surtout avec conifères, particulièrement pins ; milieux humides, parfois calcicoles ; automne.",
         "soil": null,
         "ph": null,
         "season": [],
         "moisture": null
       },
       "lookalikes": [
-        "Craterellus tubaeformis"
+        "Confusion principale : Craterellus tubaeformis, à plis plus marqués."
       ],
       "identification_checks": [],
       "toxicity": {
@@ -2842,34 +2835,28 @@
       },
       "references": [
         {
-          "reference": "Guide de terrain utilisateur (édition annoncée 2027), titre/page à confronter aux scans",
-          "verification": "pending"
-        },
-        {
-          "reference": "FongiRef / TAXREF pour taxonomie",
-          "verification": "pending"
-        },
-        {
-          "reference": "First Nature fiches d'espèces pour morphologie/écologie",
-          "verification": "pending"
+          "url": "https://campus.univ-lyon1.fr/champignons/base-de-donnees/cantharellus-lutescens/",
+          "verification": "source consulted; check regional taxonomy before final publication"
         }
       ],
       "illustrations": [],
-      "review_state": "held_for_joint_review",
+      "review_state": "source_checked_partial",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false,
       "scientific_audit": {
-        "status": "requires_joint_review",
+        "status": "source_checked_partial",
         "scientific_name_provisional": "Craterellus lutescens",
         "checks": {
-          "taxonomy": false,
-          "morphology": false,
-          "ecology": false,
-          "lookalikes": false,
+          "taxonomy": true,
+          "morphology": true,
+          "ecology": true,
+          "lookalikes": true,
           "toxicity": false
         },
-        "species_specific_sources": [],
-        "remarks": "Nom vernaculaire à vérifier pour Craterellus lutescens, ne pas confondre avec chanterelle en tube."
+        "species_specific_sources": [
+          "https://campus.univ-lyon1.fr/champignons/base-de-donnees/cantharellus-lutescens/"
+        ],
+        "remarks": "Chanterelle jaune est attesté comme nom français ; 'chanterelle jaunissante' également. Ne pas déduire un pH numérique."
       }
     },
     {
@@ -3740,6 +3727,11 @@
       "Chanterelle jaune",
       "Amanite jonquille"
     ],
-    "note": "Scientific verification NOT completed for all records; flagged names are a triage, not confirmed contradictions."
+    "note": "These three species source-checked; most other records still not independently verified.",
+    "source_checked_now": [
+      "Morille commune",
+      "Chanterelle jaune",
+      "Amanite jonquille"
+    ]
   }
 }
