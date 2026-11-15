@@ -1,0 +1,651 @@
+{
+  "schema_version": "0.1",
+  "status": "inventaire_initial_non_valide",
+  "source": "Encyclopedi champi2.pdf, édition annoncée 2027, pages photographiées 52–77",
+  "records": [
+    {
+      "id": "paxillus-involutus",
+      "scientific_name": "Paxillus involutus",
+      "common_name_fr": "Paxille enroulé",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "russula-cyanoxantha",
+      "scientific_name": "Russula cyanoxantha",
+      "common_name_fr": "Russule charbonnière",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "russula-vesca",
+      "scientific_name": "Russula vesca",
+      "common_name_fr": "Russule comestible",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "russula-virescens",
+      "scientific_name": "Russula virescens",
+      "common_name_fr": "Russule verdoyante",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "tricholoma-columbetta",
+      "scientific_name": "Tricholoma columbetta",
+      "common_name_fr": "Tricholome colombette",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "tricholoma-equestre",
+      "scientific_name": "Tricholoma equestre",
+      "common_name_fr": "Tricholome équestre",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "tricholoma-portentosum",
+      "scientific_name": "Tricholoma portentosum",
+      "common_name_fr": "Tricholome prétentieux",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "tricholoma-terreum",
+      "scientific_name": "Tricholoma terreum",
+      "common_name_fr": "Tricholome terreux",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "tricholoma-pardinum",
+      "scientific_name": "Tricholoma pardinum",
+      "common_name_fr": "Tricholome tigré",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "craterellus-cornucopioides",
+      "scientific_name": "Craterellus cornucopioides",
+      "common_name_fr": "Trompette-des-morts",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "craterellus-cinereus",
+      "scientific_name": "Craterellus cinereus",
+      "common_name_fr": "Chanterelle cendrée",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "craterellus-tubaeformis",
+      "scientific_name": "Craterellus tubaeformis",
+      "common_name_fr": "Chanterelle en tube",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "craterellus-lutescens",
+      "scientific_name": "Craterellus lutescens",
+      "common_name_fr": "Chanterelle jaunissante",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "cantharellus-cibarius",
+      "scientific_name": "Cantharellus cibarius",
+      "common_name_fr": "Girolle",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "boletus-aereus",
+      "scientific_name": "Boletus aereus",
+      "common_name_fr": "Cèpe bronzé",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "boletus-edulis",
+      "scientific_name": "Boletus edulis",
+      "common_name_fr": "Cèpe de Bordeaux",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "boletus-reticulatus",
+      "scientific_name": "Boletus reticulatus",
+      "common_name_fr": "Cèpe d'été",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "imleria-badia",
+      "scientific_name": "Imleria badia",
+      "common_name_fr": "Bolet bai",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "leccinum-aurantiacum",
+      "scientific_name": "Leccinum aurantiacum",
+      "common_name_fr": "Bolet orangé",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "neoboletus-erythropus",
+      "scientific_name": "Neoboletus erythropus",
+      "common_name_fr": "Bolet à pied rouge",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "suillellus-luridus",
+      "scientific_name": "Suillellus luridus",
+      "common_name_fr": "Bolet blafard",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "rubroboletus-satanas",
+      "scientific_name": "Rubroboletus satanas",
+      "common_name_fr": "Bolet Satan",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "suillus-granulatus",
+      "scientific_name": "Suillus granulatus",
+      "common_name_fr": "Bolet granulé",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "suillus-bovinus",
+      "scientific_name": "Suillus bovinus",
+      "common_name_fr": "Bolet des bouviers",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "suillus-luteus",
+      "scientific_name": "Suillus luteus",
+      "common_name_fr": "Nonette voilée",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "xerocomellus-chrysenteron",
+      "scientific_name": "Xerocomellus chrysenteron",
+      "common_name_fr": "Bolet à chair jaune",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "fistulina-hepatica",
+      "scientific_name": "Fistulina hepatica",
+      "common_name_fr": "Langue-de-bœuf",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    },
+    {
+      "id": "laetiporus-sulphureus",
+      "scientific_name": "Laetiporus sulphureus",
+      "common_name_fr": "Polypore soufré",
+      "source_pages": "à préciser",
+      "taxonomy_status": "à vérifier",
+      "ecology": {
+        "associated_trees": [],
+        "soil_ph": null,
+        "season": [],
+        "evidence": []
+      },
+      "morphology": {
+        "cap": null,
+        "hymenophore": null,
+        "stem": null,
+        "latex": null
+      },
+      "lookalikes": [],
+      "images": [],
+      "safety_status": "non_validé",
+      "review_status": "à compléter"
+    }
+  ]
+}
