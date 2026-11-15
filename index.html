@@ -380,22 +380,24 @@ if(page==='identifier'){
      return issues;
    };
    const raw=Array.from({length:n},(_,i)=>({i,v:allScores.reduce((sum,a)=>sum+a.scores[i],0)/allScores.length})).sort((a,b)=>b.v-a.v);
-   const compatible=raw.map(item=>({...item,row:curated.get(latinFromLabel(labels[item.i]))})).filter(item=>item.row);
-   const confirmed=compatible.map(item=>({...item,issues:morphologyIssues(item.row)}));
-   const combined=confirmed.filter(item=>!item.issues.length).slice(0,5);
-   const excluded=confirmed.filter(item=>item.issues.length).slice(0,5);
-   const outOfCatalog=raw.filter(item=>!curated.has(latinFromLabel(labels[item.i]))).slice(0,5);
+   // Le catalogue pédagogique n'est PAS un inventaire exhaustif de la flore française.
+   // Conserver les hypothèses du modèle hors catalogue, sans inventer leur répartition.
+   const candidates=raw.slice(0,Math.min(raw.length,30)).map(item=>{
+     const row=curated.get(latinFromLabel(labels[item.i]));
+     return {...item,row,issues:row?morphologyIssues(row):[],distribution:'non vérifiée'};
+   });
+   const ranked=candidates.filter(item=>!item.issues.length).slice(0,5);
+   const excluded=candidates.filter(item=>item.issues.length).slice(0,5);
    const renderLabel=i=>{const label=labels[i];if(!label)return 'Espèce non renseignée (classe '+i+')';const latin=label.replace(/\\s*\\([^)]*\\)\\s*$/,'').trim();const common=(label.match(/\\(([^()]*)\\)\\s*$/)||[])[1];return (common&&common.toLowerCase()!==latin.toLowerCase()?common+' — ':'')+latin};
    result.replaceChildren();
    const head=document.createElement('p');head.textContent='⚠️ Hypothèses visuelles expérimentales — aucune validation de comestibilité.';result.append(head);
-   const summary=document.createElement('p');summary.textContent=allScores.length+' photo(s) analysée(s) sur '+files.length+'. Hypothèses appartenant au catalogue MycoMap ('+curated.size+' espèces nommées) :';result.append(summary);
+   const summary=document.createElement('p');summary.textContent=allScores.length+' photo(s) analysée(s) sur '+files.length+'. Classement visuel ouvert : le catalogue de '+curated.size+' espèces sert aux fiches, pas à exclure les autres champignons.';result.append(summary);
    const department=idDepartment.value;
-   const context=document.createElement('p');context.textContent=department?'📍 Département '+department+' — inventaire de présence locale non encore vérifié : aucun bonus géographique appliqué.':'📍 Aucun département renseigné : classement limité au catalogue de référence, sans validation de répartition locale.';result.append(context);
-   if(!combined.length){const p=document.createElement('p');p.textContent='Aucune hypothèse du catalogue compatible avec les caractères renseignés. Identification indéterminée : ne pas substituer une espèce étrangère ou inventer un nom.';result.append(p)}
-   for(const item of combined){const p=document.createElement('p');p.textContent=renderLabel(item.i)+' · score visuel brut '+item.v.toFixed(2)+' (non calibré) · '+item.row[4];result.append(p)}
-   if(excluded.length){const details=document.createElement('details');const label=document.createElement('summary');label.textContent='Hypothèses du catalogue écartées du classement principal (caractères contradictoires)';details.append(label);for(const item of excluded){const p=document.createElement('p');p.textContent=renderLabel(item.i)+' : '+item.issues.join(', ');details.append(p)}result.append(details)}
-   if(outOfCatalog.length){const details=document.createElement('details');const label=document.createElement('summary');label.textContent='Propositions du modèle mondial non référencées dans MycoMap (non affichées comme identification)';details.append(label);for(const item of outOfCatalog){const p=document.createElement('p');p.textContent=renderLabel(item.i)+' · score brut '+item.v.toFixed(2)+' — présence en France NON vérifiée';details.append(p)}result.append(details)}
-   const warning=document.createElement('p');warning.textContent='⚠️ Filtrage par catalogue ≠ preuve de présence en France. Les espèces dangereuses restent possibles même si elles sont écartées par les caractères déclarés. Ne jamais utiliser ce classement pour décider de consommer.';result.append(warning);
+   const context=document.createElement('p');context.textContent=department?'📍 Département '+department+' — données de présence locale non encore connectées : aucun bonus géographique appliqué.':'📍 Département non renseigné : répartition française non vérifiée.';result.append(context);
+   if(!ranked.length){const p=document.createElement('p');p.textContent='Identification indéterminée : aucune proposition suffisamment cohérente avec les caractères renseignés.';result.append(p)}
+   for(const item of ranked){const p=document.createElement('p');p.textContent=renderLabel(item.i)+' · score visuel brut '+item.v.toFixed(2)+' (non calibré) · '+(item.row?'fiche MycoMap disponible':'hors encyclopédie MycoMap')+' · présence en France non vérifiée';result.append(p)}
+   if(excluded.length){const details=document.createElement('details');const label=document.createElement('summary');label.textContent='Hypothèses avec contradictions morphologiques déclarées (à vérifier)';details.append(label);for(const item of excluded){const p=document.createElement('p');p.textContent=renderLabel(item.i)+' : '+item.issues.join(', ');details.append(p)}result.append(details)}
+   const warning=document.createElement('p');warning.textContent='⚠️ Le modèle peut proposer des espèces absentes de France : aucune répartition nationale ou départementale n’est encore validée. Les caractères non visibles ne prouvent pas leur absence. Les espèces dangereuses restent possibles même si elles ne figurent pas au classement. Ne jamais utiliser ce résultat pour décider de consommer.';result.append(warning);
    const detail=document.createElement('details');const title=document.createElement('summary');title.textContent='Voir les résultats de chaque photo';detail.append(title);
    for(const item of allScores){const best=item.scores.map((v,i)=>({i,v})).sort((a,b)=>b.v-a.v).slice(0,3);const p=document.createElement('p');p.textContent='Photo '+item.number+' : '+best.map(x=>renderLabel(x.i)).join(' · ');detail.append(p)}result.append(detail);
    if(failures.length){const p=document.createElement('p');p.textContent='Photos non analysées : '+failures.join(' ; ');result.append(p)}
