@@ -361,9 +361,9 @@ if(page==='identifier'){
    if(allScores.some(a=>a.scores.length!==n))throw Error('Sorties du modèle de tailles différentes : regroupement impossible.');
    // Le modèle mondial n'est pas entraîné sur nos 76 fiches : ne publier
    // comme hypothèses principales que les taxons du catalogue local.
-   const latinFromLabel=label=>String(label||'').replace(/\\s*\\([^)]*\\)\\s*$/,'').trim().toLowerCase();
-   const normalizedTaxon=name=>String(name||'').toLowerCase().replace(/\\s+(?:agg\\.|spp\\.)$/,'').trim();
-   const curated=new Map(catalog.filter(row=>!/(?:\\bagg\\.|\\bspp\\.)$/.test(row[1])).map(row=>[normalizedTaxon(row[1]),row]));
+   const latinFromLabel=label=>String(label||'').replace(/\s*\([^)]*\)\s*$/,'').trim().toLowerCase();
+   const normalizedTaxon=name=>String(name||'').toLowerCase().replace(/\s+(?:agg\.|spp\.)$/,'').trim();
+   const curated=new Map(catalog.filter(row=>!/(?:\bagg\.|\bspp\.)$/.test(row[1])).map(row=>[normalizedTaxon(row[1]),row]));
    const ring=document.getElementById('idRing').value,stem=document.getElementById('idStem').value,hymenium=document.getElementById('idHymenium').value;
    const likelyRing=new Set(['Amanita pantherina','Amanita muscaria','Amanita phalloides','Amanita citrina','Amanita gemmata','Amanita excelsa','Amanita rubescens','Amanita caesarea','Macrolepiota procera','Coprinus comatus','Leucoagaricus leucothites']);
    const genus=name=>name.split(' ')[0];
