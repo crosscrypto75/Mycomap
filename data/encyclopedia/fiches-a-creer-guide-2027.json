@@ -292,11 +292,11 @@
         }
       ],
       "illustrations": [],
-      "review_state": "draft_with_unverified_synthesis",
+      "review_state": "held_for_joint_review",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false,
       "scientific_audit": {
-        "status": "not_individually_verified",
+        "status": "requires_joint_review",
         "scientific_name_provisional": "Morchella esculenta",
         "checks": {
           "taxonomy": false,
@@ -306,7 +306,7 @@
           "toxicity": false
         },
         "species_specific_sources": [],
-        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+        "remarks": "Morchella esculenta sensu lato : complexe d'espèces ; précision spécifique parfois impossible."
       }
     },
     {
@@ -724,11 +724,11 @@
         }
       ],
       "illustrations": [],
-      "review_state": "draft_with_unverified_synthesis",
+      "review_state": "held_for_joint_review",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false,
       "scientific_audit": {
-        "status": "source_checked_partial",
+        "status": "requires_joint_review",
         "scientific_name_provisional": "Amanita gemmata",
         "checks": {
           "taxonomy": false,
@@ -740,7 +740,7 @@
         "species_specific_sources": [
           "https://www.first-nature.com/fungi/amanita-gemmata.php"
         ],
-        "remarks": "Mycorhizien surtout avec les pins ; terrains sableux ; anneau fugace, volve courte ; synonymie A. junquillea selon certaines autorités."
+        "remarks": "Synonymie et statut de Amanita gemmata / A. junquillea à contrôler."
       }
     },
     {
@@ -980,11 +980,11 @@
         }
       ],
       "illustrations": [],
-      "review_state": "draft_with_unverified_synthesis",
+      "review_state": "held_for_joint_review",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false,
       "scientific_audit": {
-        "status": "not_individually_verified",
+        "status": "requires_joint_review",
         "scientific_name_provisional": "Armillaria mellea",
         "checks": {
           "taxonomy": false,
@@ -994,7 +994,7 @@
           "toxicity": false
         },
         "species_specific_sources": [],
-        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+        "remarks": "Armillaria mellea sensu stricto ou complexe d'armillaires ; confirmer l'hôte et les caractères."
       }
     },
     {
@@ -1229,11 +1229,11 @@
         }
       ],
       "illustrations": [],
-      "review_state": "draft_with_unverified_synthesis",
+      "review_state": "held_for_joint_review",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false,
       "scientific_audit": {
-        "status": "not_individually_verified",
+        "status": "requires_joint_review",
         "scientific_name_provisional": "Clitocybe dealbata",
         "checks": {
           "taxonomy": false,
@@ -1243,7 +1243,7 @@
           "toxicity": false
         },
         "species_specific_sources": [],
-        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+        "remarks": "Nom français ambigu dans le complexe des petits clitocybes blancs muscariniques ; vérifier le binôme Clitocybe dealbata."
       }
     },
     {
@@ -1934,11 +1934,11 @@
         }
       ],
       "illustrations": [],
-      "review_state": "draft_with_unverified_synthesis",
+      "review_state": "held_for_joint_review",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false,
       "scientific_audit": {
-        "status": "not_individually_verified",
+        "status": "requires_joint_review",
         "scientific_name_provisional": "Lactifluus vellereus",
         "checks": {
           "taxonomy": false,
@@ -1948,7 +1948,7 @@
           "toxicity": false
         },
         "species_specific_sources": [],
-        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+        "remarks": "Lactifluus vellereus et L. bertillonii difficiles à séparer macroscopiquement."
       }
     },
     {
@@ -2523,11 +2523,11 @@
         }
       ],
       "illustrations": [],
-      "review_state": "draft_with_unverified_synthesis",
+      "review_state": "held_for_joint_review",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false,
       "scientific_audit": {
-        "status": "source_checked_partial",
+        "status": "requires_joint_review",
         "scientific_name_provisional": "Tricholoma equestre",
         "checks": {
           "taxonomy": false,
@@ -2539,7 +2539,7 @@
         "species_specific_sources": [
           "https://www.first-nature.com/fungi/tricholoma-equestre.php"
         ],
-        "remarks": "Intoxications graves avec atteinte musculaire documentées ; mycorhizien surtout sous pins, également bouleaux et parfois chênes."
+        "remarks": "Nom d'espèce et espèces proches ; statut de toxicité grave exige revue spécialisée."
       }
     },
     {
@@ -2855,11 +2855,11 @@
         }
       ],
       "illustrations": [],
-      "review_state": "draft_with_unverified_synthesis",
+      "review_state": "held_for_joint_review",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false,
       "scientific_audit": {
-        "status": "not_individually_verified",
+        "status": "requires_joint_review",
         "scientific_name_provisional": "Craterellus lutescens",
         "checks": {
           "taxonomy": false,
@@ -2869,7 +2869,7 @@
           "toxicity": false
         },
         "species_specific_sources": [],
-        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+        "remarks": "Nom vernaculaire à vérifier pour Craterellus lutescens, ne pas confondre avec chanterelle en tube."
       }
     },
     {
@@ -3119,11 +3119,11 @@
         }
       ],
       "illustrations": [],
-      "review_state": "draft_with_unverified_synthesis",
+      "review_state": "held_for_joint_review",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false,
       "scientific_audit": {
-        "status": "not_individually_verified",
+        "status": "requires_joint_review",
         "scientific_name_provisional": "Leccinum aurantiacum",
         "checks": {
           "taxonomy": false,
@@ -3133,7 +3133,7 @@
           "toxicity": false
         },
         "species_specific_sources": [],
-        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+        "remarks": "Leccinum aurantiacum : complexe d'espèces, identité dépendante des arbres hôtes."
       }
     },
     {
@@ -3185,11 +3185,11 @@
         }
       ],
       "illustrations": [],
-      "review_state": "draft_with_unverified_synthesis",
+      "review_state": "held_for_joint_review",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false,
       "scientific_audit": {
-        "status": "not_individually_verified",
+        "status": "requires_joint_review",
         "scientific_name_provisional": "Neoboletus erythropus",
         "checks": {
           "taxonomy": false,
@@ -3199,7 +3199,7 @@
           "toxicity": false
         },
         "species_specific_sources": [],
-        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+        "remarks": "Nom Neoboletus erythropus / N. luridiformis : usage et synonymie à arbitrer dans référentiel français."
       }
     },
     {
@@ -3571,11 +3571,11 @@
         }
       ],
       "illustrations": [],
-      "review_state": "draft_with_unverified_synthesis",
+      "review_state": "held_for_joint_review",
       "map_eligible": false,
       "ai_encyclopedia_eligible": false,
       "scientific_audit": {
-        "status": "not_individually_verified",
+        "status": "requires_joint_review",
         "scientific_name_provisional": "Xerocomellus chrysenteron",
         "checks": {
           "taxonomy": false,
@@ -3585,7 +3585,7 @@
           "toxicity": false
         },
         "species_specific_sources": [],
-        "remarks": "À vérifier contre une fiche scientifique spécifique ; ne pas publier comme validée."
+        "remarks": "Xerocomellus chrysenteron : risque de confusion avec X. cisalpinus, X. pruinatus et apparentés."
       }
     },
     {
@@ -3726,6 +3726,20 @@
     "species_source_checked_partial": 3,
     "taxonomy_corrections": 1,
     "remaining_without_species_specific_validation": 54,
-    "method": "Per-record audit flags; only source-backed claims marked verified. No blanket scientific validation."
+    "method": "Per-record audit flags; only source-backed claims marked verified. No blanket scientific validation.",
+    "flagged_for_joint_review": 10,
+    "flagged_names": [
+      "Bolet à pied rouge",
+      "Bolet orangé",
+      "Bolet à chair jaune",
+      "Clitocybe blanc d’ivoire",
+      "Tricholome équestre",
+      "Armillaire couleur de miel",
+      "Lactaire velouté",
+      "Morille commune",
+      "Chanterelle jaune",
+      "Amanite jonquille"
+    ],
+    "note": "Scientific verification NOT completed for all records; flagged names are a triage, not confirmed contradictions."
   }
 }
