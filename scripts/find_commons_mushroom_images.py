@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Rechercher des illustrations candidates sur Wikimedia Commons, sans publier automatiquement."""
 import json, re, sys, time
+import ast
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "data/encyclopedia/seed-champi2.json"
+SOURCE = ROOT / "index.html"
 OUTPUT = ROOT / "data/encyclopedia/commons-candidates.json"
 API = "https://commons.wikimedia.org/w/api.php"
 ALLOWED = re.compile(r"^(CC0|Public domain|CC BY(?:-[0-9.]+)?|CC BY-SA(?:-[0-9.]+)?)$", re.I)
@@ -20,7 +21,17 @@ def val(metadata, name):
     return metadata.get(name, {}).get("value", "")
 
 def main():
-    records = json.loads(SOURCE.read_text(encoding="utf-8"))["records"]
+    # Utiliser le catalogue réellement affiché par MycoMap (pas seulement champi2).
+    html = SOURCE.read_text(encoding="utf-8")
+    start = html.index("const catalog=") + len("const catalog=")
+    end = html.index("];", start) + 1
+    initial = ast.literal_eval(html[start:end])
+    match = re.search(r"catalog\\.push\\(\\.\\.\\.(\\[\\[.*?\\]\\])\\);", html, re.S)
+    extra = json.loads(match.group(1)) if match else []
+    names = list(dict.fromkeys(row[1] for row in initial + extra))
+    records = [{"id": re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-"),
+                "scientific_name": name} for name in names]
+    print(f"Recherche pour {len(records)} entrées du catalogue.")
     results = []
     for entry in records:
         name = entry["scientific_name"]
