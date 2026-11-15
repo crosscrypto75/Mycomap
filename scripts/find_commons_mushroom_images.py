@@ -19,8 +19,8 @@ CATALOG = ROOT / "index.html"
 OUTPUT = ROOT / "data/encyclopedia/commons-candidates.json"
 REPORT = ROOT / "data/encyclopedia/commons-coverage.json"
 API = "https://commons.wikimedia.org/w/api.php"
-LICENSE_RE = re.compile(r"^(?:CC0(?: 1\\.0)?|Public domain|PD(?:-[\\w.]+)?|CC BY(?:-[\\w.]+)?|CC BY-SA(?:-[\\w.]+)?)$", re.I)
-IMAGE_RE = re.compile(r"\\.(?:jpe?g|png|webp)$", re.I)
+LICENSE_RE = re.compile(r"^(?:CC0(?: 1\.0)?|Public domain|PD(?:-[\w.]+)?|CC BY(?:-[\w.]+)?|CC BY-SA(?:-[\w.]+)?)$", re.I)
+IMAGE_RE = re.compile(r"\.(?:jpe?g|png|webp)$", re.I)
 HEADERS = {"User-Agent": "MycoMap/0.2 (educational photo candidate research; GitHub crosscrypto75/Mycomap)"}
 
 
@@ -91,7 +91,7 @@ def main():
     print(f"Catalogue : {len(names)} noms scientifiques distincts.", flush=True)
     for index, name in enumerate(names, 1):
         species_id = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
-        search_name = re.sub(r"\\s+(?:agg\\.|spp\\.)$", "", name).strip()
+        search_name = re.sub(r"\s+(?:agg\.|spp\.)$", "", name).strip()
         found, errors, seen = [], [], set()
         # Deux approches complémentaires : catégorie taxonomique puis recherche de fichiers.
         searches = [
