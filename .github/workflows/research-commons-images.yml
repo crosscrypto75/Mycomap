@@ -1,0 +1,22 @@
+name: Research Commons mushroom illustrations
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  candidates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Find image candidates with source and license metadata
+        run: python scripts/find_commons_mushroom_images.py
+      - name: Upload candidates for manual species and rights review
+        uses: actions/upload-artifact@v4
+        with:
+          name: commons-mushroom-image-candidates
+          path: data/encyclopedia/commons-candidates.json
+          retention-days: 30
