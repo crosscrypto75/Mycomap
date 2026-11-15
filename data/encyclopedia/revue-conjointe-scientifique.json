@@ -1,0 +1,112 @@
+{
+  "kind": "joint_scientific_review",
+  "scope": "58 new fiches",
+  "state": "triage_only",
+  "warning": "Suspected ambiguities, not proven contradictions; verify source-by-source with user",
+  "items": [
+    {
+      "name": "Morille commune",
+      "candidate": "Morchella esculenta",
+      "question": "Morchella esculenta sensu lato : complexe d'espèces ; précision spécifique parfois impossible.",
+      "guide_page": 12,
+      "source_links": [
+        "https://inpn.mnhn.fr/docs-web/docs/download/431501",
+        "https://www.first-nature.com/fungi/index1binom.php"
+      ]
+    },
+    {
+      "name": "Amanite jonquille",
+      "candidate": "Amanita gemmata",
+      "question": "Synonymie et statut de Amanita gemmata / A. junquillea à contrôler.",
+      "guide_page": 20,
+      "source_links": [
+        "https://inpn.mnhn.fr/docs-web/docs/download/431501",
+        "https://www.first-nature.com/fungi/index1binom.php"
+      ]
+    },
+    {
+      "name": "Armillaire couleur de miel",
+      "candidate": "Armillaria mellea",
+      "question": "Armillaria mellea sensu stricto ou complexe d'armillaires ; confirmer l'hôte et les caractères.",
+      "guide_page": 26,
+      "source_links": [
+        "https://inpn.mnhn.fr/docs-web/docs/download/431501",
+        "https://www.first-nature.com/fungi/index1binom.php"
+      ]
+    },
+    {
+      "name": "Clitocybe blanc d’ivoire",
+      "candidate": "Clitocybe dealbata",
+      "question": "Nom français ambigu dans le complexe des petits clitocybes blancs muscariniques ; vérifier le binôme Clitocybe dealbata.",
+      "guide_page": 31,
+      "source_links": [
+        "https://inpn.mnhn.fr/docs-web/docs/download/431501",
+        "https://www.first-nature.com/fungi/index1binom.php"
+      ]
+    },
+    {
+      "name": "Lactaire velouté",
+      "candidate": "Lactifluus vellereus",
+      "question": "Lactifluus vellereus et L. bertillonii difficiles à séparer macroscopiquement.",
+      "guide_page": 44,
+      "source_links": [
+        "https://inpn.mnhn.fr/docs-web/docs/download/431501",
+        "https://www.first-nature.com/fungi/index1binom.php"
+      ]
+    },
+    {
+      "name": "Tricholome équestre",
+      "candidate": "Tricholoma equestre",
+      "question": "Nom d'espèce et espèces proches ; statut de toxicité grave exige revue spécialisée.",
+      "guide_page": 57,
+      "source_links": [
+        "https://inpn.mnhn.fr/docs-web/docs/download/431501",
+        "https://www.first-nature.com/fungi/index1binom.php"
+      ]
+    },
+    {
+      "name": "Chanterelle jaune",
+      "candidate": "Craterellus lutescens",
+      "question": "Nom vernaculaire à vérifier pour Craterellus lutescens, ne pas confondre avec chanterelle en tube.",
+      "guide_page": 62,
+      "source_links": [
+        "https://inpn.mnhn.fr/docs-web/docs/download/431501",
+        "https://www.first-nature.com/fungi/index1binom.php"
+      ]
+    },
+    {
+      "name": "Bolet orangé",
+      "candidate": "Leccinum aurantiacum",
+      "question": "Leccinum aurantiacum : complexe d'espèces, identité dépendante des arbres hôtes.",
+      "guide_page": 68,
+      "source_links": [
+        "https://inpn.mnhn.fr/docs-web/docs/download/431501",
+        "https://www.first-nature.com/fungi/index1binom.php"
+      ]
+    },
+    {
+      "name": "Bolet à pied rouge",
+      "candidate": "Neoboletus erythropus",
+      "question": "Nom Neoboletus erythropus / N. luridiformis : usage et synonymie à arbitrer dans référentiel français.",
+      "guide_page": 69,
+      "source_links": [
+        "https://inpn.mnhn.fr/docs-web/docs/download/431501",
+        "https://www.first-nature.com/fungi/index1binom.php"
+      ]
+    },
+    {
+      "name": "Bolet à chair jaune",
+      "candidate": "Xerocomellus chrysenteron",
+      "question": "Xerocomellus chrysenteron : risque de confusion avec X. cisalpinus, X. pruinatus et apparentés.",
+      "guide_page": 75,
+      "source_links": [
+        "https://inpn.mnhn.fr/docs-web/docs/download/431501",
+        "https://www.first-nature.com/fungi/index1binom.php"
+      ]
+    }
+  ],
+  "general_references": [
+    "https://inpn.mnhn.fr/docs-web/docs/download/431501",
+    "https://www.first-nature.com/fungi/index1binom.php"
+  ]
+}
