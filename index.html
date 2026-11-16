@@ -470,11 +470,30 @@ if(page==='champignons'){
   document.getElementById('speciesNext').onclick=e=>{e.stopPropagation();go(1)};
   const toggle=()=>{expanded=!expanded;draw()};
   document.getElementById('speciesToggle').onclick=toggle;
-  document.getElementById('speciesHero')?.addEventListener('click',toggle);
+  const heroImg=document.getElementById('speciesHero');
+  if(heroImg){
+   heroImg.addEventListener('click',toggle);
+   heroImg.addEventListener('error',()=>{
+    heroImg.style.display='none';
+    const notice=document.createElement('div');
+    notice.setAttribute('role','status');
+    notice.style.cssText='min-height:340px;display:flex;align-items:center;justify-content:center;color:white;padding:24px;text-align:center';
+    notice.textContent='Photographie indisponible — consulter la source dans la fiche';
+    heroImg.parentElement.insertBefore(notice,heroImg);
+   },{once:true});
+  }
   const gallery=document.getElementById('speciesGallery');
   entries.forEach((entry,index)=>{
    const figure=document.createElement('figure');figure.style.cssText='margin:0;flex:0 0 83%;scroll-snap-align:center';
    const img=document.createElement('img');img.loading='lazy';img.src=entry.file.startsWith('https://')?entry.file:'./'+entry.file;img.alt=f[0]+' — vue '+(index+1);img.style.cssText='width:100%;height:215px;object-fit:cover;border-radius:12px';
+   img.addEventListener('error',()=>{
+    img.style.display='none';
+    const warning=document.createElement('div');
+    warning.setAttribute('role','status');
+    warning.style.cssText='min-height:100px;padding:18px;border:1px dashed #888;border-radius:12px';
+    warning.textContent='Image indisponible — ouvrir la source ci-dessous';
+    figure.insertBefore(warning,figure.firstChild);
+   },{once:true});
    const cap=document.createElement('figcaption');cap.className='small';
    const credit=document.createElement('a');credit.href=entry.source;credit.target='_blank';credit.rel='noopener noreferrer';credit.textContent=(entry.author||'Auteur inconnu')+' · '+entry.license+' ↗';
    cap.append(credit);figure.append(img,cap);gallery.append(figure);
