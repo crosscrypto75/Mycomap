@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "status": "manual_candidates_pending_taxonomic_review",
+  "updatedAt": "2026-11-16",
+  "species": [
+    {
+      "scientificName": "Amanita phalloides",
+      "frenchName": "Amanite phalloïde",
+      "images": [
+        {
+          "filePage": "https://commons.wikimedia.org/wiki/File:Amanita_phalloides_adult.jpg",
+          "author": "Stanisław Skowron",
+          "license": "Public domain",
+          "depiction": "Deux sporophores adultes",
+          "reviewStatus": "license_checked_species_label_unverified"
+        },
+        {
+          "filePage": "https://commons.wikimedia.org/wiki/File:Amanita_phalloides_2011_G3.jpg",
+          "author": "George Chernilevsky",
+          "license": "Public domain",
+          "depiction": "Amanite phalloïde, vue générale",
+          "reviewStatus": "license_checked_species_label_unverified"
+        },
+        {
+          "filePage": "https://commons.wikimedia.org/wiki/File:Mushroom_Amanita_phalloides.jpg",
+          "author": "Aleksey Gnilenkov",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "depiction": "Amanite phalloïde",
+          "reviewStatus": "license_checked_species_label_unverified"
+        }
+      ]
+    }
+  ]
+}
