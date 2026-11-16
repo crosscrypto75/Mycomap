@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-16",
   "scope": "76 catalogue taxa, all linked image records",
-  "method": "Automated anatomical metadata audit using actual index.html photo entries, catalog descriptors and notes. No pixel-level inspection, image HTTP checks, external taxonomic authentication or license-page verification performed in this run. First manual source-page checks and one direct thumbnail visual inspection performed 2026-11-16; only explicitly marked records are visually reviewed.",
+  "method": "Automated anatomical metadata audit using actual index.html photo entries, catalog descriptors and notes. No pixel-level inspection, image HTTP checks, external taxonomic authentication or license-page verification performed in this run. First manual source-page checks and one direct thumbnail visual inspection performed 2026-11-16; only explicitly marked records are visually reviewed. Three source-related image replacements applied to the live catalog; anatomical views still pending direct visual validation.",
   "statusDefinitions": {
     "unverified": "No direct visual confirmation",
     "documented_only": "Anatomical clue inferred from file title or existing photo note; not visually verified"
@@ -12,8 +12,9 @@
     "images": 247,
     "visuallyVerifiedTaxa": 0,
     "visuallyVerifiedViews": 1,
-    "sourcePageIssuesFound": 2,
-    "imagesVisuallyOpened": 1
+    "sourcePageIssuesFound": 0,
+    "imagesVisuallyOpened": 1,
+    "remediatedSourceIssues": 3
   },
   "species": [
     {
@@ -33,8 +34,7 @@
       ],
       "hymenophore": "pores/tubes",
       "priorityFlags": [
-        "pores, réseau/scabres du pied, coupe et bleuissement",
-        "Remplacer la photo de cèpes séchés pour le jeu de référence anatomique."
+        "pores, réseau/scabres du pied, coupe et bleuissement"
       ],
       "views": {
         "cap": "unverified",
@@ -49,7 +49,7 @@
           "author": "Tomas Čekanavičius",
           "license": "CC BY-SA 3.0",
           "note": null,
-          "anatomicalEvidence": "unverified",
+          "anatomicalEvidence": "documented_only",
           "view": "unverified",
           "taxon": "unverified",
           "accessible": "unverified"
@@ -60,7 +60,7 @@
           "author": "Holger Krisp",
           "license": "CC BY 3.0",
           "note": null,
-          "anatomicalEvidence": "unverified",
+          "anatomicalEvidence": "documented_only",
           "view": "unverified",
           "taxon": "unverified",
           "accessible": "unverified"
@@ -71,28 +71,29 @@
           "author": "Nino Barbieri",
           "license": "CC BY 2.5",
           "note": null,
-          "anatomicalEvidence": "unverified",
+          "anatomicalEvidence": "documented_only",
           "view": "unverified",
           "taxon": "unverified",
           "accessible": "unverified"
         },
         {
-          "file": "assets/champignons/cepe-de-bordeaux/cepe-de-bordeaux_04.jpg",
-          "source": "https://commons.wikimedia.org/wiki/File:-_Dried_Boletus_edulis_-.jpg",
-          "author": "Nino Barbieri",
-          "license": "CC BY 2.5",
-          "note": null,
-          "anatomicalEvidence": "unverified",
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Boletus%20edulis%20pores%20aging.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Boletus%20edulis%20pores%20aging.jpg",
+          "author": "Ude",
+          "license": "CC BY-SA 4.0",
+          "note": "Comparaison des pores jeunes et mûrs ; source Commons vérifiée",
+          "anatomicalEvidence": "documented_only",
           "view": "unverified",
           "taxon": "unverified",
-          "accessible": "unverified",
-          "visualReview": {
-            "status": "unsuitable_for_fresh_anatomy",
-            "finding": "La page source indique des cèpes séchés, non une vue anatomique de spécimen frais",
-            "sourcePageChecked": true
-          }
+          "accessible": "unverified"
         }
-      ]
+      ],
+      "remediation": {
+        "status": "replaced_in_catalog",
+        "date": "2026-11-16",
+        "note": "Dried specimen replaced with sourced pore comparison",
+        "visualValidation": "pending"
+      }
     },
     {
       "species": "Cantharellus cibarius",
@@ -325,9 +326,7 @@
         "plis ou face fertile lisse (selon espèce)"
       ],
       "hymenophore": "plis ou face fertile lisse (selon espèce)",
-      "priorityFlags": [
-        "IMPORTANT : une image présente deux espèces différentes (Craterellus tubaeformis et Leotia lubrica). Remplacer ou légender explicitement."
-      ],
+      "priorityFlags": [],
       "views": {
         "cap": "unverified",
         "stemBase": "unverified",
@@ -341,26 +340,21 @@
           "author": "Tero Karppinen from Finland",
           "license": "CC BY 2.0",
           "note": null,
-          "anatomicalEvidence": "unverified",
+          "anatomicalEvidence": "documented_only",
           "view": "unverified",
           "taxon": "unverified",
           "accessible": "unverified"
         },
         {
-          "file": "assets/champignons/chanterelle-en-tube/chanterelle-en-tube_02.jpg",
-          "source": "https://commons.wikimedia.org/wiki/File:2009-10-07_Craterellus_tubaeformis_Leotia_lubrica.jpg",
-          "author": "Andreas Kunze",
-          "license": "CC BY-SA 3.0",
-          "note": null,
-          "anatomicalEvidence": "unverified",
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Craterellus%20tubaeformis.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Craterellus%20tubaeformis.jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "note": "Photo dédiée à Craterellus tubaeformis ; source Commons vérifiée",
+          "anatomicalEvidence": "documented_only",
           "view": "unverified",
           "taxon": "unverified",
-          "accessible": "unverified",
-          "visualReview": {
-            "status": "mixed_species_source",
-            "finding": "La source indique explicitement Craterellus tubaeformis en haut ET Leotia lubrica en bas; impropre comme image non annotée d'une espèce unique",
-            "sourcePageChecked": true
-          }
+          "accessible": "unverified"
         },
         {
           "file": "assets/champignons/chanterelle-en-tube/chanterelle-en-tube_03.jpg",
@@ -368,23 +362,29 @@
           "author": "This image was created by user {{{2}}} at Mushroom Observer, a source for mycological images.You can contact this user here.",
           "license": "CC BY-SA 3.0",
           "note": null,
-          "anatomicalEvidence": "unverified",
+          "anatomicalEvidence": "documented_only",
           "view": "unverified",
           "taxon": "unverified",
           "accessible": "unverified"
         },
         {
-          "file": "assets/champignons/chanterelle-en-tube/chanterelle-en-tube_04.jpg",
-          "source": "https://commons.wikimedia.org/wiki/File:Annie_L._Prat_(16704556272).jpg",
-          "author": "Nova Scotia Archives",
-          "license": "Public domain",
-          "note": null,
-          "anatomicalEvidence": "unverified",
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Craterellus%20tubaeformis%2020201103%206628.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Craterellus%20tubaeformis%2020201103%206628.jpg",
+          "author": "Joona Saraste",
+          "license": "CC BY-SA 4.0",
+          "note": "Photo dédiée à Craterellus tubaeformis ; source Commons vérifiée",
+          "anatomicalEvidence": "documented_only",
           "view": "unverified",
           "taxon": "unverified",
           "accessible": "unverified"
         }
-      ]
+      ],
+      "remediation": {
+        "status": "replaced_in_catalog",
+        "date": "2026-11-16",
+        "note": "Mixed-species image replaced; unrelated archival portrait also replaced",
+        "visualValidation": "pending"
+      }
     },
     {
       "species": "Macrolepiota procera",
