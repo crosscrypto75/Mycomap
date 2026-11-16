@@ -461,7 +461,7 @@ if(page==='champignons'){
     '<h3>⚠️ Confusions possibles</h3><p>'+safe(f[6])+'</p>'+
     '<h3>🧪 Vérifications</h3><p>'+safe(f[7])+'</p>'+
     '<h3>🍽️ Statut</h3><p>'+safe(f[8])+'</p>'+
-    '<h3>📸 Autres vues</h3><div id="speciesGallery" style="display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding:5px 0 12px"></div>'+
+    '<h3>📸 Trois vues à contrôler</h3><p class="small">① Chapeau (dessus et couleurs) · ② Pied entier et base (anneau, volve, bulbe) · ③ Dessous (lamelles, pores, aiguillons ou plis). Les angles et les identifications des photos ci-dessous ne sont pas encore tous vérifiés.</p><div class="small" style="margin:8px 0 12px;padding:10px;border:1px solid #aaa;border-radius:10px">'+(entries.length<3?'⚠️ '+entries.length+'/3 photographies : vues manquantes à rechercher':'📷 '+entries.length+' photographies : vérifier que les trois angles sont réellement présents')+'</div><h3>📸 Photographies et sources</h3><div id="speciesGallery" style="display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding:5px 0 12px"></div>'+
     '<p><a href="'+safe(f[9])+'" target="_blank" rel="noopener noreferrer">📖 Documentation de référence ↗</a></p>'+
     '<small>Les photos ne suffisent pas à confirmer la comestibilité.</small>'+
    '</section></article>';
