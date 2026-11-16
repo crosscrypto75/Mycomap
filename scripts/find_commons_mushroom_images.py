@@ -5,6 +5,7 @@ Ne publie aucune image. Produit un inventaire et un rapport de couverture/erreur
 """
 import html
 import json
+import os
 import re
 import sys
 import time
@@ -50,7 +51,8 @@ def query(params, attempts=3):
         except (HTTPError, URLError, TimeoutError, ValueError, RuntimeError) as exc:
             if attempt == attempts - 1:
                 raise
-            time.sleep(2 ** attempt)
+            delay = 15 * (attempt + 1) if isinstance(exc, HTTPError) and exc.code == 429 else 2 ** attempt
+            time.sleep(delay)
 
 
 def clean(value):
@@ -86,9 +88,20 @@ def images_from_response(response, scientific_name, species_id, seen):
 
 
 def main():
-    names = catalog_names()
+    all_names = catalog_names()
+    specific = os.getenv("MYCOMAP_IMAGE_SPECIES", "").strip()
+    if specific:
+        if specific not in all_names:
+            raise ValueError("Espèce absente du catalogue : " + specific)
+        names = [specific]
+    else:
+        start = max(1, int(os.getenv("MYCOMAP_IMAGE_START", "1")))
+        count = max(1, min(76, int(os.getenv("MYCOMAP_IMAGE_COUNT", "8"))))
+        names = all_names[start - 1:start - 1 + count]
+    if not names:
+        raise ValueError("Lot vide : vérifier MYCOMAP_IMAGE_START")
     results, coverage = [], []
-    print(f"Catalogue : {len(names)} noms scientifiques distincts.", flush=True)
+    print(f"Lot : {len(names)} espèces sur {len(all_names)} dans le catalogue.", flush=True)
     for index, name in enumerate(names, 1):
         species_id = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
         search_name = re.sub(r"\s+(?:agg\.|spp\.)$", "", name).strip()
@@ -109,14 +122,14 @@ def main():
                 errors.append(f"{type(exc).__name__}: {exc}")
             if len(found) >= 8:
                 break
-            time.sleep(0.1)
+            time.sleep(1.2)
         results.extend(found[:12])
         coverage.append({"scientific_name": name, "candidate_count": min(len(found), 12),
                          "errors": errors, "status": "error" if errors and not found else
                          ("found" if found else "no_candidate")})
         print(f"[{index}/{len(names)}] {name}: {len(found)} candidates; {len(errors)} erreurs", flush=True)
     counts = Counter(item["status"] for item in coverage)
-    report = {"species_total": len(names), "species_with_candidates": counts["found"],
+    report = {"species_total": len(names), "catalog_total": len(all_names), "species_requested": specific or None, "species_with_candidates": counts["found"],
               "species_without_candidates": counts["no_candidate"],
               "species_with_errors": counts["error"],
               "image_candidates_total": len(results), "species": coverage}
