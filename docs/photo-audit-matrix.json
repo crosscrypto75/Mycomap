@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-16",
   "scope": "76 catalogue taxa, all linked image records",
-  "method": "Automated anatomical metadata audit using actual index.html photo entries, catalog descriptors and notes. No pixel-level inspection, image HTTP checks, external taxonomic authentication or license-page verification performed in this run.",
+  "method": "Automated anatomical metadata audit using actual index.html photo entries, catalog descriptors and notes. No pixel-level inspection, image HTTP checks, external taxonomic authentication or license-page verification performed in this run. First manual source-page checks and one direct thumbnail visual inspection performed 2026-11-16; only explicitly marked records are visually reviewed.",
   "statusDefinitions": {
     "unverified": "No direct visual confirmation",
     "documented_only": "Anatomical clue inferred from file title or existing photo note; not visually verified"
@@ -11,7 +11,9 @@
     "minimumThree": 76,
     "images": 247,
     "visuallyVerifiedTaxa": 0,
-    "visuallyVerifiedViews": 0
+    "visuallyVerifiedViews": 1,
+    "sourcePageIssuesFound": 2,
+    "imagesVisuallyOpened": 1
   },
   "species": [
     {
@@ -31,7 +33,8 @@
       ],
       "hymenophore": "pores/tubes",
       "priorityFlags": [
-        "pores, réseau/scabres du pied, coupe et bleuissement"
+        "pores, réseau/scabres du pied, coupe et bleuissement",
+        "Remplacer la photo de cèpes séchés pour le jeu de référence anatomique."
       ],
       "views": {
         "cap": "unverified",
@@ -82,7 +85,12 @@
           "anatomicalEvidence": "unverified",
           "view": "unverified",
           "taxon": "unverified",
-          "accessible": "unverified"
+          "accessible": "unverified",
+          "visualReview": {
+            "status": "unsuitable_for_fresh_anatomy",
+            "finding": "La page source indique des cèpes séchés, non une vue anatomique de spécimen frais",
+            "sourcePageChecked": true
+          }
         }
       ]
     },
@@ -246,7 +254,7 @@
       "views": {
         "cap": "unverified",
         "stemBase": "unverified",
-        "hymenophore": "unverified"
+        "hymenophore": "visually_verified"
       },
       "anatomicalStatus": "not_visually_audited",
       "images": [
@@ -267,10 +275,15 @@
           "author": "Rosser1954",
           "license": "CC BY-SA 4.0",
           "note": null,
-          "anatomicalEvidence": "unverified",
-          "view": "unverified",
+          "anatomicalEvidence": "visually_verified",
+          "view": "hymenophore_spines",
           "taxon": "unverified",
-          "accessible": "unverified"
+          "accessible": "unverified",
+          "visualReview": {
+            "status": "confirmed_visible",
+            "finding": "Gros plan montrant de nombreux aiguillons crème pendants, non des lamelles; chapeau et pied absents du cadrage",
+            "sourcePageChecked": true
+          }
         },
         {
           "file": "assets/champignons/pied-de-mouton/pied-de-mouton_02.jpg",
@@ -312,7 +325,9 @@
         "plis ou face fertile lisse (selon espèce)"
       ],
       "hymenophore": "plis ou face fertile lisse (selon espèce)",
-      "priorityFlags": [],
+      "priorityFlags": [
+        "IMPORTANT : une image présente deux espèces différentes (Craterellus tubaeformis et Leotia lubrica). Remplacer ou légender explicitement."
+      ],
       "views": {
         "cap": "unverified",
         "stemBase": "unverified",
@@ -340,7 +355,12 @@
           "anatomicalEvidence": "unverified",
           "view": "unverified",
           "taxon": "unverified",
-          "accessible": "unverified"
+          "accessible": "unverified",
+          "visualReview": {
+            "status": "mixed_species_source",
+            "finding": "La source indique explicitement Craterellus tubaeformis en haut ET Leotia lubrica en bas; impropre comme image non annotée d'une espèce unique",
+            "sourcePageChecked": true
+          }
         },
         {
           "file": "assets/champignons/chanterelle-en-tube/chanterelle-en-tube_03.jpg",
