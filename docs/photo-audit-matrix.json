@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-16",
   "scope": "76 catalogue taxa, all linked image records",
-  "method": "Automated anatomical metadata audit using actual index.html photo entries, catalog descriptors and notes. No pixel-level inspection, image HTTP checks, external taxonomic authentication or license-page verification performed in this run. First manual source-page checks and one direct thumbnail visual inspection performed 2026-11-16; only explicitly marked records are visually reviewed. Three source-related image replacements applied to the live catalog; anatomical views still pending direct visual validation.",
+  "method": "Automated anatomical metadata audit using actual index.html photo entries, catalog descriptors and notes. No pixel-level inspection, image HTTP checks, external taxonomic authentication or license-page verification performed in this run. First manual source-page checks and one direct thumbnail visual inspection performed 2026-11-16; only explicitly marked records are visually reviewed. Three source-related image replacements applied to the live catalog; anatomical views still pending direct visual validation. 2026-11-16 follow-up: four Commons file descriptions checked; no direct pixel-level image inspection was possible in this pass. Source-page checks are not counted as visual validations.",
   "statusDefinitions": {
     "unverified": "No direct visual confirmation",
     "documented_only": "Anatomical clue inferred from file title or existing photo note; not visually verified"
@@ -14,7 +14,9 @@
     "visuallyVerifiedViews": 1,
     "sourcePageIssuesFound": 0,
     "imagesVisuallyOpened": 1,
-    "remediatedSourceIssues": 3
+    "remediatedSourceIssues": 3,
+    "sourcePagesCheckedThisPass": 4,
+    "imagesVisuallyOpenedThisPass": 0
   },
   "species": [
     {
@@ -85,7 +87,15 @@
           "anatomicalEvidence": "documented_only",
           "view": "unverified",
           "taxon": "unverified",
-          "accessible": "unverified"
+          "accessible": "unverified",
+          "sourcePageReview": {
+            "checked": "2026-11-16",
+            "taxonDeclared": "Boletus edulis",
+            "anatomicalClaim": "pores jeunes et matures",
+            "licenseDeclared": "CC BY-SA 4.0",
+            "authorDeclared": "Ude",
+            "pixelReview": "not_performed_this_pass"
+          }
         }
       ],
       "remediation": {
@@ -251,7 +261,9 @@
         "aiguillons"
       ],
       "hymenophore": "aiguillons",
-      "priorityFlags": [],
+      "priorityFlags": [
+        "Trois fichiers de la même série Rosser1954 documentent les aiguillons : vérifier la redondance et ajouter si besoin une vue entière avec base du pied."
+      ],
       "views": {
         "cap": "unverified",
         "stemBase": "unverified",
@@ -284,6 +296,14 @@
             "status": "confirmed_visible",
             "finding": "Gros plan montrant de nombreux aiguillons crème pendants, non des lamelles; chapeau et pied absents du cadrage",
             "sourcePageChecked": true
+          },
+          "sourcePageReview": {
+            "checked": "2026-11-16",
+            "taxonDeclared": "Hydnum repandum",
+            "anatomicalClaim": "aiguillons",
+            "licenseDeclared": "CC BY-SA 4.0",
+            "authorDeclared": "Rosser1954",
+            "pixelReview": "not_performed_this_pass"
           }
         },
         {
@@ -295,7 +315,15 @@
           "anatomicalEvidence": "unverified",
           "view": "unverified",
           "taxon": "unverified",
-          "accessible": "unverified"
+          "accessible": "unverified",
+          "sourcePageReview": {
+            "checked": "2026-11-16",
+            "taxonDeclared": "Hydnum repandum",
+            "anatomicalClaim": "aiguillons",
+            "licenseDeclared": "CC BY-SA 4.0",
+            "authorDeclared": "Rosser1954",
+            "pixelReview": "not_performed_this_pass"
+          }
         },
         {
           "file": "assets/champignons/pied-de-mouton/pied-de-mouton_03.jpg",
@@ -306,7 +334,15 @@
           "anatomicalEvidence": "unverified",
           "view": "unverified",
           "taxon": "unverified",
-          "accessible": "unverified"
+          "accessible": "unverified",
+          "sourcePageReview": {
+            "checked": "2026-11-16",
+            "taxonDeclared": "Hydnum repandum",
+            "anatomicalClaim": "aiguillons",
+            "licenseDeclared": "CC BY-SA 4.0",
+            "authorDeclared": "Rosser1954",
+            "pixelReview": "not_performed_this_pass"
+          }
         }
       ]
     },
@@ -326,7 +362,9 @@
         "plis ou face fertile lisse (selon espèce)"
       ],
       "hymenophore": "plis ou face fertile lisse (selon espèce)",
-      "priorityFlags": [],
+      "priorityFlags": [
+        "Attribution de l'image 71471 non résolue sur Commons ; vérifier auteur réel avant réutilisation."
+      ],
       "views": {
         "cap": "unverified",
         "stemBase": "unverified",
@@ -365,7 +403,15 @@
           "anatomicalEvidence": "documented_only",
           "view": "unverified",
           "taxon": "unverified",
-          "accessible": "unverified"
+          "accessible": "unverified",
+          "sourcePageReview": {
+            "checked": "2026-11-16",
+            "taxonDeclared": "Craterellus tubaeformis",
+            "licenseDeclared": "CC BY-SA 3.0",
+            "authorDeclared": "Mushroom Observer uploader template unresolved",
+            "pixelReview": "not_performed_this_pass"
+          },
+          "metadataIssue": "Auteur non résolu : gabarit {{{2}}} sur Wikimedia Commons ; vérifier attribution à la source Mushroom Observer."
         },
         {
           "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Craterellus%20tubaeformis%2020201103%206628.jpg?width=640",
