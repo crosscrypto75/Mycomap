@@ -1,0 +1,2560 @@
+{
+  "generated": "2026-11-16",
+  "method": "Static inventory only. View roles, links and identifications require individual visual/manual verification.",
+  "species": [
+    {
+      "species": "Boletus edulis",
+      "commonName": "Cèpe de Bordeaux",
+      "imageCount": 4,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "assets/champignons/cepe-de-bordeaux/cepe-de-bordeaux_01.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:(Boletus_edulis).jpg",
+          "author": "Tomas Čekanavičius",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/cepe-de-bordeaux/cepe-de-bordeaux_02.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:(Gemeine_Steinpilz)_Boletus_edulis.jpg",
+          "author": "Holger Krisp",
+          "license": "CC BY 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/cepe-de-bordeaux/cepe-de-bordeaux_03.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:-_Boletus_edulis_-.jpg",
+          "author": "Nino Barbieri",
+          "license": "CC BY 2.5",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/cepe-de-bordeaux/cepe-de-bordeaux_04.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:-_Dried_Boletus_edulis_-.jpg",
+          "author": "Nino Barbieri",
+          "license": "CC BY 2.5",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Cantharellus cibarius",
+      "commonName": "Girolle",
+      "imageCount": 4,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "assets/champignons/girolle/girolle_01.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:2007-07-14_Cantharellus_cibarius_cropped.jpg",
+          "author": "Andreas Kunze",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/girolle/girolle_02.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Botanical_Garden_Gothenburg_and_Angg%C3%A5rdsbergen_13.08.2017_Chanterelle_-_Cantharellus_cibarius_(37248583152).jpg",
+          "author": "Björn S...",
+          "license": "CC BY-SA 2.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/girolle/girolle_03.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Botanical_Garden_Gothenburg_and_Angg%C3%A5rdsbergen_13.08.2017_Chanterelle_-_Cantharellus_cibarius_(37321571732).jpg",
+          "author": "Björn S...",
+          "license": "CC BY-SA 2.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/girolle/girolle_04.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Botanical_Garden_Gothenburg_and_Angg%C3%A5rdsbergen_13.08.2017_Chanterelle_-_Cantharellus_cibarius_(37411590105).jpg",
+          "author": "Björn S...",
+          "license": "CC BY-SA 2.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Craterellus cornucopioides",
+      "commonName": "Trompette de la mort",
+      "imageCount": 4,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "assets/champignons/trompette-de-la-mort/trompette-de-la-mort_01.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Craterellus_Cornucopioides_in_Elatia_forest.jpg",
+          "author": "KostasGiannakis",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/trompette-de-la-mort/trompette-de-la-mort_02.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:0_Craterellus_cornucopioides_-_Trompette_de_la_mort_(1).JPG",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/trompette-de-la-mort/trompette-de-la-mort_03.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:0_Craterellus_cornucopioides_-_Trompette_de_la_mort_(2).JPG",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/trompette-de-la-mort/trompette-de-la-mort_04.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:0.2014_Craterellus_cornucopioides_aus_beskidischen_Waldkarpaten.JPG",
+          "author": "Silar",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Hydnum repandum",
+      "commonName": "Pied-de-mouton",
+      "imageCount": 4,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "assets/champignons/pied-de-mouton/pied-de-mouton_04.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:2012-08-29_Hydnum_repandum_L_256175_crop.jpg",
+          "author": "This image was created by user Alan Rockefeller (Alan Rockefeller) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/pied-de-mouton/pied-de-mouton_01.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Hydnum_repandum_-_Hedgehog_Fungus_spore_bearing_spines.jpg",
+          "author": "Rosser1954",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/pied-de-mouton/pied-de-mouton_02.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Hydnum_repandum._The_Hedgehog_Fungus_spore_bearing_spines_structures.jpg",
+          "author": "Rosser1954",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/pied-de-mouton/pied-de-mouton_03.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Hydnum_repandum._The_Hedgehog_Fungus_spore_bearing_spines.jpg",
+          "author": "Rosser1954",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Craterellus tubaeformis",
+      "commonName": "Chanterelle en tube",
+      "imageCount": 4,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "assets/champignons/chanterelle-en-tube/chanterelle-en-tube_01.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:(Craterellus_tubaeformis_4)_-_Flickr_-_Tero_Karppinen.jpg",
+          "author": "Tero Karppinen from Finland",
+          "license": "CC BY 2.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/chanterelle-en-tube/chanterelle-en-tube_02.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:2009-10-07_Craterellus_tubaeformis_Leotia_lubrica.jpg",
+          "author": "Andreas Kunze",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/chanterelle-en-tube/chanterelle-en-tube_03.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:2011-07-12_Craterellus_tubaeformis_71471.jpg",
+          "author": "This image was created by user {{{2}}} at Mushroom Observer, a source for mycological images.You can contact this user here.",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/chanterelle-en-tube/chanterelle-en-tube_04.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Annie_L._Prat_(16704556272).jpg",
+          "author": "Nova Scotia Archives",
+          "license": "Public domain",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Macrolepiota procera",
+      "commonName": "Coulemelle",
+      "imageCount": 4,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "assets/champignons/coulemelle/coulemelle_01.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:1_-_Macrolepiota_procera_(St%C5%AFl).JPG",
+          "author": "Fredy.00",
+          "license": "Public domain",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/coulemelle/coulemelle_02.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:2_-_Macrolepiota_procera_(V_lese).JPG",
+          "author": "Fredy.00",
+          "license": "Public domain",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/coulemelle/coulemelle_03.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:20130924Macrolepiota_procera4.jpg",
+          "author": "AnRo0002",
+          "license": "CC0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/coulemelle/coulemelle_04.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:20130924Macrolepiota_procera5.jpg",
+          "author": "AnRo0002",
+          "license": "CC0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Clitopilus prunulus",
+      "commonName": "Meunier",
+      "imageCount": 4,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "assets/champignons/meunier/meunier_05.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Clitopilus_prunulus_1421347.jpg",
+          "author": "Richard Daniel",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/meunier/meunier_06.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Clitopilus_prunulus_433076197.jpg",
+          "author": "Matej Frančeškin",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/meunier/meunier_01.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:2009-10-30_Clitopilus_prunulus_27673_mod.jpg",
+          "author": "This image was created by user Ron Pastorino (Ronpast) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/meunier/meunier_04.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Bresadola_-_Clitopilus_prunulus.png",
+          "author": "Giacomo Bresadola",
+          "license": "Public domain",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Amanita phalloides",
+      "commonName": "Amanite phalloïde",
+      "imageCount": 5,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "assets/champignons/amanite-phalloide/amanite-phalloide_01.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Aging_Amanita_phalloides_showing_hollow_stipe_and_decomposing_egg.jpg",
+          "author": "Jengod",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/amanite-phalloide/amanite-phalloide_02.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:01_Amanita_phalloides_in_Zalas,_Poland.jpg",
+          "author": "Krzysztof Ślusarczyk (upload by Marek Ślusarczyk)",
+          "license": "CC BY 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/amanite-phalloide/amanite-phalloide_03.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:02_Amanita_phalloides_in_Zalas,_Poland.jpg",
+          "author": "Krzysztof Ślusarczyk (upload by Marek Ślusarczyk)",
+          "license": "CC BY 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/amanite-phalloide/amanite-phalloide_04.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:03_Amanita_phalloides_in_Zalas,_Poland.jpg",
+          "author": "Krzysztof Ślusarczyk (upload by Marek Ślusarczyk)",
+          "license": "CC BY 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Amanita%20phalloides%20adult.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Amanita%20phalloides%20adult.jpg",
+          "author": "Stanisław Skowron",
+          "license": "Domaine public",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Russula spp.",
+      "commonName": "Russules",
+      "imageCount": 4,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "assets/champignons/russules/russules_01.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:2Russula_sp._(Brittlegills_mushroom)_bottom_view.jpg",
+          "author": "Aloony loon",
+          "license": "CC BY 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/russules/russules_02.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Russula_sp._(Brittlegills_mushroom)_-_florescent_green_inder_UV_light.jpg",
+          "author": "Aloony loon",
+          "license": "CC BY 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/russules/russules_03.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Russula_sp._(Brittlegills_mushroom).jpg",
+          "author": "Aloony loon",
+          "license": "CC BY 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/russules/russules_04.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Champignon_genre_Russule_(Russula).jpg",
+          "author": "Annick Bregain",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Russula cyanoxantha",
+      "commonName": "Russule charbonnière",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Russula%20cyanoxantha%20gill%20press.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Russula%20cyanoxantha%20gill%20press.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Russula%20cyanoxantha%20collection.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Russula%20cyanoxantha%20collection.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/RUSSULA%20CYANOXANTHA%20Schff.%20Fr.%20(5773750274).jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:RUSSULA%20CYANOXANTHA%20Schff.%20Fr.%20(5773750274).jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Russula virescens",
+      "commonName": "Russule verdoyante",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Russula%20virescens%20free.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Russula%20virescens%20free.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Russula%20virescens%20Italia.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Russula%20virescens%20Italia.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Russula%20virescens%20top.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Russula%20virescens%20top.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Russula vesca",
+      "commonName": "Russule comestible",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Russula%20vesca%2024553294.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Russula%20vesca%2024553294.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Russula%20vesca%2024553297.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Russula%20vesca%2024553297.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Russula%20vesca%20young.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Russula%20vesca%20young.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Lactarius deliciosus",
+      "commonName": "Lactaire délicieux",
+      "imageCount": 4,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "assets/champignons/lactaire-delicieux/lactaire-delicieux_03.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:2009-09-28_Lactarius_deliciosus_cropped.jpg",
+          "author": "2009-09-28_Lactarius_deliciosus.jpg: furtwangl from West Seattle\nderivative work: Ak ccm (talk)",
+          "license": "CC BY 2.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/lactaire-delicieux/lactaire-delicieux_01.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:2010-12-09_Lactarius_deliciosus_gills_60530.jpg",
+          "author": "This image was created by user Tom (LanLord) at Mushroom Observer, a source for mycological images.You can contact this user here.",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/lactaire-delicieux/lactaire-delicieux_02.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Isn%27t_it_lovely_this_Lactarius_deliciosus_(Smakelijke_Melkzwam)_with_its_soft_colours_and_a_thick_stipe_at_Hoge_Veluwe_Park_%E2%80%93_panoramio.jpg",
+          "author": "Henk Monster",
+          "license": "CC BY 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/lactaire-delicieux/lactaire-delicieux_04.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:2009-09-28_Lactarius_deliciosus.jpg",
+          "author": "furtwangl from West Seattle",
+          "license": "CC BY 2.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Lactarius sanguifluus",
+      "commonName": "Lactaire sanguin",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius%20sanguifluus%201.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Lactarius%20sanguifluus%201.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius%20sanguifluus%202.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Lactarius%20sanguifluus%202.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius%20sanguifluus%20collection.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Lactarius%20sanguifluus%20collection.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Lactarius semisanguifluus",
+      "commonName": "Lactaire semi-sanguin",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius%20semisanguifluus%201.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Lactarius%20semisanguifluus%201.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius%20semisanguifluus%202.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Lactarius%20semisanguifluus%202.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius%20semisanguifluus%203%20cropped.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Lactarius%20semisanguifluus%203%20cropped.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Lactarius salmonicolor",
+      "commonName": "Lactaire saumon",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius%20salmonicolor%20(Haute-Loire%2C%20France)%2001.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Lactarius%20salmonicolor%20(Haute-Loire%2C%20France)%2001.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius%20salmonicolor%20(Haute-Loire%2C%20France)%2002.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Lactarius%20salmonicolor%20(Haute-Loire%2C%20France)%2002.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius%20salmonicolor%20(Haute-Loire%2C%20France)%2003.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Lactarius%20salmonicolor%20(Haute-Loire%2C%20France)%2003.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Lactarius deterrimus",
+      "commonName": "Lactaire de l'épicéa",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Abuluntu%20Lactarius%20deterrimus%20cap.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Abuluntu%20Lactarius%20deterrimus%20cap.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Abuluntu%20Lactarius%20deterrimus%20gills.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Abuluntu%20Lactarius%20deterrimus%20gills.jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius%20deterrimus%20(36271610281).jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Lactarius%20deterrimus%20(36271610281).jpg",
+          "author": "Voir la fiche du fichier",
+          "license": "Licence libre — vérifier les conditions sur Commons",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Lactarius quietus",
+      "commonName": "Lactaire tranquille",
+      "imageCount": 4,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "assets/champignons/lactaire-tranquille/lactaire-tranquille_01.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:2007-07-09_Lactarius_quietus_2.jpg",
+          "author": "Andreas Kunze",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/lactaire-tranquille/lactaire-tranquille_02.png",
+          "source": "https://commons.wikimedia.org/wiki/File:Bresadola_-_Lactarius_quietus.png",
+          "author": "Giacomo Bresadola",
+          "license": "Public domain",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/lactaire-tranquille/lactaire-tranquille_03.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Lactarius_Lactarius_quietus_(29445492483).jpg",
+          "author": "Dr. Hans-Günter Wagner",
+          "license": "CC BY-SA 2.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "assets/champignons/lactaire-tranquille/lactaire-tranquille_04.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Lactarius_quietus_(37576184571).jpg",
+          "author": "Lukas from London, England",
+          "license": "CC BY-SA 2.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Aleuria aurantia",
+      "commonName": "Pézize orangée",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Aleuria%20aurantia%201.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Aleuria%20aurantia%201.jpg",
+          "author": "Aiwok",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Auricularia auricula-judae",
+      "commonName": "Oreille-de-Judas",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Auricularia%20auricula-judae%2C%202025.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Auricularia%20auricula-judae%2C%202025.jpg",
+          "author": "Haagen01",
+          "license": "CC0 1.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Auricularia%20auricula-judae%20(37874667016).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Auricularia%20auricula-judae%20(37874667016).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Auricularia%20auricula-judae%20112118529.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Auricularia%20auricula-judae%20112118529.jpg",
+          "author": "Michel Langeveld",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Sparassis crispa",
+      "commonName": "Sparassis crépu",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Sparassis%20crispa%20(15699601587).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Sparassis%20crispa%20(15699601587).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Sparassis%20crispa%2053103652.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Sparassis%20crispa%2053103652.jpg",
+          "author": "Christian Kahle",
+          "license": "CC0 1.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/2025-08-29%20D500-0564%20Achim%20Lammerts%20Krause%20Glucke%20(Sparassis%20crispa).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:2025-08-29%20D500-0564%20Achim%20Lammerts%20Krause%20Glucke%20(Sparassis%20crispa).jpg",
+          "author": "Achim Lammerts",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Helvella crispa",
+      "commonName": "Helvelle crépue",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Helvelle%20cr%C3%A9pue%2C%20Helvella%20crispa.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Helvelle%20cr%C3%A9pue%2C%20Helvella%20crispa.jpg",
+          "author": "B59210",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Helvella%20crispa.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Helvella%20crispa.jpg",
+          "author": "Walter J. Pilsak",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Helvella%20crispa%20(Scop.)%20Fr%20244573.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Helvella%20crispa%20(Scop.)%20Fr%20244573.jpg",
+          "author": "Jimmie Veitch (jimmiev)",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Morchella esculenta agg.",
+      "commonName": "Morille commune",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Morchella%20esculenta%20300405.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Morchella%20esculenta%20300405.jpg",
+          "author": "Bernd Haynold",
+          "license": "CC BY-SA 2.5",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Morchella%20esculenta%20kz02.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Morchella%20esculenta%20kz02.jpg",
+          "author": "Krzysztof Ziarnek, Kenraiz",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Pleurotus ostreatus",
+      "commonName": "Pleurote en huître",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Pleurotus%20ostreatus.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Pleurotus%20ostreatus.jpg",
+          "author": "Franck Hidvégi",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Agaricus campestris",
+      "commonName": "Rosé-des-prés",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Agaricus%20Campestris.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Agaricus%20Campestris.jpg",
+          "author": "A.Aguilera",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Agaricus xanthodermus",
+      "commonName": "Agaric jaunissant",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Agaricus%20xanthodermus.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Agaricus%20xanthodermus.jpg",
+          "author": "Chilepine",
+          "license": "Domaine public",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Amanita caesarea",
+      "commonName": "Oronge",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Amanita%20caesarea.JPG?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Amanita%20caesarea.JPG",
+          "author": "Archenzo",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Amanita muscaria",
+      "commonName": "Amanite tue-mouches",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Amanita-muscaria.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Amanita-muscaria.jpg",
+          "author": "MartinThoma",
+          "license": "CC0 1.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Amanita citrina",
+      "commonName": "Amanite citrine",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Amanita%20citrina%201.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Amanita%20citrina%201.jpg",
+          "author": "Karelj",
+          "license": "Domaine public",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Amanita gemmata",
+      "commonName": "Amanite jonquille",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Amanita%20gemmata.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Amanita%20gemmata.jpg",
+          "author": "JovanaKoturov",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Amanita pantherina",
+      "commonName": "Amanite panthère",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Amanita%20pantherina%20060820wa.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Amanita%20pantherina%20060820wa.jpg",
+          "author": "Strobilomyces",
+          "license": "CC BY-SA 2.5",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Pantherpilz%20Amanita%20pantherina.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Pantherpilz%20Amanita%20pantherina.jpg",
+          "author": "Holger Krisp",
+          "license": "CC BY 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Amanita%20pantherina%201538476.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Amanita%20pantherina%201538476.jpg",
+          "author": "Richard Daniel",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Amanita excelsa",
+      "commonName": "Amanite épaisse",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Amanita%20excelsa%20(15672082677).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Amanita%20excelsa%20(15672082677).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Amanita rubescens",
+      "commonName": "Golmotte",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Amanita%20rubescens.JPG?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Amanita%20rubescens.JPG",
+          "author": "Archenzo",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Armillaria mellea agg.",
+      "commonName": "Armillaire couleur de miel",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Armillaria%20mellea%20(52440056066).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Armillaria%20mellea%20(52440056066).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Armillaria%20mellea%20(48934163121).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Armillaria%20mellea%20(48934163121).jpg",
+          "author": "Lukas",
+          "license": "CC BY-SA 2.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Calocybe gambosa",
+      "commonName": "Tricholome de la Saint-Georges",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Calocybe%20gambosa.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Calocybe%20gambosa.jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/2010-05-27%20Calocybe%20gambosa.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:2010-05-27%20Calocybe%20gambosa.jpg",
+          "author": "Andreas Kunze",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Clitocybe nebularis",
+      "commonName": "Clitocybe nébuleux",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Clitocybe%20nebularis.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Clitocybe%20nebularis.jpg",
+          "author": "Daniel Ullrich (Threedots)",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Clitocybe%20nebularis%20(36621131263).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Clitocybe%20nebularis%20(36621131263).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Clitocybe%20nebularis%20(48678028267).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Clitocybe%20nebularis%20(48678028267).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Clitocybe odora",
+      "commonName": "Clitocybe anisé",
+      "imageCount": 4,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Clitocybe%20odora.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Clitocybe%20odora.jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Clitocybe%20odora%20161112w.JPG?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Clitocybe%20odora%20161112w.JPG",
+          "author": "Strobilomyces",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Clitocybe%20odora%20G2.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Clitocybe%20odora%20G2.jpg",
+          "author": "Jerzy Opioła",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Clitocybe%20odora%20-%20Lindsey%201.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Clitocybe%20odora%20-%20Lindsey%201.jpg",
+          "author": "James Lindsey",
+          "license": "CC BY-SA 2.5",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Clitocybe rivulosa agg.",
+      "commonName": "Clitocybe blanc d’ivoire",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/2007-08-29%20Clitocybe%20rivulosa.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:2007-08-29%20Clitocybe%20rivulosa.jpg",
+          "author": "Andreas Kunze",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Clitocybe%20rivulosa%2020081116w.JPG?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Clitocybe%20rivulosa%2020081116w.JPG",
+          "author": "Strobilomyces",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Coprinus comatus",
+      "commonName": "Coprin chevelu",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Coprinus%20comatus%20mushroom.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Coprinus%20comatus%20mushroom.jpg",
+          "author": "Apanasevich Maxim",
+          "license": "CC BY 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Cortinarius orellanus",
+      "commonName": "Cortinaire couleur de rocou",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Cortinarius%20orellanus%20(37534772370).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Cortinarius%20orellanus%20(37534772370).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Cortinarius%20orellanus%20(15853881675).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Cortinarius%20orellanus%20(15853881675).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/2013-10-16%20Cortinarius%20orellanus%201b.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:2013-10-16%20Cortinarius%20orellanus%201b.jpg",
+          "author": "Andreas Kunze",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Cyclocybe aegerita",
+      "commonName": "Pholiote du peuplier",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyclocybe%20aegerita%2010.2025%20(4).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Cyclocybe%20aegerita%2010.2025%20(4).jpg",
+          "author": "DidierFy",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyclocybe%20aegerita%2010.2025%20(2).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Cyclocybe%20aegerita%2010.2025%20(2).jpg",
+          "author": "DidierFy",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Entoloma clypeatum",
+      "commonName": "Entolome en bouclier",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Entoloma%20clypeatum.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Entoloma%20clypeatum.jpg",
+          "author": "Alan Rockefeller",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Entoloma sinuatum",
+      "commonName": "Entolome livide",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/2005-09-25%20Entoloma%20sinuatum%20cropped.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:2005-09-25%20Entoloma%20sinuatum%20cropped.jpg",
+          "author": "Archenzo ; recadrage Ak ccm",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Hygrophoropsis aurantiaca",
+      "commonName": "Fausse-girolle",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Hygrophoropsis%20aurantiaca%20(15265633733).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Hygrophoropsis%20aurantiaca%20(15265633733).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Hygrophoropsis%20aurantiaca%20(15885376915).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Hygrophoropsis%20aurantiaca%20(15885376915).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Hygrophoropsis%20aurantiaca%20(29402964143).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Hygrophoropsis%20aurantiaca%20(29402964143).jpg",
+          "author": "Dr. Hans-Günter Wagner",
+          "license": "CC BY-SA 2.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Hypholoma fasciculare",
+      "commonName": "Hypholome en touffe",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/2025-10-08%20D500-0900%20Achim-Lammerts%20Hypholoma-fasciculare.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:2025-10-08%20D500-0900%20Achim-Lammerts%20Hypholoma-fasciculare.jpg",
+          "author": "Achim Lammerts",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Kuehneromyces mutabilis",
+      "commonName": "Pholiote changeante",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuehneromyces%20mutabilis%20031111C.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Kuehneromyces%20mutabilis%20031111C.jpg",
+          "author": "Strobilomyces",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuehneromyces%20mutabilis%20(15666447458).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Kuehneromyces%20mutabilis%20(15666447458).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuehneromyces%20mutabilis%2001.JPG?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Kuehneromyces%20mutabilis%2001.JPG",
+          "author": "Eric Steinert",
+          "license": "CC BY-SA 2.5",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Galerina marginata",
+      "commonName": "Galérine marginée",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/GalerinaMarginata.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:GalerinaMarginata.jpg",
+          "author": "Saschotter",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Laccaria amethystina",
+      "commonName": "Laccaire améthyste",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Laccaria%20amethystina.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Laccaria%20amethystina.jpg",
+          "author": "Hans Hillewaert",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Lactifluus vellereus",
+      "commonName": "Lactaire velouté",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Lactarius%20vellereus%20LC0113.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Lactarius%20vellereus%20LC0113.jpg",
+          "author": "Jörg Hempel",
+          "license": "CC BY-SA 2.0 DE",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Lepiota cristata",
+      "commonName": "Lépiote à crête",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Lepiota%20cristata%2020070819w.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Lepiota%20cristata%2020070819w.jpg",
+          "author": "Strobilomyces",
+          "license": "CC BY-SA 2.5",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Lepiota%20cristata%20JPG2.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Lepiota%20cristata%20JPG2.jpg",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Lepista nuda",
+      "commonName": "Pied-bleu",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Fungo%20Lepista%20nuda.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Fungo%20Lepista%20nuda.jpg",
+          "author": "Albarubescens",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Lepista%20nuda%20171002w.JPG?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Lepista%20nuda%20171002w.JPG",
+          "author": "Strobilomyces",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Leucoagaricus leucothites",
+      "commonName": "Lépiote pudique",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Leucoagaricus%20leucothites%20(2).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Leucoagaricus%20leucothites%20(2).jpg",
+          "author": "Dušan Vučić",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Marasmius oreades",
+      "commonName": "Marasme des oréades",
+      "imageCount": 3,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Marasmius%20oreades.JPG?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Marasmius%20oreades.JPG",
+          "author": "Archenzo",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Marasmius%20oreades%20collection.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Marasmius%20oreades%20collection.jpg",
+          "author": "Jukka Vauras",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Marasmius%20oreades%20241919590.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Marasmius%20oreades%20241919590.jpg",
+          "author": "Michel Langeveld",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Mycena rosea",
+      "commonName": "Mycène rose",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/2025-10-14%20D500-0972%20Achim-Lammerts%20Mycena-rosea.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:2025-10-14%20D500-0972%20Achim-Lammerts%20Mycena-rosea.jpg",
+          "author": "Achim Lammerts",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Mycena%20rosea%2020602041.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Mycena%20rosea%2020602041.jpg",
+          "author": "bjoerns",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Omphalotus olearius",
+      "commonName": "Faux-clitocybe lumineux",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Omphalotus%20olearius%20(DC.)%20Singer%20471650.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Omphalotus%20olearius%20(DC.)%20Singer%20471650.jpg",
+          "author": "zaca (Mushroom Observer)",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Paxillus involutus",
+      "commonName": "Paxille enroulé",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Paxillus%20involutus%20mushroom.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Paxillus%20involutus%20mushroom.jpg",
+          "author": "Anush Mkrtchyan",
+          "license": "CC0 1.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Tricholoma columbetta",
+      "commonName": "Tricholome colombette",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Tricholoma%20columbetta.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Tricholoma%20columbetta.jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Tricholoma%20columbetta%20(30596153625).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Tricholoma%20columbetta%20(30596153625).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Tricholoma equestre",
+      "commonName": "Tricholome équestre",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Tricholoma%20equestre.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Tricholoma%20equestre.jpg",
+          "author": "Matthias Renner",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Tricholoma portentosum",
+      "commonName": "Tricholome prétentieux",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Tricholoma%20portentosum.JPG?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Tricholoma%20portentosum.JPG",
+          "author": "Archenzo",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Tricholoma%20portentosum%20181316.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Tricholoma%20portentosum%20181316.jpg",
+          "author": "Dan Molter (shroomydan)",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Tricholoma terreum",
+      "commonName": "Tricholome terreux",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Tricholoma%20terreum.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Tricholoma%20terreum.jpg",
+          "author": "Eric Steinert",
+          "license": "CC BY-SA 2.5",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Tricholoma%20terreum%20(1).JPG?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Tricholoma%20terreum%20(1).JPG",
+          "author": "Classiccardinal",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Tricholoma pardinum",
+      "commonName": "Tricholome tigré",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/2012-03-28%20Tricholoma%20pardinum%20Qu%C3%A9l%20208648.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:2012-03-28%20Tricholoma%20pardinum%20Qu%C3%A9l%20208648.jpg",
+          "author": "David Rust (incredulis)",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Craterellus cinereus",
+      "commonName": "Chanterelle cendrée",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Craterellus%20cinereus%20(54841902045).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Craterellus%20cinereus%20(54841902045).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Craterellus%20cinereus%20(15706569428).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Craterellus%20cinereus%20(15706569428).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Craterellus lutescens",
+      "commonName": "Chanterelle jaune",
+      "imageCount": 8,
+      "minimumMissing": 0,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/2007-11-10%20Craterellus%20lutescens.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:2007-11-10%20Craterellus%20lutescens.jpg",
+          "author": "Andreas Kunze",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Craterellus%20lutescens.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Craterellus%20lutescens.jpg",
+          "author": "mycobel",
+          "license": "CC BY 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Craterellus%20lutescens%20collection.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Craterellus%20lutescens%20collection.jpg",
+          "author": "mycobel",
+          "license": "CC BY 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Craterellus%20lutescens%2001.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Craterellus%20lutescens%2001.jpg",
+          "author": "Lucian Clanet",
+          "license": "CC BY 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Craterellus%20lutescens%20(19953285794).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Craterellus%20lutescens%20(19953285794).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Craterellus%20lutescens%2091d8c0ea-cb6c-49db-91ad-bfafbe7122ec.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Craterellus%20lutescens%2091d8c0ea-cb6c-49db-91ad-bfafbe7122ec.jpg",
+          "author": "Perry Gunnar Larsen",
+          "license": "CC BY 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Craterellus%20lutescens%20(15698051188).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Craterellus%20lutescens%20(15698051188).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Craterellus%20lutescens%20(20549634076).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Craterellus%20lutescens%20(20549634076).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Boletus aereus",
+      "commonName": "Cèpe bronzé",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Boletus%20aereus%20collection.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Boletus%20aereus%20collection.jpg",
+          "author": "Matthieu Morin",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Boletus%20aereus%20(neigro).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Boletus%20aereus%20(neigro).jpg",
+          "author": "Aereus646",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Boletus reticulatus",
+      "commonName": "Cèpe d’été",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Boletus%20reticulatus%20(2).JPG?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Boletus%20reticulatus%20(2).JPG",
+          "author": "Toffel",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/2012-08-26%20Boletus%20reticulatus%20Schaeff%20254757.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:2012-08-26%20Boletus%20reticulatus%20Schaeff%20254757.jpg",
+          "author": "Gerhard Koller",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Imleria badia",
+      "commonName": "Bolet bai",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Imleria%20badia.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Imleria%20badia.jpg",
+          "author": "Tintling",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Imleria%20badia%20318547015.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Imleria%20badia%20318547015.jpg",
+          "author": "Michel Langeveld",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Leccinum aurantiacum agg.",
+      "commonName": "Bolet orangé",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Leccinum%20aurantiacum.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Leccinum%20aurantiacum.jpg",
+          "author": "Hans Hillewaert",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Leccinum%20aurantiacum%20(48948607353).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Leccinum%20aurantiacum%20(48948607353).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Neoboletus erythropus",
+      "commonName": "Bolet à pied rouge",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Boletus%20erythropus.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Boletus%20erythropus.jpg",
+          "author": "Dezidor",
+          "license": "CC BY-SA 2.5",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Suillellus luridus",
+      "commonName": "Bolet blafard",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Suillellus%20luridus.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Suillellus%20luridus.jpg",
+          "author": "JovanaKoturov",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Suillellus%20luridus1.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Suillellus%20luridus1.jpg",
+          "author": "JovanaKoturov",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Rubroboletus satanas",
+      "commonName": "Bolet Satan",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Rubroboletus%20satanas%20(15878848275).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Rubroboletus%20satanas%20(15878848275).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Rubroboletus%20satanas%2025.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Rubroboletus%20satanas%2025.jpg",
+          "author": "bjoerns",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Suillus granulatus",
+      "commonName": "Bolet granulé",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Suillus%20granulatus%2020100927w.JPG?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Suillus%20granulatus%2020100927w.JPG",
+          "author": "Strobilomyces",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Suillus%20granulatus%2016767676.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Suillus%20granulatus%2016767676.jpg",
+          "author": "David Whyte",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Suillus bovinus",
+      "commonName": "Bolet des bouviers",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/2025-10-15%20D500-1045%20Achim-Lammerts%20Suillus-bovinus.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:2025-10-15%20D500-1045%20Achim-Lammerts%20Suillus-bovinus.jpg",
+          "author": "Achim Lammerts",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Suillus%20bovinus%20187484.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Suillus%20bovinus%20187484.jpg",
+          "author": "amadej trnkoczy (amadej)",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Suillus luteus",
+      "commonName": "Nonnette voilée",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/2012-10-12%20Suillus%20luteus%20(L.)%20Roussel%20271431.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:2012-10-12%20Suillus%20luteus%20(L.)%20Roussel%20271431.jpg",
+          "author": "Amy Earl (amye)",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Suillus%20luteus%20(15263021754).jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Suillus%20luteus%20(15263021754).jpg",
+          "author": "Claude PAGE",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Xerocomellus chrysenteron",
+      "commonName": "Bolet à chair jaune",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Xerocomellus%20chrysenteron%20LC0072.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Xerocomellus%20chrysenteron%20LC0072.jpg",
+          "author": "Jörg Hempel",
+          "license": "CC BY-SA 2.0 DE",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Fistulina hepatica",
+      "commonName": "Langue-de-bœuf",
+      "imageCount": 2,
+      "minimumMissing": 1,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Fistulina%20hepatica%2C%20fistuline%20h%C3%A9patique.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Fistulina%20hepatica%2C%20fistuline%20h%C3%A9patique.jpg",
+          "author": "Kean10",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        },
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Fistulina%20hepatica%2C%20fistuline%20h%C3%A9patique%204.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Fistulina%20hepatica%2C%20fistuline%20h%C3%A9patique%204.jpg",
+          "author": "Kean10",
+          "license": "CC BY-SA 4.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    },
+    {
+      "species": "Laetiporus sulphureus",
+      "commonName": "Polypore soufré",
+      "imageCount": 1,
+      "minimumMissing": 2,
+      "views": {
+        "cap": "unverified",
+        "stemBase": "unverified",
+        "hymenophore": "unverified"
+      },
+      "images": [
+        {
+          "file": "https://commons.wikimedia.org/wiki/Special:FilePath/Laetiporus%20sulphureus%20-%20Tierpark%20Hagenbeck%2001.jpg?width=640",
+          "source": "https://commons.wikimedia.org/wiki/File:Laetiporus%20sulphureus%20-%20Tierpark%20Hagenbeck%2001.jpg",
+          "author": "H. Zell",
+          "license": "CC BY-SA 3.0",
+          "view": "unverified",
+          "taxon": "unverified",
+          "accessible": "unverified"
+        }
+      ]
+    }
+  ]
+}
