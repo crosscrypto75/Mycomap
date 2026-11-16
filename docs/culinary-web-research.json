@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-16",
+  "method": "Comparaison de plusieurs sources indépendantes par taxon; statut culinaire non assimilé à identification d'un spécimen.",
+  "records": [
+    {
+      "taxon": "Lactarius semisanguifluus",
+      "category": "good",
+      "confidence": "high",
+      "sources": [
+        "https://campus.univ-lyon1.fr/champignons/base-de-donnees/lactarius-semisanguifluus/",
+        "https://micologica-barakaldo.org/Lactarius-semisanguifluus/",
+        "https://connaitrelanature.com/fr/rb/85490/lactaires-a-lait-orange-ou-rouge"
+      ],
+      "note": "Concordance sur bon comestible."
+    },
+    {
+      "taxon": "Lactarius salmonicolor",
+      "category": "medium",
+      "confidence": "high",
+      "sources": [
+        "https://campus.univ-lyon1.fr/champignons/base-de-donnees/lactarius-salmonicolor/",
+        "https://connaitrelanature.com/fr/rb/85490/lactaires-a-lait-orange-ou-rouge",
+        "https://www.dannyhaelewaters.com/wp-content/uploads/2022/11/Nuytinck-et-al.-2021-Recent-insights-in-the-phylogeny-species-diversity-and-culinary-uses-of-milkcap-genera-Lactarius-and-Lactifluus.pdf"
+      ],
+      "note": "Comestible médiocre, parfois déconseillé pour qualité gustative."
+    },
+    {
+      "taxon": "Lactarius deterrimus",
+      "category": "medium",
+      "confidence": "high",
+      "sources": [
+        "https://campus.univ-lyon1.fr/champignons/base-de-donnees/lactarius-deterrimus/",
+        "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC65050/elements%20in%20mushrooms-24415-en%202011.pdf",
+        "https://www.fungi.fr/pdf/toxiques.pdf"
+      ],
+      "note": "Comestible de qualité médiocre; JRC décrit parfois bon comestible, divergence gastronomique."
+    },
+    {
+      "taxon": "Lactarius quietus",
+      "category": "medium",
+      "confidence": "disputed",
+      "sources": [
+        "https://www.first-nature.com/fungi/lactarius-quietus.php",
+        "https://www.atlas-des-champignons.com/atlas/champignon/lactaire-tranquille/",
+        "https://www.chatenay-malabry.fr/wp-content/uploads/2017/08/Promenade-mycologique24102020-CC-BY-SA-NC.pdf"
+      ],
+      "note": "Sources divergentes: comestible médiocre selon First Nature et Atlas, non comestible selon support pédagogique de pharmacie Paris-Saclay. Badge gastronomique masqué dans interface en raison de divergence."
+    },
+    {
+      "taxon": "Russula spp.",
+      "category": null,
+      "confidence": "not_applicable",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12112443/",
+        "https://www.fao.org/4/y5489e/y5489e14.htm"
+      ],
+      "note": "Taxon de genre, non une espèce. Russula inclut des espèces comestibles, non comestibles et toxiques; classification gastronomique globale impossible."
+    }
+  ]
+}
