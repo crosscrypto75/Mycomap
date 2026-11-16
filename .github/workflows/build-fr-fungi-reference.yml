@@ -1,8 +1,6 @@
 name: Build French fungal occurrence reference
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '25 4 1 * *'
 permissions:
   contents: write
 jobs:
