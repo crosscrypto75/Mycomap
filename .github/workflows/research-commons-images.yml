@@ -1,12 +1,31 @@
 name: Research Commons mushroom illustrations
 on:
   workflow_dispatch:
+    inputs:
+      species:
+        description: 'Nom scientifique exact (vide = catalogue entier)'
+        required: false
+        type: string
+      start:
+        description: 'Index de départ (1 à 76)'
+        required: false
+        default: '1'
+        type: string
+      count:
+        description: 'Nombre d’espèces à traiter par lot'
+        required: false
+        default: '8'
+        type: string
 permissions:
   contents: read
 jobs:
   candidates:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
+    env:
+      MYCOMAP_IMAGE_SPECIES: ${{ inputs.species }}
+      MYCOMAP_IMAGE_START: ${{ inputs.start || '1' }}
+      MYCOMAP_IMAGE_COUNT: ${{ inputs.count || '8' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -15,9 +34,10 @@ jobs:
       - name: Find image candidates with source and license metadata
         run: python scripts/find_commons_mushroom_images.py
       - name: Upload candidates for manual species and rights review
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: commons-mushroom-image-candidates
+          name: commons-mushroom-image-candidates-${{ github.run_id }}
           path: |
             data/encyclopedia/commons-candidates.json
             data/encyclopedia/commons-coverage.json
