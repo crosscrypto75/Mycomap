@@ -1,0 +1,595 @@
+{
+  "title": "Transcription initiale des pictogrammes des deux PDF transmis",
+  "sources": [
+    {
+      "id": 1,
+      "file": "Encyclopedie champi.pdf",
+      "pages": 24
+    },
+    {
+      "id": 2,
+      "file": "Encyclopedi champi2.pdf",
+      "pages": 13
+    }
+  ],
+  "legend": {
+    "medium": "médiocre comestible",
+    "good": "bon comestible",
+    "excellent": "excellent comestible",
+    "no_culinary_value": "sans valeur culinaire ou à goût désagréable",
+    "mild_toxic": "légèrement toxique",
+    "severe_toxic": "toxique grave",
+    "deadly": "mortel"
+  },
+  "caution": "Transcription visuelle des pictogrammes du livre, pas une validation sanitaire indépendante ni une preuve de comestibilité; les classements anciens et controversés exigent une revue scientifique actuelle avant affichage comme conseil.",
+  "records": [
+    {
+      "taxon": "Aleuria aurantia",
+      "category": "medium",
+      "sourcePdf": 1,
+      "sourcePage": 2,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Auricularia auricula-judae",
+      "category": "medium",
+      "sourcePdf": 1,
+      "sourcePage": 3,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Sparassis crispa",
+      "category": "good",
+      "sourcePdf": 1,
+      "sourcePage": 4,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Helvella crispa",
+      "category": "medium",
+      "sourcePdf": 1,
+      "sourcePage": 4,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Morchella esculenta agg.",
+      "category": "excellent",
+      "sourcePdf": 1,
+      "sourcePage": 5,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Pleurotus ostreatus",
+      "category": "good",
+      "sourcePdf": 1,
+      "sourcePage": 5,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Hydnum repandum",
+      "category": "good",
+      "sourcePdf": 1,
+      "sourcePage": 6,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Agaricus campestris",
+      "category": "excellent",
+      "sourcePdf": 1,
+      "sourcePage": 6,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Agaricus xanthodermus",
+      "category": "mild_toxic",
+      "sourcePdf": 1,
+      "sourcePage": 7,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Amanita caesarea",
+      "category": "excellent",
+      "sourcePdf": 1,
+      "sourcePage": 7,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Amanita muscaria",
+      "category": "severe_toxic",
+      "sourcePdf": 1,
+      "sourcePage": 8,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Amanita citrina",
+      "category": "no_culinary_value",
+      "sourcePdf": 1,
+      "sourcePage": 8,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Amanita gemmata",
+      "category": "mild_toxic",
+      "sourcePdf": 1,
+      "sourcePage": 9,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Amanita pantherina",
+      "category": "severe_toxic",
+      "sourcePdf": 1,
+      "sourcePage": 9,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Amanita phalloides",
+      "category": "deadly",
+      "sourcePdf": 1,
+      "sourcePage": 10,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Amanita excelsa",
+      "category": "no_culinary_value",
+      "sourcePdf": 1,
+      "sourcePage": 10,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Amanita rubescens",
+      "category": "excellent",
+      "sourcePdf": 1,
+      "sourcePage": 11,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Armillaria mellea agg.",
+      "category": "medium",
+      "sourcePdf": 1,
+      "sourcePage": 12,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Calocybe gambosa",
+      "category": "excellent",
+      "sourcePdf": 1,
+      "sourcePage": 12,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Clitocybe nebularis",
+      "category": "medium",
+      "sourcePdf": 1,
+      "sourcePage": 13,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Clitocybe odora",
+      "category": "good",
+      "sourcePdf": 1,
+      "sourcePage": 13,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Clitopilus prunulus",
+      "category": "good",
+      "sourcePdf": 1,
+      "sourcePage": 14,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Clitocybe rivulosa agg.",
+      "category": "severe_toxic",
+      "sourcePdf": 1,
+      "sourcePage": 14,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Coprinus comatus",
+      "category": "excellent",
+      "sourcePdf": 1,
+      "sourcePage": 15,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Cortinarius orellanus",
+      "category": "deadly",
+      "sourcePdf": 1,
+      "sourcePage": 15,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Cyclocybe aegerita",
+      "category": "good",
+      "sourcePdf": 1,
+      "sourcePage": 16,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Entoloma clypeatum",
+      "category": "good",
+      "sourcePdf": 1,
+      "sourcePage": 16,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Entoloma sinuatum",
+      "category": "severe_toxic",
+      "sourcePdf": 1,
+      "sourcePage": 17,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Hygrophoropsis aurantiaca",
+      "category": "medium",
+      "sourcePdf": 1,
+      "sourcePage": 17,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Hypholoma fasciculare",
+      "category": "severe_toxic",
+      "sourcePdf": 1,
+      "sourcePage": 18,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Kuehneromyces mutabilis",
+      "category": "good",
+      "sourcePdf": 1,
+      "sourcePage": 18,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Galerina marginata",
+      "category": "deadly",
+      "sourcePdf": 1,
+      "sourcePage": 19,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Laccaria amethystina",
+      "category": "good",
+      "sourcePdf": 1,
+      "sourcePage": 19,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Lactarius deliciosus",
+      "category": "good",
+      "sourcePdf": 1,
+      "sourcePage": 20,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Lactarius sanguifluus",
+      "category": "excellent",
+      "sourcePdf": 1,
+      "sourcePage": 20,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Lactifluus vellereus",
+      "category": "no_culinary_value",
+      "sourcePdf": 1,
+      "sourcePage": 21,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Lepiota cristata",
+      "category": "mild_toxic",
+      "sourcePdf": 1,
+      "sourcePage": 21,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Lepista nuda",
+      "category": "good",
+      "sourcePdf": 1,
+      "sourcePage": 22,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Leucoagaricus leucothites",
+      "category": "good",
+      "sourcePdf": 1,
+      "sourcePage": 22,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Macrolepiota procera",
+      "category": "excellent",
+      "sourcePdf": 1,
+      "sourcePage": 23,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Marasmius oreades",
+      "category": "excellent",
+      "sourcePdf": 1,
+      "sourcePage": 23,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Mycena rosea",
+      "category": "severe_toxic",
+      "sourcePdf": 1,
+      "sourcePage": 24,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Omphalotus olearius",
+      "category": "severe_toxic",
+      "sourcePdf": 1,
+      "sourcePage": 24,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Paxillus involutus",
+      "category": "severe_toxic",
+      "sourcePdf": 2,
+      "sourcePage": 1,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Russula cyanoxantha",
+      "category": "good",
+      "sourcePdf": 2,
+      "sourcePage": 1,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Russula vesca",
+      "category": "good",
+      "sourcePdf": 2,
+      "sourcePage": 2,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Russula virescens",
+      "category": "excellent",
+      "sourcePdf": 2,
+      "sourcePage": 2,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Tricholoma columbetta",
+      "category": "good",
+      "sourcePdf": 2,
+      "sourcePage": 3,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Tricholoma equestre",
+      "category": "severe_toxic",
+      "sourcePdf": 2,
+      "sourcePage": 3,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Tricholoma portentosum",
+      "category": "good",
+      "sourcePdf": 2,
+      "sourcePage": 4,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Tricholoma terreum",
+      "category": "good",
+      "sourcePdf": 2,
+      "sourcePage": 4,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Tricholoma pardinum",
+      "category": "severe_toxic",
+      "sourcePdf": 2,
+      "sourcePage": 5,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Craterellus cornucopioides",
+      "category": "excellent",
+      "sourcePdf": 2,
+      "sourcePage": 5,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Craterellus cinereus",
+      "category": "good",
+      "sourcePdf": 2,
+      "sourcePage": 5,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Craterellus tubaeformis",
+      "category": "excellent",
+      "sourcePdf": 2,
+      "sourcePage": 6,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Craterellus lutescens",
+      "category": "good",
+      "sourcePdf": 2,
+      "sourcePage": 6,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Cantharellus cibarius",
+      "category": "excellent",
+      "sourcePdf": 2,
+      "sourcePage": 6,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Boletus aereus",
+      "category": "excellent",
+      "sourcePdf": 2,
+      "sourcePage": 7,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Boletus edulis",
+      "category": "excellent",
+      "sourcePdf": 2,
+      "sourcePage": 7,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Boletus reticulatus",
+      "category": "excellent",
+      "sourcePdf": 2,
+      "sourcePage": 8,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Imleria badia",
+      "category": "good",
+      "sourcePdf": 2,
+      "sourcePage": 8,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Leccinum aurantiacum agg.",
+      "category": "good",
+      "sourcePdf": 2,
+      "sourcePage": 9,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Neoboletus erythropus",
+      "category": "good",
+      "sourcePdf": 2,
+      "sourcePage": 9,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Suillellus luridus",
+      "category": "medium",
+      "sourcePdf": 2,
+      "sourcePage": 10,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Rubroboletus satanas",
+      "category": "severe_toxic",
+      "sourcePdf": 2,
+      "sourcePage": 10,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Suillus granulatus",
+      "category": "medium",
+      "sourcePdf": 2,
+      "sourcePage": 11,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Suillus bovinus",
+      "category": "medium",
+      "sourcePdf": 2,
+      "sourcePage": 11,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Suillus luteus",
+      "category": "medium",
+      "sourcePdf": 2,
+      "sourcePage": 12,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Xerocomellus chrysenteron",
+      "category": "medium",
+      "sourcePdf": 2,
+      "sourcePage": 12,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Fistulina hepatica",
+      "category": "good",
+      "sourcePdf": 2,
+      "sourcePage": 13,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    },
+    {
+      "taxon": "Laetiporus sulphureus",
+      "category": "no_culinary_value",
+      "sourcePdf": 2,
+      "sourcePage": 13,
+      "review": "transcribed_from_page_icon",
+      "modernSafetyValidation": "pending"
+    }
+  ]
+}
