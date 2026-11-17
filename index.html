@@ -392,9 +392,21 @@ if(page==='identifier'){
      if(data.schemaVersion!==1||!Array.isArray(data.taxa))throw Error('Format TAXREF inattendu');
      frenchReference=new Map(data.taxa.filter(t=>t.name&&t.cdNom).map(t=>[normalizedTaxon(t.name),t]));
    } catch(e){console.warn('Référentiel TAXREF indisponible',e)}
+   // Optional GBIF observation counts from a manually exported, curated DwC-A.
+   // GBIF complements TAXREF; it never changes visual scores or excludes a candidate.
+   let gbifReference=null;
+   try{
+     const response=await fetch('./data/mycology/france-gbif.json',{cache:'no-cache'});
+     if(response.ok){
+       const data=await response.json();
+       if(data.schemaVersion===1&&Array.isArray(data.taxa)){
+         gbifReference=new Map(data.taxa.filter(t=>t.name).map(t=>[normalizedTaxon(t.name),t]));
+       }
+     }
+   }catch(e){console.warn('Référentiel GBIF indisponible',e)}
    const candidates=raw.slice(0,Math.min(raw.length,30)).map(item=>{
      const row=curated.get(latinFromLabel(labels[item.i]));
-     return {...item,row,issues:row?morphologyIssues(row):[],frRecord:frenchReference?.get(latinFromLabel(labels[item.i]))||null};
+     return {...item,row,issues:row?morphologyIssues(row):[],frRecord:frenchReference?.get(latinFromLabel(labels[item.i]))||null,gbifRecord:gbifReference?.get(latinFromLabel(labels[item.i]))||null};
    });
    const ranked=candidates.filter(item=>!item.issues.length).slice(0,5);
    const excluded=candidates.filter(item=>item.issues.length).slice(0,5);
@@ -405,8 +417,9 @@ if(page==='identifier'){
    const department=idDepartment.value;
    const context=document.createElement('p');context.textContent=department?'📍 Département '+department+' — données de présence locale non encore connectées : aucun bonus géographique appliqué.':'📍 Département non renseigné : répartition française non vérifiée.';result.append(context);
    const refStatus=document.createElement('p');refStatus.textContent=frenchReference?'📚 TAXREF chargé : '+frenchReference.size+' espèces acceptées (référentiel taxonomique, pas preuve de présence en France).':'📚 TAXREF indisponible : noms scientifiques non recoupés avec le référentiel national.';result.append(refStatus);
+   const gbifStatus=document.createElement('p');gbifStatus.textContent=gbifReference?'🌍 GBIF chargé : '+gbifReference.size+' espèces répertoriées dans cet export (observations non exhaustives).':'🌍 GBIF non installé : reconnaissance visuelle et TAXREF restent opérationnels.';result.append(gbifStatus);
    if(!ranked.length){const p=document.createElement('p');p.textContent='Identification indéterminée : aucune proposition suffisamment cohérente avec les caractères renseignés.';result.append(p)}
-   for(const item of ranked){const p=document.createElement('p');p.textContent=renderLabel(item.i)+' · score visuel brut '+item.v.toFixed(2)+' (non calibré) · '+(item.row?'fiche MycoMap disponible':'hors encyclopédie MycoMap')+' · '+(item.frRecord?'TAXREF : nom accepté (CD_NOM '+item.frRecord.cdNom+', statut FR '+(item.frRecord.frStatus||'non renseigné')+')':'nom non retrouvé dans TAXREF (synonyme ou espèce absente du fichier possibles)');result.append(p)}
+   for(const item of ranked){const p=document.createElement('p');p.textContent=renderLabel(item.i)+' · score visuel brut '+item.v.toFixed(2)+' (non calibré) · '+(item.row?'fiche MycoMap disponible':'hors encyclopédie MycoMap')+' · '+(item.frRecord?'TAXREF : nom accepté (CD_NOM '+item.frRecord.cdNom+', statut FR '+(item.frRecord.frStatus||'non renseigné')+')':'nom non retrouvé dans TAXREF (synonyme ou espèce absente du fichier possibles)')+' · '+(item.gbifRecord?'GBIF : '+item.gbifRecord.frOccurrenceCount+' observation(s) dans cet export':'GBIF : aucune observation dans cet export (ne prouve pas une absence)');result.append(p)}
    if(excluded.length){const details=document.createElement('details');const label=document.createElement('summary');label.textContent='Hypothèses avec contradictions morphologiques déclarées (à vérifier)';details.append(label);for(const item of excluded){const p=document.createElement('p');p.textContent=renderLabel(item.i)+' : '+item.issues.join(', ');details.append(p)}result.append(details)}
    const warning=document.createElement('p');warning.textContent='⚠️ Le modèle peut proposer des espèces absentes de France : TAXREF ne confirme pas leur présence locale et aucune répartition départementale n’est validée. Les caractères non visibles ne prouvent pas leur absence. Les espèces dangereuses restent possibles même si elles ne figurent pas au classement. Ne jamais utiliser ce résultat pour décider de consommer.';result.append(warning);
    const detail=document.createElement('details');const title=document.createElement('summary');title.textContent='Voir les résultats de chaque photo';detail.append(title);
