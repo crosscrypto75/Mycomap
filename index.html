@@ -154,11 +154,6 @@ unknown:[],oak:['cepe','girolle','trompette','pied'],beech:['cepe','girolle','tr
 let spotPosition=null,spotRequest=0,spotWeather=null,spotForest=null,spotSoil=null,spotTerrain=null,spotMoisture=null;
 document.getElementById('closeSpot').onclick=()=>{spotCard.hidden=true;spotRequest++};
 spotHabitat.onchange=renderSpot;
-function renderSpot(){
-if(!spotPosition)return;
-const box=document.getElementById('spotResult'),types=habitatMap[spotHabitat.value]||[];
-let html=spotForest?'<b>🌳 IGN BD Forêt V2 :</b> '+safe(spotForest.tfv||spotForest.TFV||'Peuplement forestier')+'<br>Essence déclarée : '+safe(spotForest.essence||spotForest.ESSENCE||'Non précisée')+'<br><small>Code : '+safe(spotForest.code_tfv||spotForest.CODE_TFV||'—')+'</small><br><br>':'';html+=spotHabitat.value==='unknown'?'🌳 Peuplement non identifié : sélectionne une essence pour obtenir les espèces associées.':'<b>Espèces associées à cet habitat :</b><br>';
-if(types.length){html+=types.map(k=>'🍄 '+profiles[k].name).join(' · ')}
 const ecologicalProfiles=[
  ['Cèpe de Bordeaux','Boletus edulis',['oak','beech','chestnut','pine','mixed'],[8,9,10,11],8,23],
  ['Girolle','Cantharellus cibarius',['oak','beech','chestnut','pine','mixed'],[6,7,8,9,10,11],10,24],
@@ -183,6 +178,12 @@ const ecologicalProfiles=[
 ["Bolet blafard","Suillellus luridus",["oak","beech","broadleaf","mixed"],[5,6,7,8,9,10],null,null],
 ["Bolet amer","Tylopilus felleus",["pine","oak","beech","mixed"],[6,7,8,9,10],null,null]
 ];
+function renderSpot(){
+if(!spotPosition)return;
+const box=document.getElementById('spotResult'),types=habitatMap[spotHabitat.value]||[];
+let html=spotForest?'<b>🌳 IGN BD Forêt V2 :</b> '+safe(spotForest.tfv||spotForest.TFV||'Peuplement forestier')+'<br>Essence déclarée : '+safe(spotForest.essence||spotForest.ESSENCE||'Non précisée')+'<br><small>Code : '+safe(spotForest.code_tfv||spotForest.CODE_TFV||'—')+'</small><br><br>':'';html+=spotHabitat.value==='unknown'?'🌳 Peuplement non identifié : sélectionne une essence pour obtenir les espèces associées.':'<b>Espèces associées à cet habitat :</b><br>';
+if(types.length){html+=types.map(k=>'🍄 '+profiles[k].name).join(' · ')}
+
 const month=new Date().getMonth()+1,hab=spotHabitat.value;
 let temp=null,rain=null;
 if(spotWeather?.daily){const d=spotWeather.daily,day=new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Paris'}).format(new Date()),i=d.time.indexOf(day);if(i>=0){if(Number.isFinite(d.temperature_2m_mean[i]))temp=d.temperature_2m_mean[i];const r=d.precipitation_sum.slice(Math.max(0,i-6),i+1);if(r.length===7&&r.every(Number.isFinite))rain=r.reduce((a,b)=>a+b,0);}}
@@ -273,26 +274,32 @@ function pointInRing(lng,lat,ring){let inside=false;for(let i=0,j=ring.length-1;
 function pointInForestGeometry(lng,lat,g){if(!g)return false;const polygons=g.type==='Polygon'?[g.coordinates]:g.type==='MultiPolygon'?g.coordinates:[];return polygons.some(p=>p.length&&pointInRing(lng,lat,p[0])&&!p.slice(1).some(h=>pointInRing(lng,lat,h)))}
 async function forestAt(lat,lng){const d=.000025,b=[lng-d,lat-d,lng+d,lat+d].join(',');const q=new URLSearchParams({SERVICE:'WFS',VERSION:'2.0.0',REQUEST:'GetFeature',TYPENAMES:'LANDCOVER.FORESTINVENTORY.V2:formation_vegetale',SRSNAME:'CRS:84',BBOX:b+',CRS:84',COUNT:'20',OUTPUTFORMAT:'application/json'});const res=await fetch('https://data.geopf.fr/wfs/ows?'+q);if(!res.ok)throw Error('IGN '+res.status);const data=await res.json();const f=(data.features||[]).find(f=>pointInForestGeometry(lng,lat,f.geometry));return f?f.properties||{}:null}
 async function meteoAt(lat,lng){const q=new URLSearchParams({latitude:lat.toFixed(5),longitude:lng.toFixed(5),daily:'temperature_2m_mean,precipitation_sum',past_days:'7',forecast_days:'1',timezone:'Europe/Paris'});const r=await fetch('https://api.open-meteo.com/v1/forecast?'+q);if(!r.ok)throw Error('Météo '+r.status);return (await r.json()).daily}
-document.getElementById('scanZones').onclick=async()=>{
-const id=++scanId,key=species.value,origin=map.getCenter(),radius=Number(document.getElementById('searchRadius').value);scanLayer.clearLayers();scanResults.textContent='';scanStatus.textContent='Analyse en cours : vérification des polygones forestiers IGN et météo locale…';
-const samples=[[0,0],[.45,0],[-.45,0],[0,.45],[0,-.45],[.65,.65],[.65,-.65],[-.65,.65],[-.65,-.65]];
-const results=[];let failed=0,empty=0;
-for(let n=0;n<samples.length;n++){if(id!==scanId)return;const [x,y]=samples[n],lat=origin.lat+y*radius/111.2,lng=origin.lng+x*radius/(111.2*Math.cos(origin.lat*Math.PI/180));
-try{const forest=await forestAt(lat,lng);if(!forest){empty++;continue}const habitat=habitatFromForest(forest),compat=habitatWeights[key][habitat];if(!compat){empty++;continue}
-const d=await meteoAt(lat,lng),w=mushroomIndex(d,key);if(!w){failed++;continue}
-const [soil,terrain]=await Promise.all([soilAt(lat,lng),terrainAt(lat,lng)]);if(id!==scanId)return;
-const soilScore=soil&&Number.isFinite(soil.ph)?(soil.ph>=soilPrefs[key][0]&&soil.ph<=soilPrefs[key][1]?5:soil.ph>=soilPrefs[key][0]-1&&soil.ph<=soilPrefs[key][1]+1?3:1):null;
-const terrainScore=terrain?Math.max(1,Math.min(5,3+(terrain.slope<12?0.5:terrain.slope>25?-1:0)+(terrain.aspect>=270||terrain.aspect<=90?0.5:0)+(terrain.depression>2&&terrain.depression<12?0.5:terrain.depression>18?-0.5:0))):null;
-const observations=localHistory(lat,lng,key);const factors=[[compat,.45],[w.value,.4]];if(soilScore!==null)factors.push([soilScore,.1]);if(terrainScore!==null)factors.push([terrainScore,.05]);const weighted=factors.reduce((a,x)=>a+x[0]*x[1],0)/factors.reduce((a,x)=>a+x[1],0);
-const value=Math.round(Math.min(5,weighted+Math.min(.25,observations*.08))*10)/10,color=value>=4?'#23864a':value>=3?'#e5b32e':value>=2?'#e78436':'#c34439';
-const row={lat,lng,value,habitat,forest,w,soil,terrain,soilScore,terrainScore,observations};results.push(row);
-const name=forest.tfv||forest.TFV||forest.essence||forest.ESSENCE||habitat;
-L.circleMarker([lat,lng],{radius:11,color:'#fff',weight:2,fillColor:color,fillOpacity:.9}).bindPopup('<b>🍄 '+safe(profiles[key].name)+' : '+value+'/5</b><br>IGN : '+safe(name)+'<br>Compatibilité forestière : '+compat+'/5<br>Météo : '+w.value.toFixed(1)+'/5<br>Pluie 7 j : '+w.recent.toFixed(1)+' mm<br>Pluie J-5 à J-3 : '+w.trigger.toFixed(1)+' mm<br>Saison habituelle : '+(w.inSeason?'compatible':'hors saison habituelle')+'<br><small>Sol : '+(soilScore===null?'non disponible':soilScore+'/5 (pH '+soil.ph.toFixed(1)+', sable '+(soil.sand??'—')+' %, argile '+(soil.clay??'—')+' %)')+'<br>Relief : '+(terrainScore===null?'non disponible':terrainScore.toFixed(1)+'/5 · pente '+terrain.slope.toFixed(1)+'° · exposition '+terrain.aspect.toFixed(0)+'° · altitude '+terrain.elevation+' m')+'<br>Observations personnelles à 2 km : '+observations+'<br><small>Drainage et humidité réelle non mesurés. Relief à résolution grossière (~300 m), pas de détection fiable des petits talus. Score exploratoire, pas parcelle entière.</small>').addTo(scanLayer);
-}catch(e){failed++}scanStatus.textContent='Analyse '+(n+1)+'/9 points…'}
-if(id!==scanId)return;results.sort((a,b)=>b.value-a.value);
-scanStatus.textContent=results.length+' secteur(s) compatibles sur 9 points échantillonnés · '+empty+' non retenu(s) · '+failed+' erreur(s). Sol et relief ajoutés lorsqu’accessibles ; observations personnelles incluses. Drainage et humidité réelle non mesurés. Score exploratoire.';
-scanResults.innerHTML=results.length?'<b>Meilleurs points échantillonnés :</b><br>'+results.map((r,i)=>'<button class="secondary" data-scan="'+i+'">'+(i+1)+'. '+r.value+'/5 · '+r.habitat+'</button>').join(''):'Aucun point confirmé dans un polygone forestier compatible parmi les 9 échantillons. Déplace le centre de la carte ou augmente le rayon.';
-scanResults.querySelectorAll('[data-scan]').forEach(b=>b.onclick=()=>{const r=results[Number(b.dataset.scan)];map.setView([r.lat,r.lng],14);inspectSpot(L.latLng(r.lat,r.lng))});
+const heatSelect=document.createElement('select');heatSelect.id='heatSpecies';heatSelect.innerHTML=ecologicalProfiles.map((p,i)=>'<option value="'+i+'">'+safe(p[0])+'</option>').join('');
+const scanButton=document.getElementById('scanZones');scanButton.before(heatSelect);
+const legend=document.createElement('div');legend.className='small';legend.textContent='Favorabilité échantillonnée : vert ≥ 75, jaune ≥ 50, orange ≥ 25, rouge < 25, gris = inconnu. Pas de probabilité ni de couverture continue.';scanButton.after(legend);
+const historyLayer=L.layerGroup().addTo(map);
+async function gbifLocal(profile,origin,radius){
+ const d=radius/111.2,dx=d/Math.cos(origin.lat*Math.PI/180);
+ const q=new URLSearchParams({scientificName:profile[1],country:'FR',hasCoordinate:'true',hasGeospatialIssue:'false',occurrenceStatus:'PRESENT',decimalLatitude:(origin.lat-d)+','+(origin.lat+d),decimalLongitude:(origin.lng-dx)+','+(origin.lng+dx),limit:'300'});
+ const r=await fetch('https://api.gbif.org/v1/occurrence/search?'+q,{signal:AbortSignal.timeout(15000)});if(!r.ok)throw Error('GBIF '+r.status);const j=await r.json();
+ return {records:(j.results||[]).filter(x=>Number.isFinite(x.decimalLatitude)&&Number.isFinite(x.decimalLongitude)&&map.distance(origin,[x.decimalLatitude,x.decimalLongitude])<=radius*1000),partial:!j.endOfRecords};
+}
+const historyButton=document.createElement('button');historyButton.textContent='Afficher les observations historiques GBIF';scanButton.after(historyButton);
+let historyRun=0;historyButton.onclick=async()=>{const id=++historyRun;historyLayer.clearLayers();historyButton.disabled=true;try{const p=ecologicalProfiles[Number(heatSelect.value)],h=await gbifLocal(p,map.getCenter(),Number(document.getElementById('searchRadius').value));if(id!==historyRun)return;for(const x of h.records)L.circleMarker([x.decimalLatitude,x.decimalLongitude],{radius:5,color:'#2455a5',fillOpacity:.7}).bindPopup(safe(p[0])+'<br>'+safe(x.eventDate||String(x.year||'Date inconnue'))+'<br>Précision : '+safe(String(x.coordinateUncertaintyInMeters??'inconnue'))+' m<br>GBIF '+safe(String(x.key))).addTo(historyLayer);historyButton.textContent=h.records.length+' observations GBIF affichées'+(h.partial?' (page limitée)':'');}catch(e){historyButton.textContent='GBIF indisponible — réessayer'}finally{historyButton.disabled=false}};
+heatSelect.onchange=()=>{scanId++;historyRun++;historyLayer.clearLayers();scanLayer.clearLayers();scanResults.textContent='';historyButton.textContent='Afficher les observations historiques GBIF';};
+scanButton.onclick=async()=>{
+ const id=++scanId,p=ecologicalProfiles[Number(heatSelect.value)],origin=map.getCenter(),radius=Number(document.getElementById('searchRadius').value);scanLayer.clearLayers();scanResults.textContent='';
+ const samples=[];for(let y=-2;y<=2;y++)for(let x=-2;x<=2;x++)if(x*x+y*y<=4)samples.push([x/2,y/2]);
+ const month=new Date().getMonth()+1;let done=0;
+ for(const [x,y] of samples){if(id!==scanId)return;const lat=origin.lat+y*radius/111.2,lng=origin.lng+x*radius/(111.2*Math.cos(origin.lat*Math.PI/180));let hab='unknown',score=null,coverage=20;
+ try{const forest=await forestAt(lat,lng);if(forest)hab=habitatFromForest(forest);const factors=[[20,p[3].includes(month)?1:0]];if(hab!=='unknown'&&!['mixed','broadleaf','conifer'].includes(hab)&&!p[1].startsWith('Pleurotus '))factors.push([40,p[2].includes(hab)?1:0]);else if(p[2].includes(hab))factors.push([40,.5]);
+ if(p[4]!==null){try{const d=await meteoAt(lat,lng),i=d.time.indexOf(new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Paris'}).format(new Date()));if(i>=0){const t=d.temperature_2m_mean[i],r=d.precipitation_sum.slice(Math.max(0,i-6),i+1);if(Number.isFinite(t))factors.push([20,t>=p[4]&&t<=p[5]?1:0]);if(r.length===7&&r.every(Number.isFinite)){const rain=r.reduce((a,b)=>a+b,0);factors.push([20,rain>=12&&rain<=65?1:rain>=4&&rain<=100?.5:0]);}}}catch(e){}}
+ coverage=factors.reduce((a,b)=>a+b[0],0);if(coverage>=60)score=Math.round(100*factors.reduce((a,b)=>a+b[0]*b[1],0)/coverage);
+ }catch(e){}
+ if(id!==scanId)return;const color=score===null?'#888':score>=75?'#23864a':score>=50?'#e5b32e':score>=25?'#e78436':'#c34439';
+ L.circle([lat,lng],{radius:radius*1000*.12,color,weight:1,fillColor:color,fillOpacity:.45}).bindPopup(safe(p[0])+'<br>Indice : '+(score===null?'inconnu':score+'/100')+'<br>Habitat : '+safe(hab)+'<br>Couverture des critères carte : '+coverage+' %<br>Point échantillonné, pas une parcelle validée.').addTo(scanLayer);
+ scanStatus.textContent='Analyse '+(++done)+' / '+samples.length;
+ }scanStatus.textContent='Carte indicative : '+done+' points. Aucun drainage supposé. GBIF affichable séparément.';
 };
 species.addEventListener('change',()=>{scanId++;scanLayer.clearLayers();scanResults.textContent='';scanStatus.textContent='Espèce modifiée : relance l’analyse pour recalculer les scores.'});
 
